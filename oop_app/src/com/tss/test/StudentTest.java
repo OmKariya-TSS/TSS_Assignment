@@ -11,26 +11,69 @@ public class StudentTest {
         System.out.println("Welcome to Student OOP App");
         Student student = new Student();
         System.out.println("Enter details of student:");
-        int id = student.setId(scanner);
-        System.out.println("Enter name of student:");
-        String nonName = scanner.next();
-        String name= student.setName(nonName,scanner);
-        System.out.println("Enter course of student:");
-        String nonCourse = scanner.next();
-        String course = student.setCourse(nonCourse,scanner);
-        System.out.println("Enter total fees of student:");
-        long nonTotalFees = scanner.nextLong();
-        long totalFees = student.setTotalFees(nonTotalFees,scanner);
-        System.out.println("Enter fees paid by student:");
-        long nonFeesPaid = scanner.nextLong();
-        long feesPaid=student.setFeesPaid(nonFeesPaid,scanner);
+        int id;
+        while (true) {
+            try {
+                System.out.println("Enter ID of student (positive number only):");
+                id = scanner.nextInt();
+                student.setId(id);
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input! ID must be a number. Try again.");
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage() + " Try again.");
+            }
+        }
+        String name;
+        while (true) {
+            try {
+                System.out.println("Enter name of student:");
+                name = scanner.next();
+                student.setName(name);
+                break;
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage() + " Try again.");
+            }
+        }
+        String course;
+        while (true) {
+            try {
+                System.out.println("Enter course of student:");
+                course = scanner.next();
+                student.setCourse(course);
+                break;
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage() + " Try again.");
+            }
+        }
+        long totalFees;
+        while (true) {
+            System.out.println("Enter total fees of student:");
+            totalFees = scanner.nextLong();
+            try {
+                student.setTotalFees(totalFees);
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input! Enter a number.");
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage() + " Try again.");
+            }
+        }
+        long feesPaid;
+        while (true) {
+            System.out.println("Enter fees paid by student:");
+            feesPaid = scanner.nextLong();
+            try {
+                student.setFeesPaid(feesPaid);
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input! Enter a number.");
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage() + " Try again.");
+            }
+        }
         student = new Student(id,name,course,feesPaid,totalFees);
         System.out.println("\nStudent created successfully!");
-        System.out.println("ID: " + student.getId());
-        System.out.println("Name: " + student.getName());
-        System.out.println("Course: " + student.getCourse());
-        System.out.println("Fees Paid: " + student.getFeesPaid());
-        System.out.println("Total Fees: " + student.getTotalFees());
         studentMenu(student);
     }
     public static void studentMenu(Student student){
@@ -48,10 +91,19 @@ public class StudentTest {
                 studentMenu(student);
                 break;
             case 2:
-                System.out.println("\nEnter amount to pay:");
-                long amount = scanner.nextLong();
-                long updatedFees = student.payFees(amount, scanner);
-                System.out.println("Updated fees paid: " + updatedFees);
+                while (true) {
+                    System.out.println("\nEnter amount to pay:");
+                    String input = scanner.nextLine().trim();
+                    try {
+                        long amount = Long.parseLong(input);
+                        student.payFees(amount);
+                        break;
+                    } catch (NumberFormatException e) {
+                        System.out.println("Invalid input! Enter a number.");
+                    } catch (IllegalArgumentException e) {
+                        System.out.println(e.getMessage());
+                    }
+                }
                 studentMenu(student);
                 break;
             case 3:
@@ -64,8 +116,8 @@ public class StudentTest {
                 String updated = scanner.next();
                 String oldCourse = student.getCourse();
                 System.out.println("old course was :"+oldCourse);
-                String newCourse = student.setCourse(updated,scanner);
-                System.out.println("new course is :"+newCourse);
+                student.setCourse(updated);
+                System.out.println("new course is :"+student.getCourse());
                 studentMenu(student);
                 break;
             case 5:

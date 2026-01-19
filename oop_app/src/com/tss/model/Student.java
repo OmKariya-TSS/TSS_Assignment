@@ -18,108 +18,81 @@ public class Student {
     }
     public Student(int id, String name, String course,
                    long feesPaid, long totalFees) {
-        this.id = id;
-        this.name = name;
-        this.course = course;
-        this.feesPaid = feesPaid;
-        this.totalFees = totalFees;
+        setId(id);
+        setName(name);
+        setCourse(course);
+        setTotalFees(totalFees);
+        setFeesPaid(feesPaid);
     }
     public int getId() {
         return id;
     }
-    public int setId(Scanner scanner) {
-        int id;
-        while (true) {
-            try {
-                System.out.println("Enter ID of student (positive number only):");
-                String input = scanner.nextLine().trim();
-                id = Integer.parseInt(input);
-
-                if (id > 0) {
-                    this.id = id;
-                    return this.id;
-                } else {
-                    System.out.println("ID must be positive. Try again.");
-                }
-
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input! ID must be a number. Try again.");
-            }
+    public void setId(int id) throws IllegalArgumentException {
+        if (id <= 0) {
+            throw new IllegalArgumentException("ID must be a positive number.");
         }
+        this.id = id;
     }
-
-
 
     public String getName() {
         return name;
     }
 
-    public String setName(String name, Scanner scanner) {
-        scanner.nextLine();
-        while (name == null || !name.matches("[a-zA-Z ]+")) {
-            System.out.println("Name must contain only letters. Enter name again:");
-            name = scanner.next();
+    public void setName(String name) throws IllegalArgumentException {
+        if (!name.matches("[a-zA-Z ]+")) {
+            throw new IllegalArgumentException("Name must contain only letters and spaces.");
         }
-        return this.name = name;
+        this.name = name;
     }
-
 
     public String getCourse() {
         return course;
     }
 
-    public String setCourse(String course, Scanner scanner) {
-        scanner.nextLine();
-        while (course == null || !course.matches("[a-zA-Z ]+")) {
-            System.out.println("Course must contain only letters. Enter course again:");
-            course = scanner.nextLine();
+    public void setCourse(String course) throws IllegalArgumentException {
+        if (course == null || !course.matches("[a-zA-Z ]+")) {
+            throw new IllegalArgumentException("Course must contain only letters and spaces.");
         }
-        return this.course = course;
+        this.course = course;
     }
 
-    public long getFeesPaid() {
-        return feesPaid;
-    }
 
-    public long setFeesPaid(long feesPaid, Scanner scanner) {
-        while (feesPaid < 0 || feesPaid > this.totalFees) {
-            System.out.println(
-                    "Fees paid must be >= 0 and <= total fees (" + this.totalFees + "). Enter again:"
-            );
-            feesPaid = scanner.nextLong();
+    public void setTotalFees(long totalFees) throws IllegalArgumentException {
+        if (totalFees <= 0) {
+            throw new IllegalArgumentException("Total fees must be positive.");
         }
-        return this.feesPaid = feesPaid;
+        this.totalFees = totalFees;
     }
-
     public long getTotalFees() {
         return totalFees;
     }
 
-    public long setTotalFees(long totalFees, Scanner scanner) {
-        while (totalFees <= 0 || totalFees < this.feesPaid) {
-            System.out.println(
-                    "Total fees must be positive and >= fees paid (" + this.feesPaid + "). Enter again:"
+
+    public void setFeesPaid(long feesPaid) throws IllegalArgumentException {
+        if (feesPaid < 0 || feesPaid > totalFees) {
+            throw new IllegalArgumentException(
+                    "Fees paid must be >= 0 and <= total fees (" + this.totalFees + ")."
             );
-            totalFees = scanner.nextLong();
         }
-        return this.totalFees = totalFees;
-
+        this.feesPaid = feesPaid;
     }
-
-    public long payFees(long amount, Scanner scanner) {
-        while (amount <= 0 || feesPaid + amount > totalFees) {
-            if (amount <= 0) {
-                System.out.println("Amount must be positive. Enter again:");
-            } else {
-                System.out.println("Payment exceeds total fees. Enter a smaller amount:");
-            }
-            amount = scanner.nextLong();
-        }
-
-        feesPaid += amount;
+    public long getFeesPaid() {
         return feesPaid;
     }
 
+
+    public void payFees(long amount) throws IllegalArgumentException {
+        if (amount <= 0) {
+            throw new IllegalArgumentException("Amount must be positive.");
+        }
+        if (feesPaid + amount > totalFees) {
+            throw new IllegalArgumentException(
+                    "Payment exceeds total fees. Current fees paid: " + feesPaid
+                            + ", total fees: " + totalFees
+            );
+        }
+        feesPaid += amount;
+    }
     public long getPendingFees(){
         return totalFees - feesPaid;
     }

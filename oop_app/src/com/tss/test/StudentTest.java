@@ -7,19 +7,30 @@ import java.util.Scanner;
 public class StudentTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("welcome to student oop app");
-        System.out.println("enter details of student :");
-        System.out.println("enter id of student :");
-        int id = scanner.nextInt();
-        System.out.println("enter name of student :");
-        String name = scanner.next();
-        System.out.println("enter course of student :");
-        String course = scanner.next();
-        System.out.println("enter fees paid by student :");
-        long feesPaid = scanner.nextLong();
-        System.out.println("enter total fees of student :");
-        long totalFees = scanner.nextLong();
-        Student student = new Student(id,name,course,feesPaid,totalFees);
+
+        System.out.println("Welcome to Student OOP App");
+        Student student = new Student();
+        System.out.println("Enter details of student:");
+        int id = student.setId(scanner);
+        System.out.println("Enter name of student:");
+        String nonName = scanner.next();
+        String name= student.setName(nonName,scanner);
+        System.out.println("Enter course of student:");
+        String nonCourse = scanner.next();
+        String course = student.setCourse(nonCourse,scanner);
+        System.out.println("Enter total fees of student:");
+        long nonTotalFees = scanner.nextLong();
+        long totalFees = student.setTotalFees(nonTotalFees,scanner);
+        System.out.println("Enter fees paid by student:");
+        long nonFeesPaid = scanner.nextLong();
+        long feesPaid=student.setFeesPaid(nonFeesPaid,scanner);
+        student = new Student(id,name,course,feesPaid,totalFees);
+        System.out.println("\nStudent created successfully!");
+        System.out.println("ID: " + student.getId());
+        System.out.println("Name: " + student.getName());
+        System.out.println("Course: " + student.getCourse());
+        System.out.println("Fees Paid: " + student.getFeesPaid());
+        System.out.println("Total Fees: " + student.getTotalFees());
         studentMenu(student);
     }
     public static void studentMenu(Student student){
@@ -37,9 +48,10 @@ public class StudentTest {
                 studentMenu(student);
                 break;
             case 2:
-                System.out.println("enter amount to pay :");
+                System.out.println("\nEnter amount to pay:");
                 long amount = scanner.nextLong();
-                student.payFees(amount);
+                long updatedFees = student.payFees(amount, scanner);
+                System.out.println("Updated fees paid: " + updatedFees);
                 studentMenu(student);
                 break;
             case 3:
@@ -52,8 +64,8 @@ public class StudentTest {
                 String updated = scanner.next();
                 String oldCourse = student.getCourse();
                 System.out.println("old course was :"+oldCourse);
-                student.setCourse(updated);
-                System.out.println("new course is :"+updated);
+                String newCourse = student.setCourse(updated,scanner);
+                System.out.println("new course is :"+newCourse);
                 studentMenu(student);
                 break;
             case 5:

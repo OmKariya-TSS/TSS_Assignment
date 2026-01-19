@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_app/oop_app.iml" filepath="$PROJECT_DIR$/oop_app/oop_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tss swabhav training.iml" filepath="$PROJECT_DIR$/.idea/tss swabhav training.iml" />
+    </modules>
+  </component>
+</project>

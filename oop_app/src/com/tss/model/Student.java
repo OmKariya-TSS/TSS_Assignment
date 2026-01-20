@@ -11,11 +11,7 @@ public class Student {
     private long totalFees;
 
     public Student(){
-        id =0;
-        name=null;
-        course =null;
-        feesPaid=0;
-        totalFees =0;
+
     }
     public Student(int id, String name, String course,
                    long feesPaid, long totalFees) {
@@ -91,7 +87,7 @@ public class Student {
             throw new IllegalArgumentException("please enter valid amount");
         }
         if (feesPaid + amount >totalFees) {
-            throw new Exception(
+            throw new IllegalArgumentException(
                     "Payment exceeds total fees. Current fees paid: " + feesPaid
                             + ", total fees: " + totalFees
             );

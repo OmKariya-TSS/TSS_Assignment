@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class StudentTest {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Student OOP App");
         Student student = new Student();
         System.out.println("Enter details of student:");
@@ -91,8 +91,8 @@ public class StudentTest {
         System.out.println("enter 3 for viewing pending fees");
         System.out.println("enter 4 for updating course");
         System.out.println("enter 5 for exit");
-        int n = scanner.nextInt();
-        switch(n){
+        int option = scanner.nextInt();
+        switch(option){
             case 1:
                 student.displayProfile(student);
                 studentMenu(student);
@@ -133,6 +133,21 @@ public class StudentTest {
                         System.out.println("Enter course of student:");
                         updated = scanner.next();
                         student.setCourse(updated);
+                        long totalFees;
+                        while (true) {
+                            try {
+                                System.out.println("Enter total fees of student for the course of:"+updated);
+                                totalFees = scanner.nextLong();
+                                student.setTotalFees(totalFees);
+                                student.setFeesPaid(0);
+                                break;
+                            } catch (InputMismatchException e) {
+                                System.out.println("Invalid input! Enter a number.");
+                                scanner.nextLine();
+                            } catch (IllegalArgumentException e) {
+                                System.out.println(e.getMessage() + " Try again.");
+                            }
+                        }
                         break;
                     } catch (IllegalArgumentException e) {
                         System.out.println(e.getMessage() + " Try again.");

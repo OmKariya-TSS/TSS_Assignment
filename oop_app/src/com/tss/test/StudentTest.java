@@ -2,6 +2,7 @@ package com.tss.test;
 
 import com.tss.model.Student;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class StudentTest {
@@ -18,12 +19,14 @@ public class StudentTest {
                 id = scanner.nextInt();
                 student.setId(id);
                 break;
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input! ID must be a number. Try again.");
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input! ID must be a number.");
+                scanner.nextLine();
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage() + " Try again.");
             }
         }
+
         String name;
         while (true) {
             try {
@@ -48,26 +51,29 @@ public class StudentTest {
         }
         long totalFees;
         while (true) {
-            System.out.println("Enter total fees of student:");
-            totalFees = scanner.nextLong();
             try {
+                System.out.println("Enter total fees of student:");
+                totalFees = scanner.nextLong();
                 student.setTotalFees(totalFees);
                 break;
-            } catch (NumberFormatException e) {
+            } catch (InputMismatchException e) {
                 System.out.println("Invalid input! Enter a number.");
+                scanner.nextLine();
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage() + " Try again.");
             }
         }
+
         long feesPaid;
         while (true) {
-            System.out.println("Enter fees paid by student:");
-            feesPaid = scanner.nextLong();
             try {
+                System.out.println("Enter fees paid by student:");
+                feesPaid = scanner.nextLong();
                 student.setFeesPaid(feesPaid);
                 break;
-            } catch (NumberFormatException e) {
+            } catch (InputMismatchException e) {
                 System.out.println("Invalid input! Enter a number.");
+                scanner.nextLine();
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage() + " Try again.");
             }
@@ -91,15 +97,16 @@ public class StudentTest {
                 studentMenu(student);
                 break;
             case 2:
+                long amount;
                 while (true) {
-                    System.out.println("\nEnter amount to pay:");
-                    String input = scanner.nextLine().trim();
                     try {
-                        long amount = Long.parseLong(input);
+                        System.out.println("\nEnter amount to pay:");
+                        amount = scanner.nextLong();
                         student.payFees(amount);
                         break;
-                    } catch (NumberFormatException e) {
+                    } catch (InputMismatchException e) {
                         System.out.println("Invalid input! Enter a number.");
+                        scanner.nextLine();
                     } catch (IllegalArgumentException e) {
                         System.out.println(e.getMessage());
                     }
@@ -112,11 +119,19 @@ public class StudentTest {
                 studentMenu(student);
                 break;
             case 4:
-                System.out.println("enter updated course :");
-                String updated = scanner.next();
                 String oldCourse = student.getCourse();
                 System.out.println("old course was :"+oldCourse);
-                student.setCourse(updated);
+                String updated;
+                while (true) {
+                    try {
+                        System.out.println("Enter course of student:");
+                        updated = scanner.next();
+                        student.setCourse(updated);
+                        break;
+                    } catch (IllegalArgumentException e) {
+                        System.out.println(e.getMessage() + " Try again.");
+                    }
+                }
                 System.out.println("new course is :"+student.getCourse());
                 studentMenu(student);
                 break;

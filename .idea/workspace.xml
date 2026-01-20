@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics" beforeDir="false" afterPath="$PROJECT_DIR$/basics" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/basics/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/basics.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/OmKariya-TSS/TSS_Assignments.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/OmKariya-TSS/TSS_Assignment.git&quot;,
     &quot;accountId&quot;: &quot;71dab94f-c325-4337-9028-0302e82aafee&quot;
   }
 }</component>
@@ -150,13 +149,18 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="5" />
+          <line>7</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentsTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BoxTest.executor": "Run",
+    "Application.FindPeak.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.StudentTest (1).executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.StudentsTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
@@ -69,7 +67,7 @@
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentsTest">
+  <component name="RunManager" selected="Application.StudentTest (1)">
     <configuration name="BoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tss.test.BoxTest" />
       <module name="oop_app" />
@@ -96,15 +94,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.assignment1.Prime" />
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.assignment1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="StudentTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <module name="oop_app" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest (1)" />
         <item itemvalue="Application.StudentsTest" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.BoxTest" />
         <item itemvalue="Application.FindPeak" />
-        <item itemvalue="Application.Prime" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +175,11 @@
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>7</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/test/StudentTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>

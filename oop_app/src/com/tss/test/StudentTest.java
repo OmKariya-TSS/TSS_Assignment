@@ -18,6 +18,7 @@ public class StudentTest {
                 System.out.println("Enter ID of student (positive number only):");
                 id = scanner.nextInt();
                 student.setId(id);
+                scanner.nextLine();
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input! ID must be a number.");
@@ -31,7 +32,7 @@ public class StudentTest {
         while (true) {
             try {
                 System.out.println("Enter name of student:");
-                name = scanner.next();
+                name = scanner.nextLine();
                 student.setName(name);
                 break;
             } catch (IllegalArgumentException e) {
@@ -42,7 +43,7 @@ public class StudentTest {
         while (true) {
             try {
                 System.out.println("Enter course of student:");
-                course = scanner.next();
+                course = scanner.nextLine();
                 student.setCourse(course);
                 break;
             } catch (IllegalArgumentException e) {

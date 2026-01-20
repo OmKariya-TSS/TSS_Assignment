@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,10 +156,14 @@
           <line>50</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="7" />
+          <line>8</line>
+          <properties class="com.tss.test.StudentTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

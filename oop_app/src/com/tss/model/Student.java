@@ -83,12 +83,15 @@ public class Student {
     }
 
 
-    public void payFees(long amount) throws IllegalArgumentException {
+    public void payFees(long amount) throws Exception {
         if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be positive.");
         }
-        if (feesPaid + amount > totalFees) {
-            throw new IllegalArgumentException(
+        if(amount>totalFees){
+            throw new IllegalArgumentException("please enter valid amount");
+        }
+        if (feesPaid + amount >totalFees) {
+            throw new Exception(
                     "Payment exceeds total fees. Current fees paid: " + feesPaid
                             + ", total fees: " + totalFees
             );

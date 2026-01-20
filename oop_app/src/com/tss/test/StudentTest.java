@@ -101,6 +101,8 @@ public class StudentTest {
                 long amount;
                 while (true) {
                     try {
+                        long paidFees = student.getFeesPaid();
+                        long total = student.getTotalFees();
                         System.out.println("\nEnter amount to pay:");
                         amount = scanner.nextLong();
                         student.payFees(amount);
@@ -110,6 +112,9 @@ public class StudentTest {
                         scanner.nextLine();
                     } catch (IllegalArgumentException e) {
                         System.out.println(e.getMessage());
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                        break;
                     }
                 }
                 studentMenu(student);

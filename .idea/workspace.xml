@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/test/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" afterDir="false" />
-    </list>
+    <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +48,7 @@
     "Application.FindPeak.executor": "Run",
     "Application.PalindromeString.executor": "Run",
     "Application.Prime.executor": "Run",
-    "Application.StudentTest (1).executor": "Debug",
+    "Application.StudentTest (1).executor": "Run",
     "Application.StudentTest.executor": "Run",
     "Application.StudentsTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",

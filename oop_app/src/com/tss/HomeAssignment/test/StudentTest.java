@@ -1,3 +1,5 @@
+package com.tss.HomeAssignment.test;
+
 import java.util.Scanner;
 import com.tss.HomeAssignment.model.Course;
 import com.tss.HomeAssignment.model.Student;

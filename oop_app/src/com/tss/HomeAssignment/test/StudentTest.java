@@ -16,6 +16,7 @@ public class StudentTest {
             try {
                 studentLimit = Integer.parseInt(input);
                 if (studentLimit >= 1 && studentLimit <= 10) {
+
                     break;
                 } else {
                     System.out.println("Error: Number must be between 1 and 10.");

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="" />
+    <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/model/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +70,7 @@
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTest (1)">
+  <component name="RunManager" selected="Application.StudentTest">
     <configuration name="EncodeBruteForece" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tss.assignment1.EncodeBruteForece" />
       <module name="basics" />
@@ -114,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.StudentsTest" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.HomeAssignment.test.StudentTest" />
       <module name="oop_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
+          <option name="PATTERN" value="com.tss.HomeAssignment.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.StudentTest (1)" />
         <item itemvalue="Application.EncodeBruteForece" />
         <item itemvalue="Application.EncodeDecode" />
         <item itemvalue="Application.PalindromeString" />
-        <item itemvalue="Application.StudentsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/test/StudentTest.java</url>
-          <line>6</line>
+          <line>8</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

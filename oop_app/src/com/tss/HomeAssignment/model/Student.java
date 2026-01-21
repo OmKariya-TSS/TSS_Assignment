@@ -66,7 +66,6 @@ public class Student {
             if (courses[i] == null) {
                 courses[i] = course;
                 totalFees += course.getCourseFees();
-                System.out.println("Course added successfully.");
                 return true;
             }
         }

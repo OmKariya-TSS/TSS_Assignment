@@ -95,8 +95,4 @@ public class StudentService {
         }
         return null;
     }
-    public Student[] getStudents() {
-        return students;
-    }
-
 }

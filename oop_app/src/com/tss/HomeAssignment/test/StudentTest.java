@@ -140,7 +140,7 @@ public class StudentTest {
                         StudentMenu(studentService, courseService);
                         break;
                     }
-                    if (student.addCourse(course)) {
+                    else {
                         System.out.print("Enter fees amount to pay: ");
                         double amount = scanner.nextDouble();
                         student.payFees(amount);

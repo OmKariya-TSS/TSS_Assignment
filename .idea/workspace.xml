@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/HomeAssignment/test/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +49,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BoxTest.executor": "Run",
+    "Application.EncodeBruteForece.executor": "Run",
+    "Application.EncodeDecode.executor": "Run",
     "Application.FindPeak.executor": "Run",
+    "Application.PalindromeString.executor": "Run",
     "Application.Prime.executor": "Run",
-    "Application.StudentTest (1).executor": "Run",
+    "Application.StudentTest (1).executor": "Debug",
     "Application.StudentTest.executor": "Run",
     "Application.StudentsTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -68,12 +74,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.StudentTest (1)">
-    <configuration name="BoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.BoxTest" />
-      <module name="oop_app" />
+    <configuration name="EncodeBruteForece" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.assignment1.EncodeBruteForece" />
+      <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
+          <option name="PATTERN" value="com.tss.assignment1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +87,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.assignment1.FindPeak" />
+    <configuration name="EncodeDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.assignment1.EncodeDecode" />
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.assignment1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.assignment1.PalindromeString" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -97,19 +116,6 @@
     <configuration name="StudentTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StudentTest" />
       <module name="oop_app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.StudentTest" />
-      <module name="oop_app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StudentTest (1)" />
+        <item itemvalue="Application.EncodeBruteForece" />
+        <item itemvalue="Application.EncodeDecode" />
+        <item itemvalue="Application.PalindromeString" />
         <item itemvalue="Application.StudentsTest" />
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.BoxTest" />
-        <item itemvalue="Application.FindPeak" />
       </list>
     </recent_temporary>
   </component>

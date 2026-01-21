@@ -5,7 +5,6 @@ import com.tss.HomeAssignment.model.Course;
 import com.tss.HomeAssignment.model.Student;
 
 public class CourseService {
-
     Course[] courses;
     Scanner scanner = new Scanner(System.in);
     public CourseService(int size) {
@@ -24,11 +23,9 @@ public class CourseService {
             System.out.println("Course limit reached. Cannot add more courses.");
             return;
         }
-
         String name = "";
         double fees = 0;
         String duration = "";
-
         while (true) {
             try {
                 System.out.print("Enter Course Name: ");
@@ -92,7 +89,6 @@ public class CourseService {
             }
         }
     }
-
     public void displayAllCourses() {
         boolean found = false;
         for (Course c : courses) {

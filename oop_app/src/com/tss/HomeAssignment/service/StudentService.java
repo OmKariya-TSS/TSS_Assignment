@@ -4,7 +4,6 @@ import java.util.Scanner;
 import com.tss.HomeAssignment.model.Student;
 
 public class StudentService {
-
     Student[] students;
     Scanner scanner = new Scanner(System.in);
     public StudentService(int size) {
@@ -24,7 +23,6 @@ public class StudentService {
         do {
             id = (int) (Math.random() * 10) + 1;
             exists = false;
-
             for (Student s : students) {
                 if (s != null && s.getStudentId() == id) {
                     exists = true;
@@ -32,16 +30,13 @@ public class StudentService {
                 }
             }
         } while (exists);
-
         return id;
     }
-
     public void createStudent() {
         if (isStudentArrayFull()) {
             System.out.println("Student limit reached. Cannot add more students.");
             return;
         }
-
         String name = "";
         while (true) {
             try {
@@ -55,7 +50,6 @@ public class StudentService {
                     System.out.println("Error: Name cannot contain numbers. Try again.");
                     continue;
                 }
-
                 break;
             } catch (Exception e) {
                 System.out.println("Unexpected error. Please try again.");
@@ -72,17 +66,14 @@ public class StudentService {
             }
         }
     }
-
     public void displayAllStudents() {
         boolean found = false;
-
         for (Student s : students) {
             if (s != null) {
                 s.displayProfile();
                 found = true;
             }
         }
-
         if (!found) {
             System.out.println("No students found.");
         }

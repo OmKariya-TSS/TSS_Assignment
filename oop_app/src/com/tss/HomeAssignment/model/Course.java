@@ -11,7 +11,6 @@ public class Course {
         this.courseFees = courseFees;
         this.duration = duration;
     }
-
     public double getCourseFees() {
         return courseFees;
     }

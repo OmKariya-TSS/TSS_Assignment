@@ -89,4 +89,56 @@ public class Student {
         System.out.println("Pending Fees: " + getPendingFees());
         System.out.println("--------------");
     }
+    public void displayOverviewOfStudent(){
+        System.out.println(name+ " : " +studentId);
+    }
+    public void removeCourse(int courseId) {
+        for (int i = 0; i < courses.length; i++) {
+            if (courses[i] != null && courses[i].getCourseId() == courseId) {
+                totalFees -= courses[i].getCourseFees();
+                courses[i] = null;
+                if (feesPaid > totalFees) {
+                    feesPaid = totalFees;
+                }
+                System.out.println("Course removed successfully.");
+                return;
+            }
+        }
+        System.out.println("Course not found for this student.");
+    }
+    public boolean replaceCourse(int oldCourseId, Course newCourse) {
+
+        // Check if new course already exists
+        for (Course c : courses) {
+            if (c != null && c.getCourseId() == newCourse.getCourseId()) {
+                System.out.println("Student is already enrolled in the new course.");
+                return false;
+            }
+        }
+
+        for (int i = 0; i < courses.length; i++) {
+            if (courses[i] != null && courses[i].getCourseId() == oldCourseId) {
+                double oldFees = courses[i].getCourseFees();
+                double newFees = newCourse.getCourseFees();
+                courses[i] = newCourse;
+                totalFees = totalFees - oldFees + newFees;
+                double diff = newFees - oldFees;
+                if (diff > 0) {
+                    System.out.println("Pay extra amount: " + diff);
+                } else if (diff < 0) {
+                    System.out.println("Refund amount: " + Math.abs(diff));
+                } else {
+                    System.out.println("No fee difference.");
+                }
+                if (feesPaid > totalFees) {
+                    feesPaid = totalFees;
+                }
+                System.out.println("Course replaced successfully.");
+                return true;
+            }
+        }
+        System.out.println("Old course not found.");
+        return false;
+    }
+
 }

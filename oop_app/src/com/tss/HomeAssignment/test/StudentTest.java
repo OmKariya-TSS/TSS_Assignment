@@ -16,7 +16,6 @@ public class StudentTest {
             try {
                 studentLimit = Integer.parseInt(input);
                 if (studentLimit >= 1 && studentLimit <= 10) {
-
                     break;
                 } else {
                     System.out.println("Error: Number must be between 1 and 10.");
@@ -58,7 +57,9 @@ public class StudentTest {
             System.out.println("7. Display All Courses");
             System.out.println("8. Pay Fees (Student ID + Course ID)");
             System.out.println("9. View Pending Fees by Student ID");
-            System.out.println("10. Exit");
+            System.out.println("10. Unenroll Course from Student");
+            System.out.println("11. Replace Student Course");
+            System.out.println("12. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine();
@@ -72,6 +73,8 @@ public class StudentTest {
                     StudentMenu(studentService, courseService);
                     break;
                 case 3:
+                    System.out.println("Available Students :");
+                    studentService.displayAvailableStudents();
                     System.out.print("Enter Student ID: ");
                     int stid = scanner.nextInt();
                     Student student;
@@ -80,7 +83,10 @@ public class StudentTest {
                         System.out.println("Student not found.");
                         StudentMenu(studentService, courseService);
                         break;
+
                     }
+                    System.out.println("Available courses :");
+                    courseService.displayAvailableCourses();
                     System.out.print("Enter Course ID: ");
                     int courseId = scanner.nextInt();
                     Course course = courseService.getCourseById(courseId);
@@ -97,6 +103,8 @@ public class StudentTest {
                     StudentMenu(studentService,courseService);
                     break;
                 case 4:
+                    System.out.println("Available Students :");
+                    studentService.displayAvailableStudents();
                     System.out.print("Enter Student ID: ");
                     int sid = scanner.nextInt();
                     student = studentService.getStudentById(sid);
@@ -112,6 +120,8 @@ public class StudentTest {
                     StudentMenu(studentService, courseService);
                     break;
                 case 6:
+                    System.out.println("Available courses :");
+                    courseService.displayAvailableCourses();
                     System.out.print("Enter Course ID: ");
                     int cid = scanner.nextInt();
                     course = courseService.getCourseById(cid);
@@ -127,6 +137,8 @@ public class StudentTest {
                     StudentMenu(studentService, courseService);
                     break;
                 case 8:
+                    System.out.println("Available Students :");
+                    studentService.displayAvailableStudents();
                     System.out.print("Enter Student ID: ");
                     sid = scanner.nextInt();
                     student = studentService.getStudentById(sid);
@@ -135,6 +147,8 @@ public class StudentTest {
                         StudentMenu(studentService, courseService);
                         break;
                     }
+                    System.out.println("Available courses :");
+                    courseService.displayAvailableCourses();
                     System.out.print("Enter Course ID: ");
                     cid = scanner.nextInt();
                     course = courseService.getCourseById(cid);
@@ -152,6 +166,8 @@ public class StudentTest {
                     StudentMenu(studentService, courseService);
                     break;
                 case 9:
+                    System.out.println("Available Students :");
+                    studentService.displayAvailableStudents();
                     System.out.print("Enter Student ID: ");
                     sid = scanner.nextInt();
                     student = studentService.getStudentById(sid);
@@ -163,6 +179,64 @@ public class StudentTest {
                     StudentMenu(studentService, courseService);
                     break;
                 case 10:
+                    System.out.println("Available Students :");
+                    studentService.displayAvailableStudents();
+                    System.out.print("Enter Student ID: ");
+                    sid = scanner.nextInt();
+                    student = studentService.getStudentById(sid);
+                    if (student == null) {
+                        System.out.println("Student not found.");
+                        StudentMenu(studentService, courseService);
+                        break;
+                    }
+                    System.out.println("Courses enrolled by student:");
+                    for (Course c : student.getCourses()) {
+                        if (c != null) {
+                            c.displayCourseOverview();
+                        }
+                    }
+                    System.out.print("Enter Course ID to remove: ");
+                    cid = scanner.nextInt();
+                    student.removeCourse(cid);
+                    StudentMenu(studentService, courseService);
+                    break;
+                case 11:
+                    System.out.println("Available Students :");
+                    studentService.displayAvailableStudents();
+                    System.out.print("Enter Student ID: ");
+                    sid = scanner.nextInt();
+                    student = studentService.getStudentById(sid);
+                    if (student == null) {
+                        System.out.println("Student not found.");
+                        StudentMenu(studentService, courseService);
+                        break;
+                    }
+                    System.out.println("Student's current courses:");
+                    for (Course c : student.getCourses()) {
+                        if (c != null) {
+                            c.displayCourseOverview();
+                        }
+                    }
+                    System.out.print("Enter OLD Course ID: ");
+                    int oldCourseId = scanner.nextInt();
+                    System.out.println("Available New Courses:");
+                    courseService.displayAvailableCourses();
+                    System.out.print("Enter NEW Course ID: ");
+                    int newCourseId = scanner.nextInt();
+                    Course newCourse = courseService.getCourseById(newCourseId);
+                    if(newCourseId==oldCourseId){
+                        System.out.println("cant replace the course with the same course id");
+                        StudentMenu(studentService,courseService);
+                    }
+                    if (newCourse == null) {
+                        System.out.println("New course not found.");
+                        StudentMenu(studentService, courseService);
+                        break;
+                    }
+                    student.replaceCourse(oldCourseId, newCourse);
+                    StudentMenu(studentService, courseService);
+                    break;
+                case 12:
                     System.out.println("Exiting program...");
                     //StudentMenu(studentService,courseService);
                     break;

@@ -42,4 +42,7 @@ public class Course {
         System.out.println("Duration      : " + duration);
         System.out.println("-------------");
     }
+    public void displayCourseOverview(){
+        System.out.println(courseId + " : "+courseName);
+    }
 }

@@ -124,4 +124,11 @@ public class CourseService {
         } while (exists);
         return id;
     }
+    public void displayAvailableCourses() {
+        for (Course c : courses) {
+            if (c != null) {
+                c.displayCourseOverview();
+            }
+        }
+    }
 }

@@ -95,35 +95,5 @@ public class StudentService {
             }
         }
     }
-    public void unenrollCourseFromStudent() {
-        System.out.print("Enter Student ID: ");
-        int studentId = Integer.parseInt(scanner.nextLine());
-        Student student = getStudentById(studentId);
-        if (student == null) {
-            System.out.println("Student not found.");
-            return;
-        }
-        System.out.print("Enter Course ID to remove: ");
-        int courseId = Integer.parseInt(scanner.nextLine());
-        student.removeCourse(courseId);
-    }
-    public void replaceStudentCourse(CourseService courseService) {
-        System.out.print("Enter Student ID: ");
-        int studentId = Integer.parseInt(scanner.nextLine());
-        Student student = getStudentById(studentId);
-        if (student == null) {
-            System.out.println("Student not found.");
-            return;
-        }
-        System.out.print("Enter Old Course ID: ");
-        int oldCourseId = Integer.parseInt(scanner.nextLine());
-        System.out.print("Enter New Course ID: ");
-        int newCourseId = Integer.parseInt(scanner.nextLine());
-        Course newCourse = courseService.getCourseById(newCourseId);
-        if (newCourse == null) {
-            System.out.println("New course not found.");
-            return;
-        }
-        student.replaceCourse(oldCourseId, newCourse);
-    }
+
 }

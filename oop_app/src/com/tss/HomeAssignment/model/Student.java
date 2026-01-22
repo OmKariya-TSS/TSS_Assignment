@@ -107,15 +107,12 @@ public class Student {
         System.out.println("Course not found for this student.");
     }
     public boolean replaceCourse(int oldCourseId, Course newCourse) {
-
-        // Check if new course already exists
         for (Course c : courses) {
             if (c != null && c.getCourseId() == newCourse.getCourseId()) {
                 System.out.println("Student is already enrolled in the new course.");
                 return false;
             }
         }
-
         for (int i = 0; i < courses.length; i++) {
             if (courses[i] != null && courses[i].getCourseId() == oldCourseId) {
                 double oldFees = courses[i].getCourseFees();

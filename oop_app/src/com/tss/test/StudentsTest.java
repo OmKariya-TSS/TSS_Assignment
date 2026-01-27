@@ -113,7 +113,7 @@ public class StudentsTest {
         }
 
         System.out.println("\nStudent created successfully!");
-        return new Student(id, name, course, feesPaid, totalFees);
+        return new Student(id);
     }
 
     public static void studentMenu(Student[] students){

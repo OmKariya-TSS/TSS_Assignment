@@ -79,7 +79,7 @@ public class StudentTest {
                 System.out.println(e.getMessage() + " Try again.");
             }
         }
-        student = new Student(id,name,course,feesPaid,totalFees);
+        student = new Student(id);
         System.out.println("\nStudent created successfully!");
         studentMenu(student);
     }

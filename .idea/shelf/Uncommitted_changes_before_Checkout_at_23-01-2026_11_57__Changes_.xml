@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]" date="1769149686092" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 23-01-2026 11:57 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/oop_app/com/tss/HomeAssignment/model/Course.class" />
+    <option name="AFTER_PATH" value="out/production/oop_app/com/tss/HomeAssignment/model/Course.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/Course.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/oop_app/com/tss/HomeAssignment/service/CourseService.class" />
+    <option name="AFTER_PATH" value="out/production/oop_app/com/tss/HomeAssignment/service/CourseService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/CourseService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" />
+    <option name="AFTER_PATH" value="out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/StudentService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/oop_app/com/tss/HomeAssignment/model/Student.class" />
+    <option name="AFTER_PATH" value="out/production/oop_app/com/tss/HomeAssignment/model/Student.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/Student.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/oop_app/com/tss/HomeAssignment/test/StudentTest.class" />
+    <option name="AFTER_PATH" value="out/production/oop_app/com/tss/HomeAssignment/test/StudentTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/StudentTest.class" />
+  </binary>
+</changelist>

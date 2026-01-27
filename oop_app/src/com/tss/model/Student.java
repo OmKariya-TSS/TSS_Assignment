@@ -1,8 +1,5 @@
 package com.tss.model;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 public class Student {
     private int id ;
     private String name;
@@ -13,8 +10,7 @@ public class Student {
     public Student(){
 
     }
-    public Student(int id, String name, String course,
-                   long feesPaid, long totalFees) {
+    public Student(int id) {
         setId(id);
         setName(name);
         setCourse(course);

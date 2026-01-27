@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/InsurancePolicyManagement/model/HealthInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/InsurancePolicyManagement/model/InsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/InsurancePolicyManagement/model/LifeInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/InsurancePolicyManagement/model/VehicleInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/InsurancePolicyManagement/service/InsuranceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/InsurancePolicyManagement/test/InsuranceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/oop_app/com/insurance/model/InsurancePolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/InsurancePolicyManagement/model/HealthInsurance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/InsurancePolicyManagement/model/LifeInsurance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/InsurancePolicyManagement/model/VehicleInsurance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/InsurancePolicyManagement/service/InsuranceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/InsurancePolicyManagement/test/InsuranceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/basics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/test/StudentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/CourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/test/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/HomeAssignment/test/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/test/StudentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/service/AccountService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
     "Application.EncodeBruteForece.executor": "Run",
     "Application.EncodeDecode.executor": "Run",
     "Application.FindPeak.executor": "Run",
+    "Application.InsuranceTest.executor": "Run",
     "Application.PalindromeString.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.SmartCity.executor": "Run",
@@ -81,19 +83,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "updateCourse",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tss.InsurancePolicyManagement.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tss.AccountManagement.v2.test.AccountMain">
+  <component name="RunManager" selected="Application.InsuranceTest">
     <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tss.test.AccountMain" />
       <module name="oop_app" />
@@ -107,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.model.C" />
+    <configuration name="CurrentAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.model.CurrentAccount" />
       <module name="oop_app" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.model.CurrentAccount" />
+    <configuration name="InsuranceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.InsurancePolicyManagement.test.InsuranceTest" />
       <module name="oop_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.model.*" />
+          <option name="PATTERN" value="com.tss.InsurancePolicyManagement.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsuranceTest" />
         <item itemvalue="Application.com.tss.AccountManagement.v2.test.AccountMain" />
         <item itemvalue="Application.com.tss.AccountManagement.v1.test.AccountMain" />
         <item itemvalue="Application.AccountMain" />
         <item itemvalue="Application.CurrentAccount" />
-        <item itemvalue="Application.C" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +221,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>8</line>
-          <properties class="com.tss.test.StudentTest" method="main">
+          <properties class="com.tss.test.StudentTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

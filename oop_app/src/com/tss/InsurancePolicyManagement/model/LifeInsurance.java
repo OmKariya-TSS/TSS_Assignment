@@ -13,8 +13,9 @@ public class LifeInsurance extends InsurancePolicy {
     }
 
     @Override
-    public boolean applyClaim() {
+    public boolean applyClaim(double claimAmount) {
         System.out.println("Claim allowed only after policy maturity.");
         return false;
     }
+
 }

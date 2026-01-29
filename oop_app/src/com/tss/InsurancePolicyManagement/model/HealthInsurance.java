@@ -12,7 +12,15 @@ public class HealthInsurance extends InsurancePolicy {
     }
 
     @Override
-    public boolean applyClaim() {
-        return true;
+    public boolean applyClaim(double claimAmount) {
+        if (claimAmount <= remainingSumAssured) {
+            remainingSumAssured -= claimAmount;
+            System.out.println("Health claim approved for amount: " + claimAmount);
+            return true;
+        } else {
+            System.out.println("Health claim denied. Insufficient sum assured.");
+            return false;
+        }
     }
+
 }

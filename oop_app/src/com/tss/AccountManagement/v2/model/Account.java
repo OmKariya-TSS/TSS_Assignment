@@ -2,7 +2,7 @@ package com.tss.AccountManagement.v2.model;
 
 import java.util.Random;
 
-public class Account {
+public abstract class Account {
     public static int idCounter = 1;
     private int id;
     private int accountNumber;

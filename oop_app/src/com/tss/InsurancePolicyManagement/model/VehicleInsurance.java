@@ -15,12 +15,18 @@ public class VehicleInsurance extends InsurancePolicy {
     }
 
     @Override
-    public boolean applyClaim() {
-        if (isActive) {
-            System.out.println("Claim approved.");
+    public boolean applyClaim(double claimAmount) {
+        if (!isActive) {
+            System.out.println("Claim denied. Policy is not active.");
+            return false;
+        }
+
+        if (claimAmount <= remainingSumAssured) {
+            remainingSumAssured -= claimAmount;
+            System.out.println("Vehicle claim approved for amount: " + claimAmount);
             return true;
         } else {
-            System.out.println("Claim denied. Policy is not active.");
+            System.out.println("Claim denied. Insufficient sum assured.");
             return false;
         }
     }

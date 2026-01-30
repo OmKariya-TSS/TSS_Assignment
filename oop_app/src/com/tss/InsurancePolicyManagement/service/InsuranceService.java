@@ -21,8 +21,10 @@ public class InsuranceService {
         InsurancePolicy policy = null;
 
         switch (policyType.toLowerCase()) {
+
             case "life":
-                policy = new LifeInsurance(policyNumber, holderName, sumAssured, duration);
+                // Life policy starts as NOT matured
+                policy = new LifeInsurance(policyNumber, holderName, sumAssured, duration, false);
                 break;
 
             case "health":
@@ -53,16 +55,28 @@ public class InsuranceService {
 
     public void applyClaim(int policyNumber, double claimAmount) {
         InsurancePolicy policy = findPolicy(policyNumber);
+
         if (policy == null) {
             System.out.println("Policy not found!");
             return;
         }
+
         boolean result = policy.applyClaim(claimAmount);
 
         if (result) {
             System.out.println("Claim processed successfully.");
         } else {
             System.out.println("Claim processing failed.");
+        }
+    }
+
+    public void matureLifePolicy(int policyNumber) {
+        InsurancePolicy policy = findPolicy(policyNumber);
+
+        if (policy instanceof LifeInsurance) {
+            ((LifeInsurance) policy).maturePolicy();
+        } else {
+            System.out.println("Policy is not a Life Insurance policy.");
         }
     }
 

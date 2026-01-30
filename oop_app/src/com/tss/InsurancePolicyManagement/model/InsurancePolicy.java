@@ -7,6 +7,7 @@ public abstract class InsurancePolicy {
     protected double remainingSumAssured;
     protected int duration;
 
+
     public InsurancePolicy(int policyNumber, String policyHolderName, double sumAssured, int duration) {
         this.policyNumber = policyNumber;
         this.policyHolderName = policyHolderName;

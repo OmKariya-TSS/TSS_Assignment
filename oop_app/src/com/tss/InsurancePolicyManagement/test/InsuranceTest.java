@@ -21,7 +21,8 @@ public class InsuranceTest {
         System.out.println("3: Apply Claim");
         System.out.println("4: Show Policy Details");
         System.out.println("5: Show All Policies");
-        System.out.println("6: Exit");
+        System.out.println("6: Mature Life Policy");
+        System.out.println("7: Exit");
         System.out.print("Enter choice: ");
 
         int choice = scanner.nextInt();
@@ -35,7 +36,8 @@ public class InsuranceTest {
                 insuranceService.showAllPolicies();
                 menu();
             }
-            case 6 -> System.out.println("Exiting... Goodbye!");
+            case 6 -> matureLifePolicyMenu();
+            case 7 -> System.out.println("Exiting... Goodbye!");
             default -> {
                 System.out.println("Invalid choice, try again.");
                 menu();
@@ -123,6 +125,13 @@ public class InsuranceTest {
             policy.displayPolicyDetails();
             System.out.println("Premium: " + policy.calculatePremium());
         }
+        menu();
+    }
+    public static void matureLifePolicyMenu() {
+        System.out.print("Enter Life Policy Number to Mature: ");
+        int policyNumber = scanner.nextInt();
+
+        insuranceService.matureLifePolicy(policyNumber);
         menu();
     }
 }

@@ -1,23 +1,33 @@
 package com.tss.AccountManagement.v2.model;
+
+import com.tss.AccountManagement.v2.Exception.*;
+
 public class CurrentAccount extends Account {
+
     public static final double MIN_BALANCE = 500;
-    public CurrentAccount(String name, double balance) {
+
+    public CurrentAccount(String name, double balance)
+            throws NegativeBalanceException, InvalidNameException {
         super(name, balance);
     }
+
     @Override
-    public double withdraw(double amount) {
+    public double withdraw(double amount)
+            throws InvalidAmountException,
+            InsufficientBalanceException ,MinimumBalanceException{
+
         if (amount <= 0) {
-            System.out.println("Enter a valid withdrawal amount");
-            return 0;
+            throw new InvalidAmountException(amount);
         }
+
         if (amount > balance) {
-            System.out.println("Insufficient balance");
-            return 0;
+            throw new InsufficientBalanceException(balance, amount);
         }
+
         if ((balance - amount) < MIN_BALANCE) {
-            System.out.println("Withdrawal denied. Minimum balance of 500 must be maintained.");
-            return 0;
+            throw new MinimumBalanceException(balance);
         }
+
         balance -= amount;
         return amount;
     }

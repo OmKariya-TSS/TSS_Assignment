@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="" />
+    <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/basics/FileHandling/file3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/Serialization/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_10_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_10_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/test/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/test/AccountMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/CurrentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/CurrentAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/test/AccountMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/test/AccountMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Interfaces/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/Interfaces/service/VehicleService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +42,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -47,40 +75,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountMain.executor": "Run",
-    "Application.AccountTest.executor": "Run",
-    "Application.BoxTest.executor": "Run",
-    "Application.C.executor": "Run",
-    "Application.CurrentAccount.executor": "Run",
-    "Application.EncodeBruteForece.executor": "Run",
-    "Application.EncodeDecode.executor": "Run",
-    "Application.FindPeak.executor": "Run",
-    "Application.InsuranceTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PalindromeString.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.ShapesTest.executor": "Run",
-    "Application.SmartCity.executor": "Run",
-    "Application.StudentTest (1).executor": "Run",
-    "Application.StudentTest.executor": "Run",
-    "Application.StudentsTest.executor": "Run",
-    "Application.com.tss.AccountManagement.v1.test.AccountMain.executor": "Run",
-    "Application.com.tss.AccountManagement.v2.test.AccountMain.executor": "Run",
-    "Application.com.tss.Interfaces.Test.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurrentAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeBruteForece.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsuranceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleMoviesApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartCity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VoterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.AccountManagement.v1.test.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.AccountManagement.v2.test.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Interfaces.Test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/oop_app/src/com/tss/AccountManagement/v3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tss.InsurancePolicyManagement.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement\v3" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
@@ -88,13 +124,13 @@
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tss.Interfaces.Test.Main">
-    <configuration name="InsuranceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.InsurancePolicyManagement.test.InsuranceTest" />
+  <component name="RunManager" selected="Application.AccountMain">
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.AccountManagement.v3.v2.test.AccountMain" />
       <module name="oop_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.InsurancePolicyManagement.test.*" />
+          <option name="PATTERN" value="com.tss.AccountManagement.v3.v2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Evaluation.Main" />
+    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.FileHandling.FileHandling" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Evaluation.*" />
+          <option name="PATTERN" value="com.tss.FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +151,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.HomeAssignment.test.ShapesTest" />
+    <configuration name="SimpleMoviesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Serialization.SimpleMoviesApp" />
       <module name="oop_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.HomeAssignment.test.*" />
+          <option name="PATTERN" value="com.tss.Serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.test.VoterTest" />
+      <module name="oop_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,26 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tss.Interfaces.Test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Interfaces.Test.Main" />
-      <module name="oop_app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.Interfaces.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.tss.Interfaces.Test.Main" />
-        <item itemvalue="Application.InsuranceTest" />
+        <item itemvalue="Application.AccountMain" />
+        <item itemvalue="Application.SimpleMoviesApp" />
+        <item itemvalue="Application.FileHandling" />
         <item itemvalue="Application.com.tss.AccountManagement.v2.test.AccountMain" />
-        <item itemvalue="Application.ShapesTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.VoterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +259,11 @@
           <line>23</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oop_app/src/com/tss/Interfaces/model/AbstractVehicle.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>8</line>
@@ -234,5 +275,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -44,7 +44,10 @@ public class AccountMain {
             case 6 -> {
                 System.out.print("Enter account ID: ");
                 int accountId = scanner.nextInt();
-                accountService.findAccountById(accountId);
+                Account ac = accountService.findAccountById(accountId);
+                Account.printHeader();
+                System.out.println(ac);
+                System.out.println("-------------------------------------------------------------");
                 menu();
             }
             case 7 -> {
@@ -150,7 +153,6 @@ public class AccountMain {
         Account receiver = accountService.findAccountById(toId);
         System.out.print("Enter transfer amount: ");
         double amount = scanner.nextDouble();
-
         accountService.transfer(fromId, toId, amount);
         menu();
     }

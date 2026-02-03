@@ -110,19 +110,28 @@ public class AccountService {
             System.out.println("No accounts available.");
             return;
         }
+
+        Account.printHeader();
+
         for (Account account : accounts) {
-            account.display();
+            System.out.println(account);
         }
+
+        System.out.println("-------------------------------------------------------------");
     }
+
 
     public void showAllTransactions() {
         if (transactions.isEmpty()) {
             System.out.println("No transactions found.");
             return;
         }
+        Transaction.printHeader();
         for (Transaction t : transactions) {
-            t.display();
+            System.out.println(t);
         }
+        System.out.println("-------------------------------------------------------------------------------");
+
     }
 
     public void showTransactionsByAccount(int accountId) {
@@ -130,7 +139,8 @@ public class AccountService {
         for (Transaction t : transactions) {
             if (t.getFromAccountId() == accountId ||
                     (t.getToAccountId() != null && t.getToAccountId() == accountId)) {
-                t.display();
+                Transaction.printHeader();
+                System.out.println(t);
                 found = true;
             }
         }

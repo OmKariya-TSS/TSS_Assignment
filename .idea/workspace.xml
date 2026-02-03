@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/FileHandling/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/Serialization/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_10_48_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_10_48__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/CourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23-01-2026_11_57__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/CurrentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/model/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/test/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v2/test/AccountMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/CurrentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/CurrentAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/model/SavingsAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/test/AccountMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v2/test/AccountMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Interfaces/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/Interfaces/service/VehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/test/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/test/AccountMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/test/AccountMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/test/AccountMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

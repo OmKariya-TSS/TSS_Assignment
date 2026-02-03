@@ -13,7 +13,14 @@ public class Transaction {
     private int fromAccountId;
     private Integer toAccountId;
     private LocalDateTime timestamp;
-
+    public static void printHeader() {
+        System.out.println("-------------------------------------------------------------------------------");
+        System.out.printf(
+                "%-5s %-10s %-10s %-12s %-12s %-20s\n",
+                "ID", "Type", "Amount", "From Acc", "To Acc", "Date & Time"
+        );
+        System.out.println("-------------------------------------------------------------------------------");
+    }
     public Transaction(TransactionType type, double amount,
                        int fromAccountId, Integer toAccountId) {
 
@@ -49,14 +56,16 @@ public class Transaction {
         return timestamp;
     }
 
-    public void display() {
-        System.out.println("---- Transaction ----");
-        System.out.println("Transaction ID     : " + transactionId);
-        System.out.println("Type       : " + type);
-        System.out.println("Amount     : " + amount);
-        System.out.println("From Acc   : " + fromAccountId);
-        System.out.println("To Acc     : " + (toAccountId != null ? toAccountId : "N/A"));
-        System.out.println("Date/Time  : " + timestamp);
-        System.out.println("---------------------");
+    @Override
+    public String toString() {
+        return String.format(
+                "%-5d %-10s %-10.2f %-12d %-12s %-20s",
+                transactionId,
+                type,
+                amount,
+                fromAccountId,
+                (toAccountId != null ? toAccountId : "N/A"),
+                timestamp
+        );
     }
 }

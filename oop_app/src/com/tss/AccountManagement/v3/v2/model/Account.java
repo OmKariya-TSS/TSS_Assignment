@@ -12,6 +12,13 @@ public abstract class Account {
     private String name;
     protected double balance;
 
+    public static void printHeader() {
+        System.out.println("-------------------------------------------------------------");
+        System.out.printf("%-10s %-15s %-15s %-10s\n",
+                "ID", "Account No.", "Name", "Balance");
+        System.out.println("-------------------------------------------------------------");
+    }
+
     private Random random = new Random();
 
     private int generateAccId() {
@@ -88,12 +95,14 @@ public abstract class Account {
         return amount;
     }
 
-    public void display() {
-        System.out.println("---- Account Details ----");
-        System.out.println("ID           : " + id);
-        System.out.println("Account No.  : " + accountNumber);
-        System.out.println("Name         : " + name);
-        System.out.println("Balance      : " + balance);
-        System.out.println("-------------------------");
+    @Override
+    public String toString() {
+        return String.format(
+                "%-10d %-15d %-15s %-10.2f",
+                id, accountNumber, name, balance
+        );
     }
+
+
+
 }

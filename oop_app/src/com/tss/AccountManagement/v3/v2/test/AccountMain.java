@@ -5,8 +5,10 @@ import com.tss.AccountManagement.v3.v2.Exception.InsufficientBalanceException;
 import com.tss.AccountManagement.v3.v2.Exception.InvalidAmountException;
 import com.tss.AccountManagement.v3.v2.Exception.MinimumBalanceException;
 import com.tss.AccountManagement.v3.v2.model.Account;
+import com.tss.AccountManagement.v3.v2.model.Transaction;
 import com.tss.AccountManagement.v3.v2.service.AccountService;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class AccountMain {
@@ -62,7 +64,7 @@ public class AccountMain {
             case 10 -> {
                 System.out.print("Enter account ID: ");
                 int id = scanner.nextInt();
-                accountService.showTransactionsByAccount(id);
+                List<Transaction> tr =  accountService.showTransactionsByAccount(id);
                 menu();
             }
             case 11 -> System.out.println("Exiting...");

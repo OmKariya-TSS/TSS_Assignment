@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/model/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/test/AccountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop_app/src/com/tss/AccountManagement/v3/v2/test/AccountMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/test/AccountMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop_app/com/tss/AccountManagement/v3/v2/test/AccountMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -134,11 +134,13 @@ public class AccountService {
 
     }
 
-    public void showTransactionsByAccount(int accountId) {
+    public List<Transaction> showTransactionsByAccount(int accountId) {
         boolean found = false;
+        List<Transaction> tr =  new ArrayList<>();
         for (Transaction t : transactions) {
             if (t.getFromAccountId() == accountId ||
                     (t.getToAccountId() != null && t.getToAccountId() == accountId)) {
+                tr.add(t);
                 Transaction.printHeader();
                 System.out.println(t);
                 found = true;
@@ -147,11 +149,13 @@ public class AccountService {
         if (!found) {
             System.out.println("No transactions for account ID " + accountId);
         }
+        return tr;
     }
     public void deleteAccount(int id){
         Account account = findAccountById(id);
         accounts.remove(account);
-
+        List<Transaction> trList = showTransactionsByAccount(account.getId());
+        transactions.removeAll(trList);
         System.out.println("Account with ID " + id + " deleted successfully.");
 
     }

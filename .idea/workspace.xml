@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oop_app/src/com/tss/test/FunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/Design_Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/src/com/tss/Creational/AbstractFactory/model/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/stream_app/stream_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialization/serialization.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/FileHandling/SecondDirectory/secondfile1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/FileHandling/SecondDirectory/secondfile1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/FileHandling/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/FileHandling/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/FileHandling/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/FileHandling/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/FileHandling/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/FileHandling/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/com/tss/Evaluation/model/StudentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/model/StudentRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/com/tss/FileHandling/FileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/src/com/tss/FileHandling/FileHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/Serialization/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/Serialization/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/Serialization/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/MovieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_app/src/com/tss/Serialization/SimpleMoviesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/SimpleMoviesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="Exception" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,53 +69,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareReference.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructorAsArg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurrentAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncodeBruteForece.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncodeDecode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionalInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsuranceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NonStaticMethodAsArg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShapesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleMoviesApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmartCity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticMethodAsArg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VoterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.AccountManagement.v1.test.AccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.AccountManagement.v2.test.AccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Interfaces.Test.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/oop_app/src/com/tss/Collections/LMS2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountMain.executor": "Run",
+    "Application.AccountTest.executor": "Run",
+    "Application.BoxTest.executor": "Run",
+    "Application.BuilderTest.executor": "Run",
+    "Application.C.executor": "Run",
+    "Application.CachedThreadPoolExample.executor": "Run",
+    "Application.CallableDemo.executor": "Run",
+    "Application.CarTest.executor": "Run",
+    "Application.CompareReference.executor": "Run",
+    "Application.CompareTest.executor": "Run",
+    "Application.ConstructorAsArg.executor": "Run",
+    "Application.CurrentAccount.executor": "Run",
+    "Application.DIPTest.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
+    "Application.EncodeBruteForece.executor": "Run",
+    "Application.EncodeDecode.executor": "Run",
+    "Application.FileHandling.executor": "Run",
+    "Application.FindPeak.executor": "Run",
+    "Application.FixedThreadPoolExample.executor": "Run",
+    "Application.FunctionalInterface.executor": "Run",
+    "Application.InsuranceTest.executor": "Run",
+    "Application.InterThreadCommunicationDemo.executor": "Run",
+    "Application.InvoiceTest.executor": "Run",
+    "Application.IspTest.executor": "Run",
+    "Application.LibraryTest.executor": "Run",
+    "Application.ListDemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NonStaticMethodAsArg.executor": "Run",
+    "Application.OrderTest.executor": "Run",
+    "Application.PalindromeString.executor": "Run",
+    "Application.PaymentApp.executor": "Run",
+    "Application.PaymentApplication.executor": "Run",
+    "Application.PaymentTest.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.ScheduledExample.executor": "Run",
+    "Application.ShapesTest.executor": "Run",
+    "Application.SimpleMoviesApp.executor": "Run",
+    "Application.SingleThreadExample.executor": "Run",
+    "Application.SmartCity.executor": "Run",
+    "Application.StarvationDemo.executor": "Run",
+    "Application.StaticMethodAsArg.executor": "Run",
+    "Application.StringDemo.executor": "Run",
+    "Application.StudentTest (1).executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.StudentsTest.executor": "Run",
+    "Application.SyncTest.executor": "Run",
+    "Application.TestSingleton.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.ThreadPriorityDemo.executor": "Run",
+    "Application.ThreadPriorityRunnable.executor": "Run",
+    "Application.Threads.executor": "Run",
+    "Application.ThreadsWait.executor": "Run",
+    "Application.VoterTest.executor": "Run",
+    "Application.com.tss.AccountManagement.v1.test.AccountMain.executor": "Run",
+    "Application.com.tss.AccountManagement.v2.test.AccountMain.executor": "Run",
+    "Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor": "Run",
+    "Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor": "Run",
+    "Application.com.tss.Interfaces.Test.Main.executor": "Run",
+    "Application.com.tss.ocp.test.AccountTest.executor": "Run",
+    "Application.test.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/oop_app/src/com/tss/Collections/LMS2",
+    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/DesignPrinciples/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tss.HomeAssignment.v2.model" />
+      <recent name="com.tss.HomeAssignment.factory" />
+      <recent name="com.tss.AbstractFactory.model" />
       <recent name="com.tss.InsurancePolicyManagement.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -107,18 +157,19 @@
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FileHandling" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PaymentTest">
-    <configuration name="CompareReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.CompareReference" />
-      <module name="oop_app" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.builder.test.BuilderTest" />
+      <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
+          <option name="PATTERN" value="com.tss.builder.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorAsArg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.ConstructorAsArg" />
-      <module name="oop_app" />
+    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.FileHandling.FileHandling" />
+      <module name="FileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
+          <option name="PATTERN" value="com.tss.FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonStaticMethodAsArg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.NonStaticMethodAsArg" />
-      <module name="oop_app" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.lsp.test.Main" />
+      <module name="DesignPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
+          <option name="PATTERN" value="com.tss.lsp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.FunctionalInterfaces.test.PaymentTest" />
-      <module name="oop_app" />
+    <configuration name="PaymentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.HomeAssignment.v2.test.PaymentApp" />
+      <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.FunctionalInterfaces.test.*" />
+          <option name="PATTERN" value="com.tss.HomeAssignment.v2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticMethodAsArg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.test.StaticMethodAsArg" />
-      <module name="oop_app" />
+    <configuration name="PaymentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.HomeAssignment.test.PaymentApplication" />
+      <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.test.*" />
+          <option name="PATTERN" value="com.tss.HomeAssignment.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PaymentTest" />
-        <item itemvalue="Application.CompareReference" />
-        <item itemvalue="Application.ConstructorAsArg" />
-        <item itemvalue="Application.NonStaticMethodAsArg" />
-        <item itemvalue="Application.StaticMethodAsArg" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FileHandling" />
+        <item itemvalue="Application.BuilderTest" />
+        <item itemvalue="Application.PaymentApp" />
+        <item itemvalue="Application.PaymentApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +284,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/basics/src/com/tss/Evaluation/Main.java</url>
+          <url>file://$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -251,6 +302,61 @@
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/Interfaces/model/AbstractVehicle.java</url>
           <line>18</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MultiThreading/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basics/stream_app/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basics/stream_app/src/com/tss/streams/AccountTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basics/stream_app/src/com/tss/streams/AccountTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPrinciples/src/com/tss/dip/test/DIPTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/src/com/tss/HomeAssignment/v1/test/PaymentApplication.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/serialization/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FileHandling/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Evaluation-1/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPrinciples/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>

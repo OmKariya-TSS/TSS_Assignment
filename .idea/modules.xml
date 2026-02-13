@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPrinciples/DesignPrinciples.iml" filepath="$PROJECT_DIR$/DesignPrinciples/DesignPrinciples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Patterns/Design_Patterns.iml" filepath="$PROJECT_DIR$/Design_Patterns/Design_Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Evaluation-1/Evaluation-1.iml" filepath="$PROJECT_DIR$/Evaluation-1/Evaluation-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/FileHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" filepath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreading/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_app/oop_app.iml" filepath="$PROJECT_DIR$/oop_app/oop_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basics/stream_app/stream_app.iml" filepath="$PROJECT_DIR$/basics/stream_app/stream_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tss swabhav training.iml" filepath="$PROJECT_DIR$/.idea/tss swabhav training.iml" />
     </modules>
   </component>

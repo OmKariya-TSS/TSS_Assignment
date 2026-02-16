@@ -9,10 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/FileHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" filepath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Patterns/TicTacToe/TicTacToe.iml" filepath="$PROJECT_DIR$/Design_Patterns/TicTacToe/TicTacToe.iml" />
       <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_app/oop_app.iml" filepath="$PROJECT_DIR$/oop_app/oop_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basics/stream_app/stream_app.iml" filepath="$PROJECT_DIR$/basics/stream_app/stream_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream_app/stream_app.iml" filepath="$PROJECT_DIR$/stream_app/stream_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tss swabhav training.iml" filepath="$PROJECT_DIR$/.idea/tss swabhav training.iml" />
     </modules>
   </component>

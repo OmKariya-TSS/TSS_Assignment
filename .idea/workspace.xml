@@ -5,62 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/TicTacToe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/Maruti.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/MarutiFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/Tata.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/TataFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/Toyota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/model/ToyotaFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/AbstractFactory/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/ApplicationFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/CreditCardPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/ECommerce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/Gaming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/PaymentMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/UPIPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/factory/WalletPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/HomeAssignment/test/PaymentApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/SRP/model/Invoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/SRP/test/InvoicePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/SRP/test/InvoiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/SRP/test/TaxCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/builder/model/User$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/builder/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/builder/test/BuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/Invoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/MongoDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/MySQLLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/OracleLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/PostgresLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/model/TaxCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/dip/test/DIPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/model/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/model/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/model/CarType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/model/Hyundai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/model/Maruti.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/model/Toyota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/factory/test/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/model/Chargeable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/model/Eatable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/model/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/model/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/model/Sleepable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/model/Workable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/isp/test/IspTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/ocp/model/FestivalType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/ocp/model/FixedDeposit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/ocp/service/SimpleInterestCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/ocp/test/AccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/singleton/Singleton$Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/singleton/TestSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookAlreadyBorrowed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookCopyNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookNotBorrowedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/InvalidEmailException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/MemberNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/model/BookCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/model/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/test/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/FunctionalInterfaces/NegativeAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/FunctionalInterfaces/model/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/FunctionalInterfaces/test/PaymentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/MovieManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/SimpleMoviesApp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +81,7 @@
     "Application.C.executor": "Run",
     "Application.CachedThreadPoolExample.executor": "Run",
     "Application.CallableDemo.executor": "Run",
+    "Application.CarService.executor": "Run",
     "Application.CarTest.executor": "Run",
     "Application.CompareReference.executor": "Run",
     "Application.CompareTest.executor": "Run",
@@ -128,6 +95,8 @@
     "Application.FindPeak.executor": "Run",
     "Application.FixedThreadPoolExample.executor": "Run",
     "Application.FunctionalInterface.executor": "Run",
+    "Application.HatMain.executor": "Run",
+    "Application.HotelReception.executor": "Run",
     "Application.InsuranceTest.executor": "Run",
     "Application.InterThreadCommunicationDemo.executor": "Run",
     "Application.InvoiceTest.executor": "Run",
@@ -145,6 +114,7 @@
     "Application.ProtoTest.executor": "Run",
     "Application.ScheduledExample.executor": "Run",
     "Application.ShapesTest.executor": "Run",
+    "Application.ShoppingApp.executor": "Run",
     "Application.SimpleMoviesApp.executor": "Run",
     "Application.SingleThreadExample.executor": "Run",
     "Application.SmartCity.executor": "Run",
@@ -161,6 +131,7 @@
     "Application.ThreadPriorityRunnable.executor": "Run",
     "Application.Threads.executor": "Run",
     "Application.ThreadsWait.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
     "Application.VoterTest.executor": "Run",
     "Application.com.tss.AccountManagement.v1.test.AccountMain.executor": "Run",
     "Application.com.tss.AccountManagement.v2.test.AccountMain.executor": "Run",
@@ -168,6 +139,8 @@
     "Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor": "Run",
     "Application.com.tss.Evaluation.Main.executor": "Run",
     "Application.com.tss.Interfaces.Test.Main.executor": "Run",
+    "Application.com.tss.Structural.bridge.Main.executor": "Run",
+    "Application.com.tss.Structural.proxy.Main.executor": "Run",
     "Application.com.tss.ocp.test.AccountTest.executor": "Run",
     "Application.test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -177,8 +150,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/oop_app/src/com/tss/Collections/LMS2",
-    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/FunctionalInterface/src/Main.java",
+    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/src/com/tss/Structural/HomeAssignment/Decorator",
+    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/TicTacToe/src/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -190,38 +163,26 @@
       <recent name="com.tss.InsurancePolicyManagement.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\Design_Patterns\src\com\tss\Structural\HomeAssignment\Decorator" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\Collections\LMS2" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\Collections\LibraryManagement\v1" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement\v3" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FileHandling" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tss.Evaluation.Main">
-    <configuration name="BuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.builder.test.BuilderTest" />
+  <component name="RunManager" selected="Application.com.tss.Structural.bridge.Main">
+    <configuration name="HatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.HomeAssignment.decoratorHomeAssignment.test.HatMain" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.builder.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.FileHandling.FileHandling" />
-      <module name="FileHandling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.FileHandling.*" />
+          <option name="PATTERN" value="com.tss.Structural.HomeAssignment.decoratorHomeAssignment.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,24 +191,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.lsp.test.Main" />
-      <module name="DesignPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.lsp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProtoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Creational.prototype.test.ProtoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.composite.Main" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Creational.prototype.test.*" />
+          <option name="PATTERN" value="com.tss.Structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,12 +203,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tss.Evaluation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Evaluation.Main" />
-      <module name="Evaluation-1" />
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TicTacToe" />
+      <module name="TicTacToe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Evaluation.*" />
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tss.Structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.bridge.Main" />
+      <module name="Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.Structural.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tss.Structural.proxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.proxy.Main" />
+      <module name="Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.Structural.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.tss.Evaluation.Main" />
-        <item itemvalue="Application.ProtoTest" />
+        <item itemvalue="Application.com.tss.Structural.bridge.Main" />
+        <item itemvalue="Application.com.tss.Structural.proxy.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FileHandling" />
-        <item itemvalue="Application.BuilderTest" />
+        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.HatMain" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +276,10 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="38" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/model/Student.java</url>
           <line>2</line>
@@ -321,11 +299,6 @@
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/model/Account.java</url>
           <line>22</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Evaluation-1/src/com/tss/Evaluation/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/abstraction/model/Resource.java</url>
@@ -348,17 +321,17 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/basics/stream_app/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/stream_app/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/basics/stream_app/src/com/tss/streams/AccountTest.java</url>
+          <url>file://$PROJECT_DIR$/stream_app/src/com/tss/streams/AccountTest.java</url>
           <line>9</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/basics/stream_app/src/com/tss/streams/AccountTest.java</url>
+          <url>file://$PROJECT_DIR$/stream_app/src/com/tss/streams/AccountTest.java</url>
           <line>37</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -406,6 +379,21 @@
           <url>file://$PROJECT_DIR$/FunctionalInterface/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/src/com/tss/Structural/decorator/CarService.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/src/com/tss/Structural/HomeAssignment/decoratorHomeAssignment/test/HatMain.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>

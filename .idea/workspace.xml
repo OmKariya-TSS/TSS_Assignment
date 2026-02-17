@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/TicTacToe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/src/com/tss/Behavioral/Observer/notifiers/SMS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookAlreadyBorrowed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookAlreadyExists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookCopyNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookNotBorrowedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/BookNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/InvalidEmailException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/Exceptions/MemberNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/model/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/model/BookCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/model/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/service/LibraryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Collections/LibraryManagement/test/LibraryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/FunctionalInterfaces/NegativeAmountException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/FunctionalInterfaces/model/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/FunctionalInterfaces/test/PaymentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/MovieController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/MovieManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop_app/com/tss/Serialization/SimpleMoviesApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/adaptee/Hat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/adapter/HatAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/model/Buiscuit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/model/Chocolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/model/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/service/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/service/ShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/test/ShoppingApp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,89 +60,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountMain.executor": "Run",
-    "Application.AccountTest.executor": "Run",
-    "Application.BoxTest.executor": "Run",
-    "Application.BuilderTest.executor": "Run",
-    "Application.C.executor": "Run",
-    "Application.CachedThreadPoolExample.executor": "Run",
-    "Application.CallableDemo.executor": "Run",
-    "Application.CarService.executor": "Run",
-    "Application.CarTest.executor": "Run",
-    "Application.CompareReference.executor": "Run",
-    "Application.CompareTest.executor": "Run",
-    "Application.ConstructorAsArg.executor": "Run",
-    "Application.CurrentAccount.executor": "Run",
-    "Application.DIPTest.executor": "Run",
-    "Application.DeadlockDemo.executor": "Run",
-    "Application.EncodeBruteForece.executor": "Run",
-    "Application.EncodeDecode.executor": "Run",
-    "Application.FileHandling.executor": "Run",
-    "Application.FindPeak.executor": "Run",
-    "Application.FixedThreadPoolExample.executor": "Run",
-    "Application.FunctionalInterface.executor": "Run",
-    "Application.HatMain.executor": "Run",
-    "Application.HotelReception.executor": "Run",
-    "Application.InsuranceTest.executor": "Run",
-    "Application.InterThreadCommunicationDemo.executor": "Run",
-    "Application.InvoiceTest.executor": "Run",
-    "Application.IspTest.executor": "Run",
-    "Application.LibraryTest.executor": "Run",
-    "Application.ListDemo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NonStaticMethodAsArg.executor": "Run",
-    "Application.OrderTest.executor": "Run",
-    "Application.PalindromeString.executor": "Run",
-    "Application.PaymentApp.executor": "Run",
-    "Application.PaymentApplication.executor": "Run",
-    "Application.PaymentTest.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.ProtoTest.executor": "Run",
-    "Application.ScheduledExample.executor": "Run",
-    "Application.ShapesTest.executor": "Run",
-    "Application.ShoppingApp.executor": "Run",
-    "Application.SimpleMoviesApp.executor": "Run",
-    "Application.SingleThreadExample.executor": "Run",
-    "Application.SmartCity.executor": "Run",
-    "Application.StarvationDemo.executor": "Run",
-    "Application.StaticMethodAsArg.executor": "Run",
-    "Application.StringDemo.executor": "Run",
-    "Application.StudentTest (1).executor": "Run",
-    "Application.StudentTest.executor": "Run",
-    "Application.StudentsTest.executor": "Run",
-    "Application.SyncTest.executor": "Run",
-    "Application.TestSingleton.executor": "Run",
-    "Application.ThreadDemo.executor": "Run",
-    "Application.ThreadPriorityDemo.executor": "Run",
-    "Application.ThreadPriorityRunnable.executor": "Run",
-    "Application.Threads.executor": "Run",
-    "Application.ThreadsWait.executor": "Run",
-    "Application.TicTacToe.executor": "Run",
-    "Application.VoterTest.executor": "Run",
-    "Application.com.tss.AccountManagement.v1.test.AccountMain.executor": "Run",
-    "Application.com.tss.AccountManagement.v2.test.AccountMain.executor": "Run",
-    "Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor": "Run",
-    "Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor": "Run",
-    "Application.com.tss.Evaluation.Main.executor": "Run",
-    "Application.com.tss.Interfaces.Test.Main.executor": "Run",
-    "Application.com.tss.Structural.bridge.Main.executor": "Run",
-    "Application.com.tss.Structural.proxy.Main.executor": "Run",
-    "Application.com.tss.ocp.test.AccountTest.executor": "Run",
-    "Application.test.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/src/com/tss/Structural/HomeAssignment/Decorator",
-    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/TicTacToe/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CachedThreadPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorAsArg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurrentAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DIPTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeBruteForece.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FixedThreadPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HatMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HotelReception.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsuranceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterThreadCommunicationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvoiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IspTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NonStaticMethodAsArg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProtoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScheduledExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleMoviesApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartCity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StarvationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticMethodAsArg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPriorityDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPriorityRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Threads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadsWait.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VoterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.AccountManagement.v1.test.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.AccountManagement.v2.test.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Behavioral.Strategy.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Evaluation.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Interfaces.Test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Structural.bridge.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Structural.proxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.ocp.test.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/src/com/tss/Structural/HomeAssignment/Decorator&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/TicTacToe/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tss.HomeAssignment.v2.model" />
@@ -176,7 +165,20 @@
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tss.Structural.bridge.Main">
+  <component name="RunManager" selected="Application.AccountTest">
+    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Behavioral.Observer.test.AccountTest" />
+      <module name="Design_Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.Behavioral.Observer.notifiers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tss.Structural.HomeAssignment.decoratorHomeAssignment.test.HatMain" />
       <module name="Design_Patterns" />
@@ -190,25 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.composite.Main" />
+    <configuration name="com.tss.Behavioral.Strategy.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Behavioral.Strategy.test.Main" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Structural.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TicTacToe" />
-      <module name="TicTacToe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.tss.Behavioral.Strategy.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountTest" />
+        <item itemvalue="Application.com.tss.Behavioral.Strategy.test.Main" />
+        <item itemvalue="Application.HatMain" />
         <item itemvalue="Application.com.tss.Structural.bridge.Main" />
         <item itemvalue="Application.com.tss.Structural.proxy.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.HatMain" />
       </list>
     </recent_temporary>
   </component>

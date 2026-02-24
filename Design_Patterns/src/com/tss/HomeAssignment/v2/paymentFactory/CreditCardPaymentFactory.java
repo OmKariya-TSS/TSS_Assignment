@@ -1,8 +1,8 @@
 package com.tss.HomeAssignment.v2.paymentFactory;
 
 
-import com.tss.HomeAssignment.v2.model.PaymentFactory;
-import com.tss.HomeAssignment.v2.model.PaymentType;
+import com.tss.HomeAssignment.v2.interfaces.PaymentFactory;
+import com.tss.HomeAssignment.v2.interfaces.PaymentType;
 import com.tss.HomeAssignment.v2.payments.CreditCardPayment;
 
 public class CreditCardPaymentFactory implements PaymentFactory {

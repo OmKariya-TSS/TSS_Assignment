@@ -5,16 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design_Patterns/src/com/tss/Behavioral/Observer/notifiers/SMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/JUnit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/FoodApp/FoodApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/lib/byte-buddy-1.14.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/lib/byte-buddy-agent-1.14.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/lib/mockito-inline-5.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/lib/objenesis-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/src/service/TicTacToeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOADHeadFirst/OOADHeadFirst.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/adaptee/Hat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/adapter/HatAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/model/Buiscuit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/model/Chocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/model/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/service/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/service/ShoppingCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Structural/HomeAssignment/Adapter/test/ShoppingApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Patterns/TicTacToe/TicTacToe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/TicTacToe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Patterns/TicTacToe/src/facade/ITicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/src/service/ITicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Patterns/TicTacToe/src/facade/TicTacToeFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design_Patterns/TicTacToe/src/facade/TicTacToeFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Patterns/TicTacToe/src/test/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Patterns/src/com/tss/HomeAssignment/v2/test/PaymentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design_Patterns/src/com/tss/HomeAssignment/v2/test/PaymentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Behavioral/Observer/test/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design_Patterns/com/tss/Behavioral/Observer/test/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/facade/ITicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/facade/TicTacToeFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/facade/TicTacToeFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/test/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/MovieManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/SimpleMoviesApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/service/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/service/MovieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/SimpleMoviesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/test/SimpleMoviesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +48,9 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Exception" />
-        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -60,90 +83,133 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CachedThreadPoolExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareReference.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructorAsArg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurrentAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DIPTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadlockDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncodeBruteForece.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncodeDecode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FixedThreadPoolExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionalInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HatMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HotelReception.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsuranceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterThreadCommunicationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InvoiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IspTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NonStaticMethodAsArg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProtoTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScheduledExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShapesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShoppingApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleMoviesApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingleThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmartCity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StarvationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticMethodAsArg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SyncTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSingleton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPriorityDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPriorityRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Threads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadsWait.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VoterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.AccountManagement.v1.test.AccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.AccountManagement.v2.test.AccountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Behavioral.Strategy.test.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Evaluation.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Interfaces.Test.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Structural.bridge.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.Structural.proxy.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tss.ocp.test.AccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/src/com/tss/Structural/HomeAssignment/Decorator&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/TicTacToe/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountMain.executor": "Run",
+    "Application.AccountTest.executor": "Run",
+    "Application.Addition.executor": "Coverage",
+    "Application.BoxTest.executor": "Run",
+    "Application.BuilderTest.executor": "Run",
+    "Application.C.executor": "Run",
+    "Application.CachedThreadPoolExample.executor": "Run",
+    "Application.CallableDemo.executor": "Run",
+    "Application.CarService.executor": "Run",
+    "Application.CarTest.executor": "Run",
+    "Application.CompareReference.executor": "Run",
+    "Application.CompareTest.executor": "Run",
+    "Application.ConstructorAsArg.executor": "Run",
+    "Application.CurrentAccount.executor": "Run",
+    "Application.DIPTest.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
+    "Application.DogDoorSimulator.executor": "Run",
+    "Application.DogDoorTestDrive.executor": "Run",
+    "Application.EncodeBruteForece.executor": "Run",
+    "Application.EncodeDecode.executor": "Run",
+    "Application.FileHandling.executor": "Run",
+    "Application.FindInstrumentTest.executor": "Run",
+    "Application.FindPeak.executor": "Run",
+    "Application.FixedThreadPoolExample.executor": "Run",
+    "Application.FunctionalInterface.executor": "Run",
+    "Application.HatMain.executor": "Run",
+    "Application.HotelReception.executor": "Run",
+    "Application.InsuranceTest.executor": "Run",
+    "Application.InterThreadCommunicationDemo.executor": "Run",
+    "Application.InvoiceTest.executor": "Run",
+    "Application.IspTest.executor": "Run",
+    "Application.LibraryTest.executor": "Run",
+    "Application.ListDemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NonStaticMethodAsArg.executor": "Run",
+    "Application.OrderTest.executor": "Run",
+    "Application.PalindromeString.executor": "Run",
+    "Application.PaymentApp.executor": "Run",
+    "Application.PaymentApplication.executor": "Run",
+    "Application.PaymentTest.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.ProtoTest.executor": "Run",
+    "Application.ScheduledExample.executor": "Run",
+    "Application.ShapesTest.executor": "Run",
+    "Application.ShoppingApp.executor": "Run",
+    "Application.SimpleMoviesApp.executor": "Run",
+    "Application.SingleThreadExample.executor": "Run",
+    "Application.SmartCity.executor": "Run",
+    "Application.StarvationDemo.executor": "Run",
+    "Application.StaticMethodAsArg.executor": "Run",
+    "Application.StringDemo.executor": "Run",
+    "Application.StudentTest (1).executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.StudentsTest.executor": "Run",
+    "Application.SyncTest.executor": "Run",
+    "Application.TestSingleton.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.ThreadPriorityDemo.executor": "Run",
+    "Application.ThreadPriorityRunnable.executor": "Run",
+    "Application.Threads.executor": "Run",
+    "Application.ThreadsWait.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.TicTacToeFacade.executor": "Run",
+    "Application.TicTacToeTest.executor": "Run",
+    "Application.VoterTest.executor": "Run",
+    "Application.com.tss.AccountManagement.v1.test.AccountMain.executor": "Run",
+    "Application.com.tss.AccountManagement.v2.test.AccountMain.executor": "Run",
+    "Application.com.tss.Behavioral.Strategy.test.Main.executor": "Run",
+    "Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor": "Run",
+    "Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor": "Run",
+    "Application.com.tss.Evaluation.Main.executor": "Run",
+    "Application.com.tss.Interfaces.Test.Main.executor": "Run",
+    "Application.com.tss.Structural.bridge.Main.executor": "Run",
+    "Application.com.tss.Structural.proxy.Main.executor": "Run",
+    "Application.com.tss.ocp.test.AccountTest.executor": "Run",
+    "Application.test.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AdditionTest.addTest.executor": "Run",
+    "JUnit.AdditionTest.checkBoolean.executor": "Run",
+    "JUnit.AdditionTest.executor": "Run",
+    "JUnit.AdditionTest.testAdditionWithNegativeNumbers.executor": "Run",
+    "JUnit.AdditionTest.testDivideByZero.executor": "Run",
+    "JUnit.AdditionTest.testInstance.executor": "Run",
+    "JUnit.AdditionTest.testMultiplication.executor": "Run",
+    "JUnit.AdditionTest.testStudent.executor": "Run",
+    "JUnit.BoardTest.executor": "Run",
+    "JUnit.BoardTest.testInitialize.executor": "Run",
+    "JUnit.BoardTest.testIsFull_True.executor": "Run",
+    "JUnit.BoardTest.testPlaceMark_CellFilled.executor": "Run",
+    "JUnit.GameEngineTest.executor": "Run",
+    "JUnit.GameEngineTest.testCheckWin_RowWin.executor": "Run",
+    "JUnit.TicTacToeServiceTest.executor": "Run",
+    "JUnit.TicTacToeTest.executor": "Run",
+    "JUnit.TicTacToeTest.switchPlayer.executor": "Run",
+    "JUnit.TicTacToeTest.tesGridFullOrNot.executor": "Run",
+    "JUnit.TicTacToeTest.testAntiDiagonalWin.executor": "Run",
+    "JUnit.TicTacToeTest.testColWin.executor": "Run",
+    "JUnit.TicTacToeTest.testDiagonalWin.executor": "Run",
+    "JUnit.TicTacToeTest.testDraw.executor": "Run",
+    "JUnit.TicTacToeTest.testMakeMove_Valid.executor": "Run",
+    "JUnit.TicTacToeTest.testMakeMove_Win.executor": "Run",
+    "JUnit.TicTacToeTest.testPlaceMark.executor": "Run",
+    "JUnit.TicTacToeTest.testPlaceMark_ValidMove.executor": "Run",
+    "JUnit.TicTacToeTest.testRowWin.executor": "Run",
+    "JUnit.TicTacToeTest.testStart.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/TicTacToe/lib",
+    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/Design_Patterns/TicTacToe/FoodApp/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tss.HomeAssignment.v2.model" />
@@ -152,11 +218,11 @@
       <recent name="com.tss.InsurancePolicyManagement.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\Design_Patterns\TicTacToe\lib" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\Design_Patterns\src\com\tss\Structural\HomeAssignment\Decorator" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\Collections\LMS2" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\Collections\LibraryManagement\v1" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement\v3" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\AccountManagement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
@@ -164,14 +230,20 @@
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tss.addition" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AccountTest">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Behavioral.Observer.test.AccountTest" />
-      <module name="Design_Patterns" />
+  <component name="RunManager" selected="Application.PaymentApp">
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.AccountManagement.v3.v2.test.AccountMain" />
+      <module name="oop_app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Behavioral.Observer.notifiers.*" />
+          <option name="PATTERN" value="com.tss.AccountManagement.v3.v2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.HomeAssignment.decoratorHomeAssignment.test.HatMain" />
-      <module name="Design_Patterns" />
+    <configuration name="FindInstrumentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.ooad.guitarApp3.FindInstrumentTest" />
+      <module name="OOADHeadFirst" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Structural.HomeAssignment.decoratorHomeAssignment.test.*" />
+          <option name="PATTERN" value="com.tss.ooad.guitarApp3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tss.Behavioral.Strategy.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Behavioral.Strategy.test.Main" />
+    <configuration name="PaymentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.HomeAssignment.v2.test.PaymentApp" />
       <module name="Design_Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Behavioral.Strategy.test.*" />
+          <option name="PATTERN" value="com.tss.HomeAssignment.v2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tss.Structural.bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.bridge.Main" />
-      <module name="Design_Patterns" />
+    <configuration name="SimpleMoviesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.Serialization.test.SimpleMoviesApp" />
+      <module name="serialization" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Structural.bridge.*" />
+          <option name="PATTERN" value="com.tss.Serialization.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tss.Structural.proxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Structural.proxy.Main" />
-      <module name="Design_Patterns" />
+    <configuration name="TicTacToeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TicTacToeTest" />
+      <module name="TicTacToe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.Structural.proxy.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.com.tss.Behavioral.Strategy.test.Main" />
-        <item itemvalue="Application.HatMain" />
-        <item itemvalue="Application.com.tss.Structural.bridge.Main" />
-        <item itemvalue="Application.com.tss.Structural.proxy.Main" />
+        <item itemvalue="Application.PaymentApp" />
+        <item itemvalue="Application.SimpleMoviesApp" />
+        <item itemvalue="Application.AccountMain" />
+        <item itemvalue="Application.TicTacToeTest" />
+        <item itemvalue="Application.FindInstrumentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -384,6 +456,46 @@
           <line>11</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/JUnit/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/gameEngine/GameEngine.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MultiThreading/src/com/tss/Threads/SyncTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OOAD/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OOADHeadFirst/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OOADHeadFirst/src/com/tss/ooad/DogDoor2/DogDoorSimulator.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OOADHeadFirst/src/com/tss/ooad/guitarApp3/InstrumentSpec.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/FoodApp/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>8</line>
@@ -393,11 +505,34 @@
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/gameEngine/GameEngine.java</url>
+          <line>18</line>
+          <properties class="gameEngine.GameEngine" method="checkWin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/testing/BoardTest.java</url>
+          <line>18</line>
+          <properties class="testing.BoardTest" method="testInitialize">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tss_swabhav_training$Addition.ic" NAME="Addition Coverage Results" MODIFIED="1771306819706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.tss.test.*</FILTER>
+    </SUITE>
   </component>
 </project>

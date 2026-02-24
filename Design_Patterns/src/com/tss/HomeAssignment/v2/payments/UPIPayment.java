@@ -1,6 +1,6 @@
 package com.tss.HomeAssignment.v2.payments;
 
-import com.tss.HomeAssignment.v2.model.PaymentType;
+import com.tss.HomeAssignment.v2.interfaces.PaymentType;
 
 public class UPIPayment implements PaymentType {
     @Override

@@ -5,62 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/LibraryBookBorrowingSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/BookAlreadyBorrowed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/BookAlreadyExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/BookCopyNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/BookNotBorrowedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/BookNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/InvalidEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/Exceptions/MemberNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/model/BookCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/model/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/service/LibraryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookBorrowingSystem/src/com/tss/LibraryManagement/test/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/PaymentAppInterface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/ApplicationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/ECommerce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/Gaming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/UPIPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/factory/WalletPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v1/test/PaymentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/DomainFactory/ECommerce/AmazonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/DomainFactory/ECommerce/FlipkartFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/DomainFactory/Gaming/BGMIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/DomainFactory/Gaming/FortniteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/interfaces/ApplicationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/interfaces/PaymentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/interfaces/PaymentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/paymentFactory/CreditCardPaymentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/paymentFactory/DebitCardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/paymentFactory/UPIPaymentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/payments/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/payments/DebitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/payments/UPIPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/test/PaymentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/BookAlreadyBorrowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/BookAlreadyBorrowed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/BookAlreadyExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/BookAlreadyExists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/BookCopyNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/BookCopyNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/BookNotBorrowedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/BookNotBorrowedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/BookNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/BookNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/InvalidEmailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/InvalidEmailException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/Exceptions/MemberNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/Exceptions/MemberNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/model/BookCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/model/BookCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/service/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/service/LibraryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections/src/com/tss/Collections/LibraryManagement/test/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/tss/Collections/v1/test/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies.ser" beforeDir="false" afterPath="$PROJECT_DIR$/movies.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/service/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/service/MovieController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/service/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/service/MovieManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/service/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/service/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/service/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/service/MovieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/exceptions/MoviePersistenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/serialization/src/com/tss/Serialization/exceptions/MoviePersistenceException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -489,7 +434,7 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/TicTacToe/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -499,7 +444,7 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/gameEngine/GameEngine.java</url>
+          <url>file://$PROJECT_DIR$/TicTacToe/src/gameEngine/GameEngine.java</url>
           <line>81</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
@@ -529,7 +474,7 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/FoodApp/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/TicTacToe/FoodApp/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
@@ -550,7 +495,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/PaymentAppInterface/src/com/tss/HomeAssignment/v2/DomainFactory/ECommerce/FlipkartFactory.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -563,16 +508,16 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/gameEngine/GameEngine.java</url>
+          <url>file://$PROJECT_DIR$/TicTacToe/src/gameEngine/GameEngine.java</url>
           <line>18</line>
-          <properties class="gameEngine.GameEngine" method="checkWin">
+          <properties class="gameEngine.GameEngine">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Design_Patterns/TicTacToe/src/testing/BoardTest.java</url>
+          <url>file://$PROJECT_DIR$/TicTacToe/src/testing/BoardTest.java</url>
           <line>18</line>
           <properties class="testing.BoardTest" method="testInitialize">
             <option name="EMULATED" value="true" />

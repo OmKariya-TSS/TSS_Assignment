@@ -1,7 +1,0 @@
-package com.tss.Collections.LibraryManagement.Exceptions;
-
-public class BookNotBorrowedException extends RuntimeException {
-    public BookNotBorrowedException(String message) {
-        super(message);
-    }
-}

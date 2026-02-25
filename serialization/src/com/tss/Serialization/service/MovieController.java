@@ -1,17 +1,26 @@
 package com.tss.Serialization.service;
 
+import com.tss.Serialization.service.MovieManager;
 import com.tss.Serialization.model.Movie;
+import com.tss.Serialization.exceptions.MovieNotFoundException;
+import com.tss.Serialization.exceptions.MoviePersistenceException;
 
 import java.util.Scanner;
+
 public class MovieController {
 
     private MovieManager movieManager;
     private Scanner scanner = new Scanner(System.in);
 
     public MovieController() {
-        movieManager = new MovieManager();
-        movieManager.loadMovies();
+        try {
+            movieManager = new MovieManager();
+        } catch (MoviePersistenceException e) {
+            System.out.println("Error loading movies: " + e.getMessage());
+            movieManager = new MovieManager();
+        }
     }
+
     public void start() {
         int choice;
         do {
@@ -19,40 +28,20 @@ public class MovieController {
             choice = scanner.nextInt();
             scanner.nextLine();
 
-            switch (choice) {
-                case 1:
-                    addMovie();
-                    break;
-                case 2:
-                    displayMovies();
-                    break;
-                case 3:
-                    clearAllMovies();
-                    break;
-                case 4:
-                    while (true) {
-                        System.out.print("Enter movie id (0 to exit): ");
-                        int id = scanner.nextInt();
-                        if (id == 0) break;
-                        Movie movie = movieManager.getMovieById(id);
-                        if (movie != null) {
-                            System.out.println(movie);
-                            break;
-                        } else {
-                            System.out.println("Movie not found.");
-                        }
-                    }
-                    break;
-                case 5:
-                    updateMovieById();
-                    break;
-                case 0:
-                    movieManager.saveMovies();
-                    System.out.println("Exiting application...");
-                    break;
-                default:
-                    System.out.println("Invalid choice!");
+            try {
+                switch (choice) {
+                    case 1 -> addMovie();
+                    case 2 -> displayMovies();
+                    case 3 -> clearAllMovies();
+                    case 4 -> getMovieById();
+                    case 5 -> updateMovieById();
+                    case 0 -> exitApp();
+                    default -> System.out.println("Invalid choice!");
+                }
+            } catch (MoviePersistenceException | MovieNotFoundException e) {
+                System.out.println("Error: " + e.getMessage());
             }
+
         } while (choice != 0);
     }
 
@@ -67,8 +56,8 @@ public class MovieController {
         System.out.print("Enter choice: ");
     }
 
-    private void addMovie() {
-        if (movieManager.getmovies().size() >= 5) {
+    private void addMovie() throws MoviePersistenceException {
+        if (movieManager.getMovies().size() >= 5) {
             System.out.println("Cannot add more than 5 movies.");
             return;
         }
@@ -82,29 +71,36 @@ public class MovieController {
         System.out.print("Enter Release Year: ");
         int year = scanner.nextInt();
 
-        Movie movie = new Movie(name,year,genre);
+        Movie movie = new Movie(name, year, genre);
         movieManager.addMovie(movie);
         movieManager.saveMovies();
         System.out.println("Movie added successfully.");
     }
 
     private void displayMovies() {
-        if (movieManager.getmovies().isEmpty()) {
+        if (movieManager.getMovies().isEmpty()) {
             System.out.println("No movies available.");
             return;
         }
-        for (Movie movie : movieManager.getmovies()) {
+        for (Movie movie : movieManager.getMovies()) {
             System.out.println(movie);
         }
     }
 
-    private void clearAllMovies() {
+    private void clearAllMovies() throws MoviePersistenceException {
         movieManager.clearMovies();
-        movieManager.saveMovies();
-        Movie.idCounter =1;
+        Movie.idCounter = 1;
         System.out.println("All movies cleared.");
     }
-    private void updateMovieById() {
+
+    private void getMovieById() throws MovieNotFoundException {
+        System.out.print("Enter Movie ID: ");
+        int id = scanner.nextInt();
+        Movie movie = movieManager.getMovieById(id);
+        System.out.println(movie);
+    }
+
+    private void updateMovieById() throws MoviePersistenceException, MovieNotFoundException {
         System.out.print("Enter Movie ID to update (0 to exit): ");
         int id = scanner.nextInt();
         scanner.nextLine();
@@ -112,20 +108,16 @@ public class MovieController {
         if (id == 0) return;
 
         Movie movie = movieManager.getMovieById(id);
-
-        if (movie == null) {
-            System.out.println("Movie not found!");
-            return;
-        }
-
         System.out.println("Current Movie Details:");
         System.out.println(movie);
+
         System.out.print("Enter New Movie Name: ");
         String name = scanner.nextLine();
         System.out.print("Enter New Genre: ");
         String genre = scanner.nextLine();
         System.out.print("Enter New Release Year: ");
         int year = scanner.nextInt();
+
         movie.setName(name);
         movie.setGenre(genre);
         movie.setYear(year);
@@ -133,4 +125,8 @@ public class MovieController {
         System.out.println("Movie updated successfully.");
     }
 
+    private void exitApp() throws MoviePersistenceException {
+        movieManager.saveMovies();
+        System.out.println("Exiting application...");
+    }
 }

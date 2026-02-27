@@ -5,6 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/FoodApp-MiniProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/decorator/BestSellerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/decorator/MenuItemDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/decorator/NewItemDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/decorator/SpicyDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/discount/DiscountContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/discount/DiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/discount/FlatDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/discount/NoDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/discount/PercentageDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/enums/MenuCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/AgentNotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvalidDiscountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvalidMenuItemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvalidOrderOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvalidOrderStateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvalidPaymentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvoiceGenerationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/InvoiceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/MenuItemNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/RestaurantNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/RestaurantRegistryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/factory/OrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/factory/PaymentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/factory/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/DeliveryAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/observer/AgentNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/observer/CustomerNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/observer/OrderEventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/observer/OrderObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/observer/OrderSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/payment/CardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/payment/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/payment/PaymentContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/payment/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/payment/UpiPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/repository/interfaces/IOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/repository/interfaces/IRestaurantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/repository/interfaces/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/repository/service/OrderRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/repository/service/RestaurantRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/repository/service/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/implementations/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/implementations/DeliveryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/implementations/DiscountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/implementations/InvoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/implementations/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/implementations/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/interfaces/IAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/interfaces/IDeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/interfaces/IDiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/interfaces/IInvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/interfaces/IMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/service/interfaces/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/singleton/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/singleton/RestaurantRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/AdminPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/BrowsePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/CustomerPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/DeliveryPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/InputHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/InvoicePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/MenuPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/MyOrdersPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/OrderPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/PaymentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/PlaceOrderPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/RestaurantPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/FoodApp-MiniProject/src/com/tss/FoodApp/ui/TrackOrderPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +105,9 @@
       <list>
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +136,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="38SwA4R4qOxuhmaKTtZS3TpIJTP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -173,9 +264,9 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/LibraryBookBorrowingSystem/src/com/tss&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/LibraryBookBorrowingSystem/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/basics/FoodApp-MiniProject/src/com/tss/FoodApp&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/basics/FoodApp-MiniProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
@@ -189,16 +280,16 @@
       <recent name="com.tss.InsurancePolicyManagement.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics\FoodApp-MiniProject\src\com\tss\FoodApp" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\AccountManagementApp\src\com\tss" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\LibraryBookBorrowingSystem\src\com\tss" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\PaymentAppInterface\src\com\tss" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\Design_Patterns\TicTacToe\lib" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\Design_Patterns\src\com\tss\Structural\HomeAssignment\Decorator" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\oop_app\src\com\tss\Collections\LMS2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FileHandling" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -207,17 +298,27 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tss.addition" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tss.FoodApp.ClassDiagram.factory" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToeTest">
-    <configuration name="LibraryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.LibraryManagement.test.LibraryTest" />
-      <module name="LibraryBookBorrowingSystem" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tss.AccountManagement.v3.v2.test.AccountMain" />
+      <module name="AccountManagementApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.LibraryManagement.test.*" />
+          <option name="PATTERN" value="com.tss.AccountManagement.v3.v2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="FoodApp-MiniProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,19 +329,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tss.FunctionalInterfaces.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleMoviesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.Serialization.test.SimpleMoviesApp" />
-      <module name="serialization" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.Serialization.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AccountMain" />
         <item itemvalue="Application.TicTacToeTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PaymentTest" />
-        <item itemvalue="Application.LibraryTest" />
-        <item itemvalue="Application.SimpleMoviesApp" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +527,7 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Design_Patterns/JUnit/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/JUnit/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -498,6 +586,21 @@
           <line>13</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AccountManagementApp/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AccountManagementApp/src/com/tss/AccountManagement/v3/v2/test/AccountMain.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basics/FoodApp-MiniProject/src/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>8</line>
@@ -510,7 +613,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/TicTacToe/src/gameEngine/GameEngine.java</url>
           <line>18</line>
-          <properties class="gameEngine.GameEngine">
+          <properties class="gameEngine.GameEngine" method="checkWin">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

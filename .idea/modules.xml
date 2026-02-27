@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccountManagementApp/AccountManagementApp.iml" filepath="$PROJECT_DIR$/AccountManagementApp/AccountManagementApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPrinciples/DesignPrinciples.iml" filepath="$PROJECT_DIR$/DesignPrinciples/DesignPrinciples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design_Patterns/Design_Patterns.iml" filepath="$PROJECT_DIR$/Design_Patterns/Design_Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Evaluation-1/Evaluation-1.iml" filepath="$PROJECT_DIR$/Evaluation-1/Evaluation-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/FileHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/TicTacToe/FoodApp/FoodApp.iml" filepath="$PROJECT_DIR$/TicTacToe/FoodApp/FoodApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basics/FoodApp-MiniProject/FoodApp-MiniProject.iml" filepath="$PROJECT_DIR$/basics/FoodApp-MiniProject/FoodApp-MiniProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" filepath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryBookBorrowingSystem/LibraryBookBorrowingSystem.iml" filepath="$PROJECT_DIR$/LibraryBookBorrowingSystem/LibraryBookBorrowingSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" />

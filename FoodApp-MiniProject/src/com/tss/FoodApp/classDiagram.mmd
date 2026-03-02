@@ -1,0 +1,1008 @@
+classDiagram
+    direction TB
+
+    %% ─── ENUMS ───────────────────────────────────────────
+
+    class MenuCategory {
+        <<enumeration>>
+        STARTER
+        MAIN
+        DESSERT
+        DRINK
+    }
+
+    class OrderStatus {
+        <<enumeration>>
+        PLACED
+        CONFIRMED
+        PREPARING
+        OUT_FOR_DELIVERY
+        DELIVERED
+        CANCELLED
+        +next() OrderStatus
+        +isFinal() boolean
+    }
+
+    class PaymentMethod {
+        <<enumeration>>
+        CASH
+        UPI
+        CARD
+    }
+
+    class PaymentStatus {
+        <<enumeration>>
+        PENDING
+        SUCCESS
+        REFUNDED
+    }
+
+    class UserRole {
+        <<enumeration>>
+        ADMIN
+        CUSTOMER
+        DELIVERY_AGENT
+    }
+
+    %% ─── MODEL ───────────────────────────────────────────
+
+    class User {
+        <<abstract>>
+        -int userId
+        -String name
+        -String email
+        -String password
+        -String phone
+        -UserRole role
+        +showDashboard() void
+        +getUserId() int
+        +getName() String
+        +getEmail() String
+        +getRole() UserRole
+    }
+
+    class Customer {
+        -String address
+        -List~Order~ orderHistory
+        +addOrderToHistory(Order) void
+        +getOrderHistory() List~Order~
+        +showDashboard() void
+    }
+
+    class Admin {
+        -String adminCode
+        +getAdminCode() String
+        +showDashboard() void
+    }
+
+    class Restaurant {
+        -int restaurantId
+        -String name
+        -String location
+        -String cuisineType
+        -boolean isOpen
+        -List~MenuItem~ menu
+        -List~DeliveryAgent~ agents
+        +addMenuItem(MenuItem) void
+        +removeMenuItem(int) void
+        +updateMenuItemPrice(int, double) void
+        +findMenuItemById(int) Optional~MenuItem~
+        +addAgent(DeliveryAgent) void
+        +removeAgent(int) void
+        +getAvailableAgents() List~DeliveryAgent~
+    }
+
+    class MenuItem {
+        -int itemId
+        -String name
+        -double price
+        -MenuCategory category
+        -boolean isAvailable
+        -String description
+        +getItemId() int
+        +getPrice() double
+        +isAvailable() boolean
+        +setPrice(double) void
+        +display() void
+    }
+
+    class DeliveryAgent {
+        -int agentId
+        -String name
+        -String phone
+        -boolean isAvailable
+        -int totalDeliveries
+        +markBusy() void
+        +markAvailable() void
+        +incrementDeliveries() void
+        +isAvailable() boolean
+    }
+
+    class Order {
+        -int orderId
+        -OrderStatus status
+        -PaymentMethod paymentMethod
+        -PaymentStatus paymentStatus
+        -double subtotal
+        -double discountAmount
+        -double finalTotal
+        -LocalDateTime orderTime
+        -String specialNote
+        +addItem(OrderItem) void
+        +removeItem(int) void
+        +calculateSubtotal() double
+        +updateStatus(OrderStatus) void
+        +assignAgent(DeliveryAgent) void
+    }
+
+    class OrderItem {
+        -int quantity
+        -double itemTotal
+        +calculateTotal() double
+        +getMenuItem() MenuItem
+        +getQuantity() int
+        +getItemTotal() double
+    }
+
+    class Invoice {
+        -int invoiceId
+        -double subtotal
+        -double discountApplied
+        -double finalAmount
+        -String paymentMethod
+        -LocalDateTime generatedAt
+        +printInvoice() void
+        +buildHeader() String
+        +buildItemsSection() String
+        +buildTotalsSection() String
+        +buildFooter() String
+    }
+
+    %% ─── REPOSITORY INTERFACES ───────────────────────────
+
+    class IUserRepository {
+        <<interface>>
+        +save(User) void
+        +findById(int) Optional~User~
+        +findByEmail(String) Optional~User~
+        +findAll() List~User~
+        +update(User) void
+        +delete(int) void
+    }
+
+    class IRestaurantRepository {
+        <<interface>>
+        +save(Restaurant) void
+        +findById(int) Optional~Restaurant~
+        +findAll() List~Restaurant~
+        +update(Restaurant) void
+        +delete(int) void
+    }
+
+    class IOrderRepository {
+        <<interface>>
+        +save(Order) void
+        +findById(int) Optional~Order~
+        +findByCustomerId(int) List~Order~
+        +findByRestaurantId(int) List~Order~
+        +findAll() List~Order~
+        +update(Order) void
+        +delete(int) void
+    }
+
+    %% ─── REPOSITORY IMPLEMENTATIONS ─────────────────────
+
+    class UserRepositoryImpl {
+        -Map~Integer, User~ store
+        -int idCounter
+        +save(User) void
+        +findById(int) Optional~User~
+        +findByEmail(String) Optional~User~
+        +findAll() List~User~
+        +update(User) void
+        +delete(int) void
+    }
+
+    class RestaurantRepositoryImpl {
+        -Map~Integer, Restaurant~ store
+        -int idCounter
+        +save(Restaurant) void
+        +findById(int) Optional~Restaurant~
+        +findAll() List~Restaurant~
+        +update(Restaurant) void
+        +delete(int) void
+    }
+
+    class OrderRepositoryImpl {
+        -Map~Integer, Order~ store
+        -int idCounter
+        +save(Order) void
+        +findById(int) Optional~Order~
+        +findByCustomerId(int) List~Order~
+        +findByRestaurantId(int) List~Order~
+        +findAll() List~Order~
+        +update(Order) void
+        +delete(int) void
+    }
+
+    %% ─── SINGLETONS ──────────────────────────────────────
+
+    class AppConfig {
+        <<singleton>>
+        -AppConfig instance$
+        -double discountThreshold
+        -double flatDiscountAmount
+        -double discountPercentage
+        -int maxAgentsPerRestaurant
+        -String appName
+        -String version
+        -String activeDiscountType
+        -AppConfig()
+        +getInstance()$ AppConfig
+        +getDiscountThreshold() double
+        +setDiscountThreshold(double) void
+        +getFlatDiscountAmount() double
+        +setFlatDiscountAmount(double) void
+        +getDiscountPercentage() double
+        +setDiscountPercentage(double) void
+        +getActiveDiscountType() String
+        +setActiveDiscountType(String) void
+        +getMaxAgentsPerRestaurant() int
+        +displayDiscountConfig() void
+    }
+
+    class RestaurantRegistry {
+        <<singleton>>
+        -RestaurantRegistry instance$
+        -IRestaurantRepository repository
+        -RestaurantRegistry(IRestaurantRepository)
+        +getInstance(IRestaurantRepository)$ RestaurantRegistry
+        +registerRestaurant(Restaurant) void
+        +removeRestaurant(int) void
+        +getById(int) Optional~Restaurant~
+        +getAll() List~Restaurant~
+        +displayAll() void
+    }
+
+    %% ─── DISCOUNT STRATEGY ───────────────────────────────
+
+    class DiscountStrategy {
+        <<interface>>
+        +calculate(double) double
+        +isApplicable(double) boolean
+        +getDescription() String
+    }
+
+    class FlatDiscountStrategy {
+        -double flatAmount
+        -double minimumOrderValue
+        +calculate(double) double
+        +isApplicable(double) boolean
+        +getDescription() String
+    }
+
+    class PercentageDiscountStrategy {
+        -double percentage
+        -double minimumOrderValue
+        +calculate(double) double
+        +isApplicable(double) boolean
+        +getDescription() String
+    }
+
+    class NoDiscountStrategy {
+        +calculate(double) double
+        +isApplicable(double) boolean
+        +getDescription() String
+    }
+
+    class DiscountContext {
+        -DiscountStrategy strategy
+        +DiscountContext(DiscountStrategy)
+        +setStrategy(DiscountStrategy) void
+        +applyDiscount(double) double
+        +getDiscountInfo() String
+        +isDiscountApplicable(double) boolean
+    }
+
+    %% ─── PAYMENT STRATEGY ────────────────────────────────
+
+    class PaymentStrategy {
+        <<interface>>
+        +pay(double) boolean
+        +getPaymentMode() String
+    }
+
+    class CashPayment {
+        -double amountTendered
+        +pay(double) boolean
+        +getPaymentMode() String
+        +getChange(double) double
+    }
+
+    class CardPayment {
+        -String cardNumber
+        -String cardHolderName
+        -String expiryDate
+        -String cvv
+        +pay(double) boolean
+        +getPaymentMode() String
+    }
+
+    class UpiPayment {
+        -String upiId
+        +pay(double) boolean
+        +getPaymentMode() String
+        +validateUpiId() boolean
+    }
+
+    class PaymentContext {
+        -PaymentStrategy strategy
+        +PaymentContext(PaymentStrategy)
+        +setStrategy(PaymentStrategy) void
+        +executePayment(double) boolean
+        +getMode() String
+    }
+
+    %% ─── FACTORY ─────────────────────────────────────────
+
+    class OrderFactory {
+        <<factory>>
+        -int idCounter$
+        +createOrder(Customer, Restaurant)$ Order
+    }
+
+    class PaymentFactory {
+        <<factory>>
+        +getStrategy(String, String)$ PaymentStrategy
+    }
+
+    class UserFactory {
+        <<factory>>
+        -int idCounter$
+        +createUser(String, String, String, String, String, String)$ User
+    }
+
+    %% ─── BUILDER ─────────────────────────────────────────
+
+    class OrderBuilder {
+        <<builder>>
+        -Order order
+        +OrderBuilder(Customer, Restaurant)
+        +addItem(MenuItem, int) OrderBuilder
+        +setPaymentMethod(PaymentMethod) OrderBuilder
+        +setSpecialNote(String) OrderBuilder
+        +applyDiscount(DiscountContext) OrderBuilder
+        +build() Order
+    }
+
+    class InvoiceBuilder {
+        <<builder>>
+        -Invoice invoice
+        -int idCounter$
+        +setOrder(Order) InvoiceBuilder
+        +setGeneratedAt() InvoiceBuilder
+        +calculateTotals() InvoiceBuilder
+        +build() Invoice
+    }
+
+    %% ─── OBSERVER ────────────────────────────────────────
+
+    class OrderObserver {
+        <<interface>>
+        +update(Order, OrderStatus) void
+    }
+
+    class OrderSubject {
+        <<interface>>
+        +registerObserver(OrderObserver) void
+        +removeObserver(OrderObserver) void
+        +notifyObservers(Order, OrderStatus) void
+    }
+
+    class OrderEventManager {
+        -List~OrderObserver~ observers
+        +registerObserver(OrderObserver) void
+        +removeObserver(OrderObserver) void
+        +notifyObservers(Order, OrderStatus) void
+    }
+
+    class CustomerNotifier {
+        +update(Order, OrderStatus) void
+    }
+
+    class AgentNotifier {
+        +update(Order, OrderStatus) void
+    }
+
+    %% ─── DECORATOR ───────────────────────────────────────
+
+    class MenuItemDecorator {
+        <<abstract>>
+        #MenuItem wrappedItem
+        +MenuItemDecorator(MenuItem)
+        +display() void
+        +getName() String
+        +getPrice() double
+        +getItemId() int
+    }
+
+    class SpicyDecorator {
+        +SpicyDecorator(MenuItem)
+        +display() void
+    }
+
+    class BestSellerDecorator {
+        +BestSellerDecorator(MenuItem)
+        +display() void
+    }
+
+    class NewItemDecorator {
+        +NewItemDecorator(MenuItem)
+        +display() void
+    }
+
+    %% ─── COMMAND ─────────────────────────────────────────
+
+    class Command {
+        <<interface>>
+        +execute() void
+        +undo() void
+    }
+
+    class CommandInvoker {
+        -Stack~Command~ history
+        +executeCommand(Command) void
+        +undoLast() void
+    }
+
+    class PlaceOrderCommand {
+        -IOrderService orderService
+        -Order order
+        +PlaceOrderCommand(IOrderService, Order)
+        +execute() void
+        +undo() void
+    }
+
+    class CancelOrderCommand {
+        -IOrderService orderService
+        -int orderId
+        -Order cancelledOrder
+        +CancelOrderCommand(IOrderService, int)
+        +execute() void
+        +undo() void
+    }
+
+    %% ─── SERVICE INTERFACES ──────────────────────────────
+
+    class IAuthService {
+        <<interface>>
+        +login(String, String) User
+        +register(Customer) boolean
+        +logout() void
+        +getCurrentUser() User
+        +isLoggedIn() boolean
+    }
+
+    class IOrderService {
+        <<interface>>
+        +createOrder(Customer, Restaurant) Order
+        +addItemToOrder(Order, int, int) void
+        +confirmOrder(Order) Order
+        +cancelOrder(int) boolean
+        +restoreOrder(Order) void
+        +getOrderById(int) Order
+        +getOrdersByCustomer(int) List~Order~
+        +getAllOrders() List~Order~
+        +updateOrderStatus(int, OrderStatus) void
+        +advanceOrderStatus(int) void
+        +markDelivered(int) void
+    }
+
+    class IMenuService {
+        <<interface>>
+        +addItem(int, MenuItem) void
+        +removeItem(int, int) void
+        +updateItemPrice(int, int, double) void
+        +getMenu(int) List~MenuItem~
+        +displayMenu(int) void
+    }
+
+    class IDeliveryService {
+        <<interface>>
+        +assignAgent(Order) DeliveryAgent
+        +markDelivered(Order) void
+        +addAgent(int, DeliveryAgent) void
+        +removeAgent(int) void
+        +getAvailableAgents(int) List~DeliveryAgent~
+    }
+
+    class IDiscountService {
+        <<interface>>
+        +setFlatDiscount(double, double) void
+        +setPercentageDiscount(double, double) void
+        +setNoDiscount() void
+        +updateThreshold(double) void
+        +showCurrentConfig() void
+        +getDiscountContext() DiscountContext
+    }
+
+    class IInvoiceService {
+        <<interface>>
+        +generateInvoice(Order) Invoice
+        +printInvoice(int) void
+        +getInvoiceByOrderId(int) Invoice
+    }
+
+    %% ─── SERVICE IMPLEMENTATIONS ─────────────────────────
+
+    class AuthServiceImpl {
+        -IUserRepository userRepo
+        -User currentUser
+        +login(String, String) User
+        +register(Customer) boolean
+        +logout() void
+        +getCurrentUser() User
+        +isLoggedIn() boolean
+    }
+
+    class OrderServiceImpl {
+        -IOrderRepository orderRepo
+        -IRestaurantRepository restaurantRepo
+        -DiscountContext discountContext
+        -OrderEventManager eventManager
+        +createOrder(Customer, Restaurant) Order
+        +addItemToOrder(Order, int, int) void
+        +confirmOrder(Order) Order
+        +cancelOrder(int) boolean
+        +restoreOrder(Order) void
+        +advanceOrderStatus(int) void
+        +markDelivered(int) void
+        +updateOrderStatus(int, OrderStatus) void
+        +getOrderById(int) Order
+        +getOrdersByCustomer(int) List~Order~
+        +getAllOrders() List~Order~
+    }
+
+    class MenuServiceImpl {
+        -IRestaurantRepository restaurantRepo
+        +addItem(int, MenuItem) void
+        +removeItem(int, int) void
+        +updateItemPrice(int, int, double) void
+        +getMenu(int) List~MenuItem~
+        +displayMenu(int) void
+    }
+
+    class DeliveryServiceImpl {
+        -IRestaurantRepository restaurantRepo
+        -Random random
+        +assignAgent(Order) DeliveryAgent
+        +markDelivered(Order) void
+        +addAgent(int, DeliveryAgent) void
+        +removeAgent(int) void
+        +getAvailableAgents(int) List~DeliveryAgent~
+    }
+
+    class DiscountServiceImpl {
+        -DiscountContext discountContext
+        -AppConfig config
+        +setFlatDiscount(double, double) void
+        +setPercentageDiscount(double, double) void
+        +setNoDiscount() void
+        +updateThreshold(double) void
+        +showCurrentConfig() void
+        +getDiscountContext() DiscountContext
+    }
+
+    class InvoiceServiceImpl {
+        -IOrderRepository orderRepo
+        -Map~Integer, Invoice~ invoiceStore
+        +generateInvoice(Order) Invoice
+        +printInvoice(int) void
+        +getInvoiceByOrderId(int) Invoice
+    }
+
+    %% ─── UI ──────────────────────────────────────────────
+
+    class ConsoleUI {
+        <<interface>>
+        +show() void
+        +handleInput(int) void
+    }
+
+    class InputHelper {
+        -Scanner scanner
+        +InputHelper(Scanner)
+        +readInt(String) int
+        +readDouble(String) double
+        +getScanner() Scanner
+    }
+
+    class MainMenu {
+        -IAuthService authService
+        -IMenuService menuService
+        -IOrderService orderService
+        -IDeliveryService deliveryService
+        -IInvoiceService invoiceService
+        -DiscountContext discountContext
+        -PaymentContext paymentContext
+        -IDiscountService discountService
+        -CommandInvoker invoker
+        -RestaurantRegistry registry
+        -AdminPanel adminPanel
+        -CustomerPanel customerPanel
+        +MainMenu(IAuthService, IMenuService, IOrderService, IInvoiceService, IDeliveryService, DiscountContext, PaymentContext, IDiscountService, CommandInvoker, RestaurantRegistry)
+        +show() void
+        +handleInput(int) void
+    }
+
+    class AdminPanel {
+        -Admin admin
+        -InputHelper input
+        -RestaurantPanel restaurantPanel
+        -MenuPanel menuPanel
+        -DeliveryPanel deliveryPanel
+        -OrderPanel orderPanel
+        +AdminPanel(Admin, IMenuService, IOrderService, IDeliveryService, IDiscountService, RestaurantRegistry)
+        +show() void
+        +handleInput(int) void
+    }
+
+    class CustomerPanel {
+        -Customer customer
+        -BrowsePanel browsePanel
+        -PlaceOrderPanel placeOrderPanel
+        -MyOrdersPanel myOrdersPanel
+        -TrackOrderPanel trackOrderPanel
+        +show() void
+        +handleInput(int) void
+    }
+
+    class RestaurantPanel {
+        -RestaurantRegistry registry
+        -InputHelper input
+        -int restaurantCnt$
+        +addRestaurant() void
+        +removeRestaurant() void
+        +viewAllRestaurants() void
+    }
+
+    class MenuPanel {
+        -IMenuService menuService
+        -RestaurantRegistry registry
+        -InputHelper input
+        -int menuItemCount$
+        +manageMenuForRestaurant() void
+    }
+
+    class DeliveryPanel {
+        -IDeliveryService deliveryService
+        -RestaurantRegistry registry
+        -InputHelper input
+        -int deliveryAgentCount$
+        +addDeliveryAgent() void
+        +viewDeliveryAgents() void
+    }
+
+    class OrderPanel {
+        -IOrderService orderService
+        -IDiscountService discountService
+        -InputHelper input
+        +viewAllOrders() void
+        +filterOrdersByStatus() void
+        +manageOrderStatus() void
+        +manageDiscountSettings() void
+    }
+
+    class BrowsePanel {
+        -RestaurantRegistry registry
+        -IMenuService menuService
+        +browseRestaurants() void
+        +viewMenuForRestaurant(int) void
+    }
+
+    class PlaceOrderPanel {
+        -Customer customer
+        -IOrderService orderService
+        -IMenuService menuService
+        -IInvoiceService invoiceService
+        -IDeliveryService deliveryService
+        -DiscountContext discountContext
+        -PaymentPanel paymentPanel
+        -CommandInvoker invoker
+        -RestaurantRegistry registry
+        -BrowsePanel browsePanel
+        -InputHelper input
+        +buildAndPlaceOrder() void
+    }
+
+    class MyOrdersPanel {
+        -IOrderService orderService
+        -IInvoiceService invoiceService
+        -CommandInvoker invoker
+        -Customer customer
+        -InputHelper input
+        +viewMyOrders() void
+        +viewInvoice() void
+        +cancelOrder() void
+        +undoLastAction() void
+    }
+
+    class TrackOrderPanel {
+        -IOrderService orderService
+        -Customer customer
+        -InputHelper input
+        +trackOrder() void
+    }
+
+    class PaymentPanel {
+        -PaymentContext paymentContext
+        -InputHelper input
+        +selectPaymentMethod(Order) void
+    }
+
+    class InvoicePrinter {
+        -Invoice invoice
+        +InvoicePrinter(Invoice)
+        +print() void
+    }
+
+    class Main {
+        +main(String[])$ void
+        -setupAdmin(Scanner, IUserRepository)$ void
+    }
+
+    %% ─── ENUM USAGES ─────────────────────────────────────
+
+    MenuItem ..> MenuCategory : category
+    Order ..> OrderStatus : status
+    Order ..> PaymentMethod : paymentMethod
+    Order ..> PaymentStatus : paymentStatus
+    User ..> UserRole : role
+
+    %% ─── MODEL RELATIONSHIPS ─────────────────────────────
+
+    User <|-- Customer
+    User <|-- Admin
+
+    Customer "1" --> "0..*" Order : orderHistory
+    Restaurant "1" o-- "0..*" MenuItem : menu
+    Restaurant "1" o-- "0..*" DeliveryAgent : agents
+
+    Order "1" --> "1" Customer
+    Order "1" --> "1" Restaurant
+    Order "1" o-- "1..*" OrderItem : items
+    Order "0..1" --> "0..1" DeliveryAgent : assignedAgent
+
+    OrderItem "1" --> "1" MenuItem
+
+    Invoice "1" --> "1" Order
+    Invoice "1" --> "1" Customer
+    Invoice "1" --> "1" Restaurant
+    Invoice "1" o-- "1..*" OrderItem : items
+    Invoice "0..1" --> "0..1" DeliveryAgent
+
+    %% ─── REPOSITORY RELATIONSHIPS ────────────────────────
+
+    IUserRepository <|.. UserRepositoryImpl
+    IRestaurantRepository <|.. RestaurantRepositoryImpl
+    IOrderRepository <|.. OrderRepositoryImpl
+
+    IUserRepository ..> User : operates on
+    IRestaurantRepository ..> Restaurant : operates on
+    IOrderRepository ..> Order : operates on
+
+    %% ─── SINGLETON RELATIONSHIPS ─────────────────────────
+
+    RestaurantRegistry "1" --> "1" IRestaurantRepository : delegates to
+    RestaurantRegistry ..> Restaurant : manages
+
+    %% ─── STRATEGY RELATIONSHIPS ──────────────────────────
+
+    DiscountStrategy <|.. FlatDiscountStrategy
+    DiscountStrategy <|.. PercentageDiscountStrategy
+    DiscountStrategy <|.. NoDiscountStrategy
+    DiscountContext "1" o-- "1" DiscountStrategy : strategy
+
+    PaymentStrategy <|.. CashPayment
+    PaymentStrategy <|.. CardPayment
+    PaymentStrategy <|.. UpiPayment
+    PaymentContext "1" o-- "1" PaymentStrategy : strategy
+
+    %% ─── FACTORY RELATIONSHIPS ───────────────────────────
+
+    OrderFactory ..> Order : creates
+    OrderFactory ..> Customer : uses
+    OrderFactory ..> Restaurant : uses
+
+    UserFactory ..> User : creates
+    UserFactory ..> Customer : creates
+    UserFactory ..> Admin : creates
+
+    PaymentFactory ..> PaymentStrategy : creates
+    PaymentFactory ..> CashPayment : instantiates
+    PaymentFactory ..> CardPayment : instantiates
+    PaymentFactory ..> UpiPayment : instantiates
+
+    %% ─── BUILDER RELATIONSHIPS ───────────────────────────
+
+    OrderBuilder ..> OrderFactory : delegates creation to
+    OrderBuilder "1" o-- "1" Order : builds
+    OrderBuilder ..> DiscountContext : uses
+    OrderBuilder ..> OrderItem : composes
+
+    InvoiceBuilder "1" o-- "1" Invoice : builds
+    InvoiceBuilder ..> Order : reads from
+
+    %% ─── OBSERVER RELATIONSHIPS ──────────────────────────
+
+    OrderSubject <|.. OrderEventManager
+    OrderObserver <|.. CustomerNotifier
+    OrderObserver <|.. AgentNotifier
+
+    OrderEventManager "1" o-- "0..*" OrderObserver : observers
+    CustomerNotifier ..> Order : reads
+    AgentNotifier ..> Order : reads
+    AgentNotifier ..> DeliveryAgent : reads
+
+    %% ─── DECORATOR RELATIONSHIPS ─────────────────────────
+
+    MenuItem <|-- MenuItemDecorator
+    MenuItemDecorator <|-- SpicyDecorator
+    MenuItemDecorator <|-- BestSellerDecorator
+    MenuItemDecorator <|-- NewItemDecorator
+    MenuItemDecorator "1" o-- "1" MenuItem : wrappedItem
+
+    %% ─── COMMAND RELATIONSHIPS ───────────────────────────
+
+    Command <|.. PlaceOrderCommand
+    Command <|.. CancelOrderCommand
+
+    CommandInvoker "1" o-- "0..*" Command : history
+
+    PlaceOrderCommand "1" --> "1" IOrderService
+    PlaceOrderCommand "1" --> "1" Order
+    CancelOrderCommand "1" --> "1" IOrderService
+    CancelOrderCommand "0..1" --> "0..1" Order : cancelledOrder
+
+    %% ─── SERVICE INTERFACE REALIZATIONS ──────────────────
+
+    IAuthService <|.. AuthServiceImpl
+    IOrderService <|.. OrderServiceImpl
+    IMenuService <|.. MenuServiceImpl
+    IDeliveryService <|.. DeliveryServiceImpl
+    IDiscountService <|.. DiscountServiceImpl
+    IInvoiceService <|.. InvoiceServiceImpl
+
+    %% ─── SERVICE IMPL DEPENDENCIES ───────────────────────
+
+    AuthServiceImpl "1" --> "1" IUserRepository
+    AuthServiceImpl ..> User : manages session
+
+    OrderServiceImpl "1" --> "1" IOrderRepository
+    OrderServiceImpl "1" --> "1" IRestaurantRepository
+    OrderServiceImpl "1" --> "1" DiscountContext
+    OrderServiceImpl "1" --> "1" OrderEventManager
+    OrderServiceImpl ..> OrderFactory : delegates to
+    OrderServiceImpl ..> OrderItem : creates
+
+    MenuServiceImpl "1" --> "1" IRestaurantRepository
+    MenuServiceImpl ..> MenuItem : manages
+
+    DeliveryServiceImpl "1" --> "1" IRestaurantRepository
+    DeliveryServiceImpl ..> DeliveryAgent : manages
+
+    DiscountServiceImpl "1" --> "1" DiscountContext
+    DiscountServiceImpl "1" --> "1" AppConfig
+    DiscountServiceImpl ..> FlatDiscountStrategy : instantiates
+    DiscountServiceImpl ..> PercentageDiscountStrategy : instantiates
+    DiscountServiceImpl ..> NoDiscountStrategy : instantiates
+
+    InvoiceServiceImpl "1" --> "1" IOrderRepository
+    InvoiceServiceImpl ..> InvoiceBuilder : uses
+    InvoiceServiceImpl ..> Invoice : stores
+
+    %% ─── UI REALIZATIONS ─────────────────────────────────
+
+    ConsoleUI <|.. MainMenu
+    ConsoleUI <|.. AdminPanel
+    ConsoleUI <|.. CustomerPanel
+
+    %% ─── UI COMPOSITIONS ─────────────────────────────────
+
+    AdminPanel "1" o-- "1" RestaurantPanel
+    AdminPanel "1" o-- "1" MenuPanel
+    AdminPanel "1" o-- "1" DeliveryPanel
+    AdminPanel "1" o-- "1" OrderPanel
+    AdminPanel "1" o-- "1" InputHelper
+    AdminPanel "1" --> "1" Admin
+
+    CustomerPanel "1" o-- "1" BrowsePanel
+    CustomerPanel "1" o-- "1" PlaceOrderPanel
+    CustomerPanel "1" o-- "1" MyOrdersPanel
+    CustomerPanel "1" o-- "1" TrackOrderPanel
+    CustomerPanel "1" --> "1" Customer
+
+    MainMenu "1" o-- "0..1" AdminPanel
+    MainMenu "1" o-- "0..1" CustomerPanel
+    MainMenu "1" --> "1" IAuthService
+    MainMenu "1" --> "1" IMenuService
+    MainMenu "1" --> "1" IOrderService
+    MainMenu "1" --> "1" IDeliveryService
+    MainMenu "1" --> "1" IInvoiceService
+    MainMenu "1" --> "1" IDiscountService
+    MainMenu "1" --> "1" DiscountContext
+    MainMenu "1" --> "1" PaymentContext
+    MainMenu "1" --> "1" CommandInvoker
+    MainMenu "1" --> "1" RestaurantRegistry
+
+    %% ─── UI PANEL DEPENDENCIES ───────────────────────────
+
+    RestaurantPanel "1" --> "1" RestaurantRegistry
+    RestaurantPanel "1" --> "1" InputHelper
+
+    MenuPanel "1" --> "1" IMenuService
+    MenuPanel "1" --> "1" RestaurantRegistry
+    MenuPanel "1" --> "1" InputHelper
+    MenuPanel ..> BestSellerDecorator : applies
+    MenuPanel ..> SpicyDecorator : applies
+    MenuPanel ..> NewItemDecorator : applies
+
+    DeliveryPanel "1" --> "1" IDeliveryService
+    DeliveryPanel "1" --> "1" RestaurantRegistry
+    DeliveryPanel "1" --> "1" InputHelper
+
+    OrderPanel "1" --> "1" IOrderService
+    OrderPanel "1" --> "1" IDiscountService
+    OrderPanel "1" --> "1" InputHelper
+
+    BrowsePanel "1" --> "1" RestaurantRegistry
+    BrowsePanel "1" --> "1" IMenuService
+
+    PlaceOrderPanel "1" --> "1" IOrderService
+    PlaceOrderPanel "1" --> "1" IMenuService
+    PlaceOrderPanel "1" --> "1" IInvoiceService
+    PlaceOrderPanel "1" --> "1" IDeliveryService
+    PlaceOrderPanel "1" --> "1" DiscountContext
+    PlaceOrderPanel "1" --> "1" CommandInvoker
+    PlaceOrderPanel "1" --> "1" RestaurantRegistry
+    PlaceOrderPanel "1" --> "1" BrowsePanel
+    PlaceOrderPanel "1" --> "1" InputHelper
+    PlaceOrderPanel "1" o-- "1" PaymentPanel
+    PlaceOrderPanel ..> OrderBuilder : uses
+    PlaceOrderPanel ..> PlaceOrderCommand : creates
+    PlaceOrderPanel ..> InvoicePrinter : uses
+
+    MyOrdersPanel "1" --> "1" IOrderService
+    MyOrdersPanel "1" --> "1" IInvoiceService
+    MyOrdersPanel "1" --> "1" CommandInvoker
+    MyOrdersPanel "1" --> "1" Customer
+    MyOrdersPanel "1" --> "1" InputHelper
+    MyOrdersPanel ..> CancelOrderCommand : creates
+    MyOrdersPanel ..> InvoicePrinter : uses
+
+    TrackOrderPanel "1" --> "1" IOrderService
+    TrackOrderPanel "1" --> "1" Customer
+    TrackOrderPanel "1" --> "1" InputHelper
+
+    PaymentPanel "1" --> "1" PaymentContext
+    PaymentPanel "1" --> "1" InputHelper
+    PaymentPanel ..> PaymentFactory : uses
+
+    InvoicePrinter "1" --> "1" Invoice
+
+    %% ─── MAIN WIRING ─────────────────────────────────────
+
+    Main ..> AppConfig : reads config
+    Main ..> IUserRepository : creates
+    Main ..> IRestaurantRepository : creates
+    Main ..> IOrderRepository : creates
+    Main ..> RestaurantRegistry : initializes
+    Main ..> DiscountContext : creates
+    Main ..> OrderEventManager : wires observers
+    Main ..> MainMenu : launches
+    Main ..> AuthServiceImpl : instantiates
+    Main ..> OrderServiceImpl : instantiates
+    Main ..> MenuServiceImpl : instantiates
+    Main ..> DeliveryServiceImpl : instantiates
+    Main ..> DiscountServiceImpl : instantiates
+    Main ..> InvoiceServiceImpl : instantiates

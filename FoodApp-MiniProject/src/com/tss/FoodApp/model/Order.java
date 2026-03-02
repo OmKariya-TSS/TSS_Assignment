@@ -4,7 +4,7 @@ import com.tss.FoodApp.enums.OrderStatus;
 import com.tss.FoodApp.enums.PaymentMethod;
 import com.tss.FoodApp.enums.PaymentStatus;
 import com.tss.FoodApp.exceptions.ValidationException;
-import com.tss.FoodApp.observer.OrderEventManager;
+
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -13,7 +13,6 @@ import java.util.List;
 public class Order {
 
     private int orderId;
-    private OrderEventManager eventManager;
     private Customer customer;
     private Restaurant restaurant;
     private List<OrderItem> items;

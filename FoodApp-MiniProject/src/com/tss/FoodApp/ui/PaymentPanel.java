@@ -18,7 +18,7 @@ public class PaymentPanel {
         this.input          = input;
     }
 
-    public void selectPaymentMethod(Order order) {
+    public boolean selectPaymentMethod(Order order) {
         try {
             System.out.println("\n  💳 Payment Method:");
             System.out.println("    1. CASH");
@@ -63,8 +63,10 @@ public class PaymentPanel {
             order.setPaymentMethod(method);
             PaymentStrategy strategy = PaymentFactory.getStrategy(method.name(), param);
             paymentContext.setStrategy(strategy);
-            paymentContext.executePayment(order.getFinalTotal());
-
+            boolean answer = paymentContext.executePayment(order.getFinalTotal());
+            if(!answer){
+                return false;
+            }
         } catch (InputMismatchException e) {
             System.out.println(e.getMessage());
         } catch (RuntimeException e) {
@@ -72,5 +74,6 @@ public class PaymentPanel {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        return true;
     }
 }

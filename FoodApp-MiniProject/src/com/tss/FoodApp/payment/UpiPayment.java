@@ -34,7 +34,4 @@ public class UpiPayment implements PaymentStrategy {
         return PaymentMethod.UPI.name();
     }
 
-    public boolean validateUpiId() {
-        return upiId != null && upiId.matches("^[a-zA-Z0-9._-]+@[a-zA-Z]+$");
-    }
-}
+  }

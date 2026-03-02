@@ -7,7 +7,7 @@ public class CancelOrderCommand implements Command {
 
     private IOrderService orderService;
     private int orderId;
-    private Order cancelledOrder;  // save for undo
+    private Order cancelledOrder;
 
     public CancelOrderCommand(IOrderService service, int orderId) {
         this.orderService = service;

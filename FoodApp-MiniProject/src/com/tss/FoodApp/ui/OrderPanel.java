@@ -21,7 +21,6 @@ public class OrderPanel {
         this.input           = input;
     }
 
-    // ─── Orders ────────────────────────────────────────────────────────────────
 
     public void viewAllOrders() {
         try {
@@ -156,7 +155,6 @@ public class OrderPanel {
         }
     }
 
-    // ─── Discounts ─────────────────────────────────────────────────────────────
 
     public void manageDiscountSettings() {
         int choice;

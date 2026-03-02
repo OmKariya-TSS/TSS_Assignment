@@ -15,7 +15,6 @@ import com.tss.FoodApp.service.interfaces.*;
 import com.tss.FoodApp.singleton.AppConfig;
 import com.tss.FoodApp.singleton.RestaurantRegistry;
 import com.tss.FoodApp.ui.MainMenu;
-
 import java.util.Scanner;
 
 public class Main {

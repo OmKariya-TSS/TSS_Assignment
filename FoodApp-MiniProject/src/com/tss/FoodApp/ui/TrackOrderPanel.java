@@ -61,7 +61,8 @@ public class TrackOrderPanel {
                 OrderStatus.CONFIRMED,
                 OrderStatus.PREPARING,
                 OrderStatus.OUT_FOR_DELIVERY,
-                OrderStatus.DELIVERED
+                OrderStatus.DELIVERED,
+                OrderStatus.CANCELLED
         };
 
         for (OrderStatus s : pipeline) {

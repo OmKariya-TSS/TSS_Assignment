@@ -108,8 +108,10 @@ public class PlaceOrderPanel {
             }
             System.out.printf("  💰 Final Total: ₹%.2f%n", order.getFinalTotal());
 
-            paymentPanel.selectPaymentMethod(order);
-
+            boolean answer = paymentPanel.selectPaymentMethod(order);
+            if(!answer){
+                throw new Exception("Order not placed");
+            }
             invoker.executeCommand(new PlaceOrderCommand(orderService, order));
             deliveryService.assignAgent(order);
 

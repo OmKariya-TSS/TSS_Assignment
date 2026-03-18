@@ -5,111 +5,237 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/builder/InvoiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/builder/OrderBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/command/CancelOrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/command/CommandInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/command/PlaceOrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/decorator/BestSellerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/decorator/MenuItemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/decorator/NewItemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/decorator/SpicyDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/discount/DiscountContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/discount/DiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/discount/FlatDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/discount/NoDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/discount/PercentageDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/enums/MenuCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/enums/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/enums/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/AgentNotAvailableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvalidDiscountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvalidMenuItemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvalidOrderOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvalidOrderStateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvalidPaymentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvoiceGenerationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/InvoiceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/MenuItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/OrderNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/RestaurantNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/RestaurantRegistryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/exceptions/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/facade/FoodAppFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/factory/OrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/factory/PaymentRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/factory/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/DeliveryAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/observer/AgentNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/observer/CustomerNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/observer/OrderEventManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/observer/OrderObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/observer/OrderSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/CardPaymentProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/CashPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/CashPaymentProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/PaymentContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/PaymentProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/UpiPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/payment/UpiPaymentProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/repository/interfaces/IOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/repository/interfaces/IRestaurantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/repository/interfaces/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/repository/service/OrderRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/repository/service/RestaurantRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/repository/service/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/serialization/PersistenceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/AgentAuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/DeliveryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/DiscountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/InvoiceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/implementations/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IAgentAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IDeliveryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IDiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IInvoiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/service/interfaces/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/singleton/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/singleton/RestaurantRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/AdminPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/AgentPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/BrowsePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/CustomerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/DeliveryPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/InputHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/InvoicePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/MenuPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/MyOrdersPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/OrderPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/PaymentPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/PlaceOrderPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/RestaurantPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV4/ui/TrackOrderPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/AccountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/BusinessRuleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/java/com/tss/AccountManagement/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account-Management/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/InstructorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/AddressRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/AddressResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/CourseRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/CourseResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/InstructorRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/InstructorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/StudentRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/StudentResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/exception/BusinessRuleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/AddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/InstuctorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/InstructorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/InstructorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/InstructorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicDI/src/main/java/com/tss/DynamicDI/service/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/config/AppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/AgentAuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/AuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/DeliveryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/DiscountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/InvoiceServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/MenuServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodApp-DB/er-diagram.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/config/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/java/com/tss/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC-Demo/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/config/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/controller/StudentCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/AddressRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/CourseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/StudentCourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/StudentCourseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/repository/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/StudentCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/StudentCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/java/com/tss/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBCApp/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCore-App/src/main/java/com/tss/springcore/controller/ComputerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCore-App/src/main/java/com/tss/springcore/service/ComputerSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCore-App/src/main/java/com/tss/springcore/service/IComputerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/exception/BusinessRuleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-demo/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/invoices.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/invoices.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/orders.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/orders.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/restaurants.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/restaurants.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-MiniProject/com/tss/FoodAppV3/payment/CardPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodApp-MiniProject/com/tss/FoodAppV3/payment/CardPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV2/model/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/FoodApp-MiniProject/src/com/tss/FoodAppV2/model/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-MiniProject/com/tss/FoodAppV2/model/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FoodApp-MiniProject/com/tss/FoodAppV2/model/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/adapter/AgentTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/adapter/DeliveryAgentAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/builder/InvoiceBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/builder/OrderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/command/CancelOrderCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/command/CommandInvoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/command/PlaceOrderCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/decorator/BestSellerDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/decorator/MenuItemDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/decorator/NewItemDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/decorator/SpicyDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/discount/DiscountContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/discount/DiscountStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/discount/FlatDiscountStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/discount/NoDiscountStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/discount/PercentageDiscountStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/enums/MenuCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/enums/OrderStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/enums/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/enums/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/enums/PaymentStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/enums/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/AgentNotAvailableException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvalidDiscountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvalidMenuItemException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvalidOrderOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvalidOrderStateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvalidPaymentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvoiceGenerationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/InvoiceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/MenuItemNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/OrderNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/RestaurantNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/RestaurantRegistryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/exceptions/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/factory/OrderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/factory/PaymentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/factory/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/DeliveryAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/Invoice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/observer/AgentNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/observer/CustomerNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/observer/OrderEventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/observer/OrderObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/observer/OrderSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/payment/CardPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/payment/CashPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/payment/PaymentContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/payment/PaymentStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/payment/UpiPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/repository/interfaces/IOrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/repository/interfaces/IRestaurantRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/repository/interfaces/IUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/repository/service/OrderRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/repository/service/RestaurantRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/repository/service/UserRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/implementations/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/implementations/DeliveryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/implementations/DiscountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/implementations/InvoiceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/implementations/MenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/implementations/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/interfaces/IAuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/interfaces/IDeliveryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/interfaces/IDiscountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/interfaces/IInvoiceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/interfaces/IMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/service/interfaces/IOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/singleton/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/singleton/RestaurantRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/AdminPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/AgentPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/BrowsePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/ConsoleUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/CustomerPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/DeliveryPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/InputHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/InvoicePrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/MenuPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/MyOrdersPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/OrderPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/PaymentPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/PlaceOrderPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/RestaurantPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoodApp-v2/com/tss/FoodApp/ui/TrackOrderPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryBookBorrowingSystem/com/tss/LibraryManagement/service/LibraryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryBookBorrowingSystem/com/tss/LibraryManagement/service/LibraryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaymentAppInterface/com/tss/HomeAssignment/v2/DomainFactory/ECommerce/FlipkartFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PaymentAppInterface/com/tss/HomeAssignment/v2/DomainFactory/ECommerce/FlipkartFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/board/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/board/IBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/facade/TicTacToeFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/gameEngine/GameEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/gameEngine/IGameEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/player/HumanPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/player/IPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/service/ITicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/service/TicTacToeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/test/TicTacToeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/testing/BoardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/testing/GameEngineTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/testing/TicTacToeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/Evaluation/model/StudentRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/com/tss/FileHandling/FileHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/exceptions/MoviePersistenceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serialization/com/tss/Serialization/exceptions/MoviePersistenceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stream_app/com/tss/streams/OrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stream_app/com/tss/streams/OrderTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +274,13 @@
     &quot;accountId&quot;: &quot;71dab94f-c325-4337-9028-0302e82aafee&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -164,6 +297,7 @@
     "Application.AccountMain.executor": "Run",
     "Application.AccountTest.executor": "Run",
     "Application.Addition.executor": "Coverage",
+    "Application.Application.executor": "Run",
     "Application.BoxTest.executor": "Run",
     "Application.BuilderTest.executor": "Run",
     "Application.C.executor": "Run",
@@ -195,7 +329,7 @@
     "Application.LibraryTest.executor": "Run",
     "Application.ListDemo.executor": "Run",
     "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.NonStaticMethodAsArg.executor": "Run",
     "Application.OrderTest.executor": "Run",
     "Application.PalindromeString.executor": "Run",
@@ -236,14 +370,17 @@
     "Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor": "Run",
     "Application.com.tss.Evaluation.Main.executor": "Run",
     "Application.com.tss.FoodApp.test.Main.executor": "Run",
+    "Application.com.tss.FoodAppV2.test.Main (1).executor": "Run",
     "Application.com.tss.FoodAppV2.test.Main.executor": "Run",
     "Application.com.tss.FoodAppV3.test.Main.executor": "Run",
+    "Application.com.tss.FoodAppV4.test.Main (1).executor": "Run",
     "Application.com.tss.FoodAppV4.test.Main.executor": "Run",
     "Application.com.tss.Interfaces.Test.Main.executor": "Run",
     "Application.com.tss.Structural.bridge.Main.executor": "Run",
     "Application.com.tss.Structural.proxy.Main.executor": "Run",
     "Application.com.tss.ocp.test.AccountTest.executor": "Run",
     "Application.com.tss.v2.Main.executor": "Run",
+    "Application.org.example.Main.executor": "Run",
     "Application.test.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AdditionTest.addTest.executor": "Run",
@@ -254,12 +391,79 @@
     "JUnit.AdditionTest.testInstance.executor": "Run",
     "JUnit.AdditionTest.testMultiplication.executor": "Run",
     "JUnit.AdditionTest.testStudent.executor": "Run",
+    "JUnit.AgentAuthServiceImplTest.testLogin_emptyPhone.executor": "Run",
+    "JUnit.AgentAuthServiceImplTest.testLogin_invalidCredentials.executor": "Run",
+    "JUnit.AgentAuthServiceImplTest.testLogin_success.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testGetCurrentAgent.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testLogin_emptyPassword.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testLogin_emptyPhone.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testLogin_invalidCredentials.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testLogin_success.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testLogout.executor": "Run",
+    "JUnit.AgentAuthServiceTest.testLogout_whenNotLoggedIn.executor": "Run",
+    "JUnit.AppConfigTest.testAnotherInstance.executor": "Run",
+    "JUnit.AppConfigTest.testDefaultDiscountStrategy.executor": "Run",
+    "JUnit.AppConfigTest.testGettersSetters.executor": "Run",
+    "JUnit.AuthServiceTest.testLogin_emailNotFound.executor": "Run",
+    "JUnit.AuthServiceTest.testLogin_success.executor": "Run",
+    "JUnit.AuthServiceTest.testLogin_wrongPassword.executor": "Run",
+    "JUnit.AuthServiceTest.testLogout.executor": "Run",
+    "JUnit.AuthServiceTest.testRegister_emailExists.executor": "Run",
+    "JUnit.AuthServiceTest.testRegister_success.executor": "Run",
     "JUnit.BoardTest.executor": "Run",
     "JUnit.BoardTest.testInitialize.executor": "Run",
     "JUnit.BoardTest.testIsFull_True.executor": "Run",
     "JUnit.BoardTest.testPlaceMark_CellFilled.executor": "Run",
+    "JUnit.DeliveryAgentRepositoryTest.testSaveAgent.executor": "Run",
+    "JUnit.DeliveryServiceTest.testAssignAgent_noAvailableAgents.executor": "Run",
+    "JUnit.DeliveryServiceTest.testAssignAgent_success.executor": "Run",
+    "JUnit.DeliveryServiceTest.testMarkDelivered_success.executor": "Run",
+    "JUnit.DiscountServiceTest.setPercentageDiscount.executor": "Run",
+    "JUnit.DiscountServiceTest.testNoDiscount.executor": "Run",
+    "JUnit.DiscountServiceTest.testSetFlatDiscount.executor": "Run",
+    "JUnit.DiscountServiceTest.testUpdateThresholdFlat.executor": "Run",
+    "JUnit.DiscountServiceTest.testUpdateThresholdNoDiscount.executor": "Run",
+    "JUnit.DiscountServiceTest.testUpdateThresholdPercentage.executor": "Run",
     "JUnit.GameEngineTest.executor": "Run",
     "JUnit.GameEngineTest.testCheckWin_RowWin.executor": "Run",
+    "JUnit.InvoiceServiceTest.testGenerateInvoice.executor": "Run",
+    "JUnit.InvoiceServiceTest.testGetInvoiceByOrderId.executor": "Run",
+    "JUnit.MenuServiceTest.testAddItem.executor": "Run",
+    "JUnit.MenuServiceTest.testAddItem_invalidRestaurantId.executor": "Run",
+    "JUnit.MenuServiceTest.testAddItem_restaurantNotFound.executor": "Run",
+    "JUnit.MenuServiceTest.testGetMenu.executor": "Run",
+    "JUnit.MenuServiceTest.testGetMenu_invalidId.executor": "Run",
+    "JUnit.MenuServiceTest.testGetMenu_success.executor": "Run",
+    "JUnit.MenuServiceTest.testRemoveItem.executor": "Run",
+    "JUnit.MenuServiceTest.testRemoveItem_invalidIds.executor": "Run",
+    "JUnit.MenuServiceTest.testRemoveItem_success.executor": "Run",
+    "JUnit.MenuServiceTest.testTagItem.executor": "Run",
+    "JUnit.MenuServiceTest.testUpdateItemPrice.executor": "Run",
+    "JUnit.MenuServiceTest.testUpdateItemPrice_itemNotFound.executor": "Run",
+    "JUnit.MenuServiceTest.testUpdateItemTags_success.executor": "Run",
+    "JUnit.OrderServiceTest.testAddItemToOrder.executor": "Run",
+    "JUnit.OrderServiceTest.testAdvanceOrderStatus_assignAgent.executor": "Run",
+    "JUnit.OrderServiceTest.testAdvanceOrderStatus_finalState.executor": "Run",
+    "JUnit.OrderServiceTest.testAdvanceOrderStatus_noAgentAvailable.executor": "Run",
+    "JUnit.OrderServiceTest.testAdvanceOrderStatus_success.executor": "Run",
+    "JUnit.OrderServiceTest.testCancelOrder.executor": "Run",
+    "JUnit.OrderServiceTest.testConfirmOrder.executor": "Run",
+    "JUnit.OrderServiceTest.testCreateOrder.executor": "Run",
+    "JUnit.OrderServiceTest.testGetAllOrders.executor": "Run",
+    "JUnit.OrderServiceTest.testGetOrderById.executor": "Run",
+    "JUnit.OrderServiceTest.testGetOrderById_success.executor": "Run",
+    "JUnit.OrderServiceTest.testGetOrdersByCustomer.executor": "Run",
+    "JUnit.OrderServiceTest.testMarkDelivered_invalidState.executor": "Run",
+    "JUnit.OrderServiceTest.testMarkDelivered_success.executor": "Run",
+    "JUnit.OrderServiceTest.testRestoreOrder.executor": "Run",
+    "JUnit.OrderServiceTest.testUpdateOrderStatus_backward.executor": "Run",
+    "JUnit.OrderServiceTest.testUpdateOrderStatus_success.executor": "Run",
+    "JUnit.RestaurantRepositoryTest.executor": "Run",
+    "JUnit.RestaurantRepositoryTest.testDeleteRestaurant.executor": "Run",
+    "JUnit.RestaurantRepositoryTest.testFindAll.executor": "Run",
+    "JUnit.RestaurantRepositoryTest.testFindById.executor": "Run",
+    "JUnit.RestaurantRepositoryTest.testSaveRestaurant.executor": "Run",
+    "JUnit.RestaurantRepositoryTest.testUpdateRestaurant.executor": "Run",
     "JUnit.TicTacToeServiceTest.executor": "Run",
     "JUnit.TicTacToeTest.executor": "Run",
     "JUnit.TicTacToeTest.switchPlayer.executor": "Run",
@@ -282,17 +486,24 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AccountManagementApplication.executor": "Run",
+    "Spring Boot.AccountManagementSystemApplication (1).executor": "Run",
+    "Spring Boot.AccountManagementSystemApplication.executor": "Run",
+    "Spring Boot.Application.executor": "Run",
+    "Spring Boot.DynamicDiApplication.executor": "Run",
+    "Spring Boot.HibernateDemoApplication.executor": "Run",
+    "Spring Boot.SpringCoreAppApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/FoodApp-MiniProject/src/com/tss/FoodAppV4",
-    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/FoodApp-v2/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/AdvancedMapping/src/main/java/com/tss/AdvancedMapping",
+    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/JDBCApp/FoodApp-DB-Testing/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -303,18 +514,18 @@
       <recent name="com.tss.InsurancePolicyManagement.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\src\main\java\com\tss\AdvancedMapping" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\JDBCApp\FoodApp-DB-Testing\src\main\java\com\tss\FoodAppV2" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\JDBCApp\FoodApp-DB-Testing\src\main\java\com\tss" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\JDBCApp\FoodApp-DB-Testing\src\main\java\com\tss\FoodApp" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-MiniProject\src\com\tss\FoodAppV4" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-MiniProject\src\com\tss\FoodAppV3" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-MiniProject\src\com\tss\FoodAppV2" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-v2\src\com\tss" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-MiniProject\src\com\tss\v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-MiniProject\src\com\tss\FoodAppV2" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\JDBCApp" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\" />
+      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FoodApp-MiniProject\src\com\tss\FoodAppV2" />
       <recent name="C:\Users\om.kariya\Documents\tss swabhav training\FileHandling" />
-      <recent name="C:\Users\om.kariya\Documents\tss swabhav training\basics" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -329,56 +540,10 @@
       <recent name="com.tss.FoodApp.ClassDiagram.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tss.FoodAppV4.test.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="FoodApp-MiniProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tss.FoodAppV2.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppV2.test.Main" />
-      <module name="FoodApp-MiniProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppV2.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tss.FoodAppV3.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppV3.test.Main" />
-      <module name="FoodApp-MiniProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppV3.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tss.FoodAppV4.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppV4.test.Main" />
-      <module name="FoodApp-MiniProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppV4.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tss.FoodApp.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tss.FoodApp.test.Main" />
-      <module name="FoodApp-MiniProject" />
+      <module name="FoodApp-DB-Testing" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tss.FoodApp.test.*" />
@@ -389,13 +554,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceServiceTest.testGetInvoiceByOrderId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodApp-DB-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.InvoiceServiceTest" />
+      <option name="METHOD_NAME" value="testGetInvoiceByOrderId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuServiceTest.testGetMenu_invalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodApp-DB-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.MenuServiceTest" />
+      <option name="METHOD_NAME" value="testGetMenu_invalidId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuServiceTest.testGetMenu_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodApp-DB-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.MenuServiceTest" />
+      <option name="METHOD_NAME" value="testGetMenu_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuServiceTest.testUpdateItemTags_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodApp-DB-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.MenuServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateItemTags_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.tss.FoodAppV4.test.Main" />
-        <item itemvalue="Application.com.tss.FoodAppV3.test.Main" />
-        <item itemvalue="Application.com.tss.FoodAppV2.test.Main" />
-        <item itemvalue="Application.com.tss.FoodApp.test.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InvoiceServiceTest.testGetInvoiceByOrderId" />
+        <item itemvalue="JUnit.MenuServiceTest.testUpdateItemTags_success" />
+        <item itemvalue="JUnit.MenuServiceTest.testGetMenu_invalidId" />
+        <item itemvalue="JUnit.MenuServiceTest.testGetMenu_success" />
       </list>
     </recent_temporary>
   </component>
@@ -628,6 +857,66 @@
           <line>19</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBC-Demo/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBCStudentDemo/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBCApp/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBC-Demo/src/test/java/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBCApp/FoodApp-DB-Testing/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBCApp/FoodApp-DB-Testing/src/main/java/com/tss/FoodAppV4/test/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDBCApp/FoodApp-DB-Testing/src/main/java/com/tss/FoodAppV2/test/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/AgentAuthServiceTest.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/MenuServiceTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hibernate-demo/src/main/java/com/tss/hibernate_demo/HibernateDemoApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>8</line>
@@ -654,6 +943,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/JDBCApp/FoodApp-DB-Testing/src/main/java/com/tss/FoodAppV4/test/Main.java</url>
+          <line>5</line>
+          <properties class="com.tss.FoodAppV4.test.Main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/test/java/com/tss/FoodAppTest/service/MenuServiceTest.java</url>
+          <line>100</line>
+          <properties class="com.tss.FoodAppTest.service.MenuServiceTest" method="testUpdateItemPrice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>55</line>
+          <properties class="com.tss.FoodApp.ui.PlaceOrderPanel" method="buildAndPlaceOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

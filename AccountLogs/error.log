@@ -1,0 +1,2 @@
+2026-03-17 09:44:19 [ERROR] ErrorResponse(status=500, message=No static resource students for request '/students'., path=/students, timestamp=2026-03-17T04:14:19.869973100Z, error=null)
+2026-03-17 09:49:41 [ERROR] ErrorResponse(status=500, message=No static resource students/all for request '/students/all'., path=/students/all, timestamp=2026-03-17T04:19:41.630202500Z, error=null)

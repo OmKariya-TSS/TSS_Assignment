@@ -1,0 +1,117 @@
+erDiagram
+
+    customers {
+        serial      customer_id     PK
+        varchar100  name            "NOT NULL"
+        varchar150  email           "NOT NULL UNIQUE"
+        varchar255  password        "NOT NULL"
+        varchar15   phone
+        varchar255  address         "NOT NULL"
+        timestamp   created_at
+        timestamp   updated_at
+    }
+
+    admins {
+        serial      admin_id        PK
+        varchar100  name            "NOT NULL"
+        varchar150  email           "NOT NULL UNIQUE"
+        varchar255  password        "NOT NULL"
+        varchar15   phone
+        varchar100  admin_code      "NOT NULL UNIQUE"
+        timestamp   created_at
+        timestamp   updated_at
+    }
+
+    restaurants {
+        serial      restaurant_id   PK
+        varchar150  name            "NOT NULL"
+        varchar255  location
+        varchar100  cuisine_type
+        boolean     is_open         "DEFAULT TRUE"
+        timestamp   created_at
+        timestamp   updated_at
+    }
+
+    menu_items {
+        serial          item_id         PK
+        int             restaurant_id   FK
+        varchar150      name            "NOT NULL"
+        numeric10_2     price           "NOT NULL"
+        menu_category   category        "NOT NULL"
+        text            description
+        boolean         is_available    "DEFAULT TRUE"
+        boolean         is_spicy        "DEFAULT FALSE"
+        boolean         is_best_seller  "DEFAULT FALSE"
+        boolean         is_new          "DEFAULT FALSE"
+        timestamp       created_at
+        timestamp       updated_at
+    }
+
+    delivery_agents {
+        serial      agent_id            PK
+        int         restaurant_id       FK
+        varchar100  name                "NOT NULL"
+        varchar10   phone               "NOT NULL UNIQUE"
+        varchar255  password            "NOT NULL"
+        boolean     is_available        "DEFAULT TRUE"
+        int         total_deliveries    "DEFAULT 0"
+        timestamp   created_at
+        timestamp   updated_at
+    }
+
+    orders {
+        serial          order_id        PK
+        int             customer_id     FK
+        int             restaurant_id   FK
+        int             agent_id        FK
+        order_status    status          "NOT NULL DEFAULT PLACED"
+        payment_method  payment_method
+        payment_status  payment_status  "NOT NULL DEFAULT PENDING"
+        numeric10_2     subtotal        "NOT NULL"
+        numeric10_2     discount_amount "NOT NULL"
+        numeric10_2     final_total     "NOT NULL"
+        text            special_note
+        timestamp       order_time
+        timestamp       updated_at
+    }
+
+    order_items {
+        serial      order_item_id   PK
+        int         order_id        FK
+        int         item_id         FK "nullable - SET NULL on delete"
+        varchar150  item_name       "snapshot NOT NULL"
+        numeric10_2 item_price      "snapshot NOT NULL"
+        int         quantity        "NOT NULL"
+        numeric10_2 item_total      "NOT NULL"
+    }
+
+    invoices {
+        serial      invoice_id          PK
+        int         order_id            FK
+        numeric10_2 subtotal            "NOT NULL"
+        numeric10_2 discount_applied    "NOT NULL"
+        numeric10_2 final_amount        "NOT NULL"
+        varchar50   payment_method
+        timestamp   generated_at
+    }
+
+    discount_config {
+        serial          config_id       PK
+        discount_type   active_type     "NOT NULL DEFAULT FLAT"
+        numeric10_2     flat_amount     "NOT NULL DEFAULT 50.0"
+        numeric5_2      percentage      "NOT NULL DEFAULT 10.0"
+        numeric10_2     threshold       "NOT NULL DEFAULT 500.0"
+        int             max_agents      "NOT NULL DEFAULT 5"
+        timestamp       updated_at
+    }
+
+    %% ── RELATIONSHIPS ────────────────────────────────────────────
+
+    customers      ||--o{ orders          : "places (customer_id)"
+    restaurants    ||--o{ orders          : "receives (restaurant_id)"
+    restaurants    ||--o{ menu_items      : "has (restaurant_id)"
+    restaurants    ||--o{ delivery_agents : "employs (restaurant_id)"
+    delivery_agents |o--o{ orders         : "assigned to (agent_id)"
+    orders         ||--o{ order_items     : "contains (order_id)"
+    menu_items     ||--o{ order_items     : "referenced by (item_id)"
+    orders         ||--o| invoices        : "has one (order_id)"

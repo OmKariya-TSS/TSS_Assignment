@@ -2,15 +2,43 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FoodApp-DB-Testing" />
         <module name="JUnit" />
+        <module name="JDBC-Demo" />
+        <module name="hibernate-demo" />
+        <module name="Account-Management" />
+        <module name="SpringCore-App" />
+        <module name="AdvancedMapping" />
+      </profile>
+      <profile name="Annotation profile for DynamicDI" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="DynamicDI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Account-Management-System" target="17" />
+      <module name="JDBCStudentDemo" target="18" />
       <module name="OOAD" target="18" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Account-Management" options="-parameters" />
+      <module name="Account-Management-System" options="-parameters" />
+      <module name="AdvancedMapping" options="-parameters" />
+      <module name="DynamicDI" options="-parameters" />
+      <module name="SpringCore-App" options="-parameters" />
+      <module name="hibernate-demo" options="-parameters" />
+    </option>
   </component>
 </project>

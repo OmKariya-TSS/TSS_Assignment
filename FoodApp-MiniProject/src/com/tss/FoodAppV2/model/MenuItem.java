@@ -23,7 +23,7 @@ public class MenuItem {
         this.itemId = validateItemId(itemId);
         this.name = validateName(name);
         this.price = validatePrice(price);
-        this.category = validateCategory(category);
+        this.category = category;
         this.description = validateDescription(description);
 
         this.isAvailable = true;
@@ -52,12 +52,6 @@ public class MenuItem {
         return price;
     }
 
-    private MenuCategory validateCategory(MenuCategory category) {
-        if (category == null) {
-            throw new ValidationException("Category cannot be null.");
-        }
-        return category;
-    }
 
     private String validateDescription(String description) {
         if (description == null || description.trim().isEmpty()) {

@@ -1,0 +1,1 @@
+2026-03-18 11:01:55 [ERROR] ErrorResponse(status=500, message=No static resource  for request '/'., path=/, timestamp=2026-03-18T05:31:55.703158100Z, error=null)

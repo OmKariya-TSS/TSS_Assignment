@@ -6,7 +6,23 @@
       <list>
         <option value="$PROJECT_DIR$/Design_Patterns/JUnit/pom.xml" />
         <option value="$PROJECT_DIR$/OOAD/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBC-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBCApp/pom.xml" />
+        <option value="$PROJECT_DIR$/FoodApp-DB-Testing/pom.xml" />
+        <option value="$PROJECT_DIR$/hibernate-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Account-Management-System/pom.xml" />
+        <option value="$PROJECT_DIR$/Account-Management/pom.xml" />
+        <option value="$PROJECT_DIR$/DynamicDI/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCore-App/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnit/pom.xml" />
+        <option value="$PROJECT_DIR$/AdvancedMapping/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/JDBC-Demo/JDBCStudentDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBCApp/FoodApp-DB-Testing/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">

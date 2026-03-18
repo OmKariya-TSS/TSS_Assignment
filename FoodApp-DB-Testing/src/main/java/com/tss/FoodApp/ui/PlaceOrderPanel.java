@@ -61,8 +61,7 @@ public class PlaceOrderPanel {
             Restaurant restaurant = registry.getById(resId)
                     .orElseThrow(() -> new RuntimeException("Restaurant not found ID: " + resId));
 
-            browsePanel.viewMenuForResta
-        urant(resId);
+            browsePanel.viewMenuForRestaurant(resId);
 
             OrderBuilder builder  = new OrderBuilder(customer, restaurant);
             boolean itemAdded = false;

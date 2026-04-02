@@ -1,7 +1,7 @@
 package com.tss.AdvancedMapping.mapper;
 
-import com.tss.AdvancedMapping.dto.StudentRequestDTO;
-import com.tss.AdvancedMapping.dto.StudentResponseDTO;
+import com.tss.AdvancedMapping.dto.request.StudentRequestDTO;
+import com.tss.AdvancedMapping.dto.response.StudentResponseDTO;
 import com.tss.AdvancedMapping.entity.Student;
 import org.mapstruct.Mapper;
 

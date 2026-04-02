@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Table(name="students")
 @NoArgsConstructor
@@ -23,4 +25,9 @@ public class Student {
     @OneToOne(cascade=CascadeType.ALL,fetch = FetchType.LAZY)
     @JoinColumn(name="addressId")
     private Address address;
+
+    @ManyToMany
+    @JoinTable(name = "student-course",
+    joinColumns = @JoinColumn(name ="student-id"), inverseJoinColumns = @JoinColumn(name = "course-id"))
+    private List<Course> courses;
 }

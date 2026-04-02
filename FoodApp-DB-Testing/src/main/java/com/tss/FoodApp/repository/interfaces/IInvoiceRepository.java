@@ -13,8 +13,6 @@ public interface IInvoiceRepository {
 
     List<Invoice> findAll();
 
-    List<Invoice> findByCustomer(int customerId);
-
     List<Invoice> findByRestaurant(int restaurantId);
 
     void delete(int invoiceId);

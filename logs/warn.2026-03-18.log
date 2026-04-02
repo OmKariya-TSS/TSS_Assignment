@@ -1,0 +1,5 @@
+2026-03-18 02:36:22 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h46m50s753ms54µs).
+2026-03-18 02:37:08 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s26ms112µs300ns).
+2026-03-18 08:59:19 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m6s97ms163µs400ns).
+2026-03-18 11:01:55 [WARN] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource  for request '/'.]
+2026-03-18 14:43:00 [WARN] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource  for request '/'.]

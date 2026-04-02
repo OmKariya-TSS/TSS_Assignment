@@ -1,0 +1,2 @@
+2026-03-27 09:31:02 [ERROR] ErrorResponse(status=500, message=No static resource getAllCourses/1 for request '/getAllCourses/1'., path=/getAllCourses/1, timestamp=2026-03-27T04:01:02.063830900Z, error=null)
+2026-03-27 09:31:47 [ERROR] ErrorResponse(status=500, message=No static resource getAllCourses/1 for request '/getAllCourses/1'., path=/getAllCourses/1, timestamp=2026-03-27T04:01:47.595974600Z, error=null)

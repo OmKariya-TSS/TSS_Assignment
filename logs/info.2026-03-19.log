@@ -1,0 +1,261 @@
+2026-03-19 09:15:52 [INFO] Starting Application using Java 18.0.2.1 with PID 11340 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-19 09:15:52 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-19 09:15:52 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 09:15:52 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 09:15:52 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-19 09:15:53 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 09:15:53 [INFO] Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2026-03-19 09:15:53 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-19 09:15:53 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:15:53 [INFO] Starting service [Tomcat]
+2026-03-19 09:15:53 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19 09:15:53 [INFO] Root WebApplicationContext: initialization completed in 1316 ms
+2026-03-19 09:15:53 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19 09:15:54 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19 09:15:54 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 09:15:55 [INFO] HikariPool-1 - Starting...
+2026-03-19 09:15:56 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a295587
+2026-03-19 09:15:56 [INFO] HikariPool-1 - Start completed.
+2026-03-19 09:15:56 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 09:15:58 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 09:15:58 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:15:58 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19 09:15:59 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:15:59 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-19 09:15:59 [INFO] Started Application in 7.253 seconds (process running for 34.187)
+2026-03-19 09:16:09 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 09:16:09 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-19 09:16:09 [INFO] Completed initialization in 1 ms
+2026-03-19 09:24:04 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19 09:24:04 [INFO] Graceful shutdown complete
+2026-03-19 09:24:04 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:24:04 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-19 09:24:04 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-19 09:25:15 [INFO] Starting Application using Java 18.0.2.1 with PID 21212 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-19 09:25:15 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-19 09:25:15 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 09:25:15 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 09:25:15 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-19 09:25:15 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 09:25:15 [INFO] Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2026-03-19 09:25:16 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-19 09:25:16 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:25:16 [INFO] Starting service [Tomcat]
+2026-03-19 09:25:16 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19 09:25:16 [INFO] Root WebApplicationContext: initialization completed in 1392 ms
+2026-03-19 09:25:16 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19 09:25:16 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19 09:25:17 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 09:25:17 [INFO] HikariPool-1 - Starting...
+2026-03-19 09:25:17 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@233e6dce
+2026-03-19 09:25:17 [INFO] HikariPool-1 - Start completed.
+2026-03-19 09:25:18 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 09:25:19 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 09:25:19 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:25:19 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19 09:25:20 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:25:20 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-19 09:25:20 [INFO] Started Application in 5.538 seconds (process running for 6.392)
+2026-03-19 09:25:33 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 09:25:33 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-19 09:25:33 [INFO] Completed initialization in 1 ms
+2026-03-19 09:26:32 [INFO] Saving the student
+2026-03-19 09:29:05 [INFO] finding student by roll number
+2026-03-19 09:30:40 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19 09:30:40 [INFO] Graceful shutdown complete
+2026-03-19 09:30:40 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:30:40 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-19 09:30:40 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-19 09:30:48 [INFO] Starting Application using Java 18.0.2.1 with PID 13172 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-19 09:30:48 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-19 09:30:48 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 09:30:48 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 09:30:48 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-19 09:30:49 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 09:30:49 [INFO] Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2026-03-19 09:30:50 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-19 09:30:50 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:30:50 [INFO] Starting service [Tomcat]
+2026-03-19 09:30:50 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19 09:30:50 [INFO] Root WebApplicationContext: initialization completed in 1610 ms
+2026-03-19 09:30:50 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19 09:30:50 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19 09:30:51 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 09:30:51 [INFO] HikariPool-1 - Starting...
+2026-03-19 09:30:51 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e4e3fb2
+2026-03-19 09:30:51 [INFO] HikariPool-1 - Start completed.
+2026-03-19 09:30:51 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 09:30:53 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 09:30:53 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:30:53 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19 09:30:54 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:30:54 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-19 09:30:54 [INFO] Started Application in 7.062 seconds (process running for 7.935)
+2026-03-19 09:30:59 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 09:30:59 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-19 09:30:59 [INFO] Completed initialization in 1 ms
+2026-03-19 09:31:41 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19 09:31:42 [INFO] Graceful shutdown complete
+2026-03-19 09:31:42 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:31:42 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-19 09:31:42 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-19 09:31:55 [INFO] Starting Application using Java 18.0.2.1 with PID 20964 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-19 09:31:55 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-19 09:31:55 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 09:31:55 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 09:31:56 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-19 09:31:57 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 09:31:57 [INFO] Finished Spring Data repository scanning in 233 ms. Found 4 JPA repository interfaces.
+2026-03-19 09:31:58 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-19 09:31:58 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:31:58 [INFO] Starting service [Tomcat]
+2026-03-19 09:31:58 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19 09:31:59 [INFO] Root WebApplicationContext: initialization completed in 3310 ms
+2026-03-19 09:31:59 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19 09:31:59 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19 09:32:01 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 09:32:01 [INFO] HikariPool-1 - Starting...
+2026-03-19 09:32:02 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f9c016
+2026-03-19 09:32:02 [INFO] HikariPool-1 - Start completed.
+2026-03-19 09:32:02 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 09:32:04 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 09:32:04 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:32:04 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19 09:32:06 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:32:06 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-19 09:32:06 [INFO] Started Application in 12.234 seconds (process running for 13.952)
+2026-03-19 09:32:09 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 09:32:09 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-19 09:32:09 [INFO] Completed initialization in 2 ms
+2026-03-19 09:39:59 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19 09:40:00 [INFO] Graceful shutdown complete
+2026-03-19 09:40:00 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:40:00 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-19 09:40:00 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-19 09:40:09 [INFO] Starting Application using Java 18.0.2.1 with PID 19916 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-19 09:40:09 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-19 09:40:09 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 09:40:09 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 09:40:09 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-19 09:40:10 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 09:40:10 [INFO] Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2026-03-19 09:40:10 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-19 09:40:10 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:40:10 [INFO] Starting service [Tomcat]
+2026-03-19 09:40:10 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19 09:40:10 [INFO] Root WebApplicationContext: initialization completed in 1615 ms
+2026-03-19 09:40:11 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19 09:40:11 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19 09:40:12 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 09:40:12 [INFO] HikariPool-1 - Starting...
+2026-03-19 09:40:13 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@369b2fcc
+2026-03-19 09:40:13 [INFO] HikariPool-1 - Start completed.
+2026-03-19 09:40:13 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 09:40:15 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 09:40:15 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:40:15 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19 09:40:18 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:40:18 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-19 09:40:18 [INFO] Started Application in 9.779 seconds (process running for 10.718)
+2026-03-19 09:41:06 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 09:41:06 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-19 09:41:06 [INFO] Completed initialization in 1 ms
+2026-03-19 09:44:20 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-19 09:44:21 [INFO] Graceful shutdown complete
+2026-03-19 09:44:21 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:44:21 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-19 09:44:21 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-19 09:44:27 [INFO] Starting Application using Java 18.0.2.1 with PID 20064 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-19 09:44:27 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-19 09:44:27 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 09:44:27 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 09:44:28 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-19 09:44:28 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 09:44:28 [INFO] Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2026-03-19 09:44:29 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-19 09:44:29 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:44:29 [INFO] Starting service [Tomcat]
+2026-03-19 09:44:29 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-19 09:44:29 [INFO] Root WebApplicationContext: initialization completed in 1518 ms
+2026-03-19 09:44:29 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19 09:44:29 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-19 09:44:30 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 09:44:30 [INFO] HikariPool-1 - Starting...
+2026-03-19 09:44:30 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33ce2a41
+2026-03-19 09:44:30 [INFO] HikariPool-1 - Start completed.
+2026-03-19 09:44:31 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 09:44:33 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 09:44:33 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 09:44:33 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19 09:44:34 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-19 09:44:34 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-19 09:44:34 [INFO] Started Application in 7.604 seconds (process running for 8.446)
+2026-03-19 09:44:45 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 09:44:45 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-19 09:44:45 [INFO] Completed initialization in 2 ms

@@ -1,0 +1,1 @@
+2026-03-21 12:00:46 [ERROR] ErrorResponse(status=404, message=Instructor already assigned, path=/courses/assign/instructor, timestamp=2026-03-21T06:30:46.636244400Z, error={code=BUSINESS_RULE_VIOLATION})

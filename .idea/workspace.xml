@@ -5,7 +5,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82943fbf-dec6-48e8-8b70-5eb166aba9c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/test/java/com/tss/AdvancedMapping/controller/CourseControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/test/java/com/tss/AdvancedMapping/repository/CourseRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/test/java/com/tss/AdvancedMapping/repository/InstructorRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedMapping/src/test/java/com/tss/AdvancedMapping/service/implementations/CourseServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dao/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dao/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dao/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dto/request/CustomerRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dto/request/OrderRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dto/request/ProductRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dto/response/CustomerResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dto/response/OrderResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/dto/response/ProductResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/exception/BusinessRuleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDProject/src/main/java/com/tss/CRUDProject/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/dto/LoginRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurity/src/main/java/com/tss/springSecurity/service/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/InstructorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/InstructorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/AddressRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/request/AddressRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/AddressResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/response/AddressResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/CourseRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/request/CourseRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/CourseResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/response/CourseResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/InstructorRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/request/InstructorRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/InstructorResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/response/InstructorResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/StudentRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/request/StudentRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/StudentResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/dto/response/StudentResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/AddressMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/InstuctorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/InstructorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/InstructorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/InstructorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/interfaces/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/implementations/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/interfaces/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/implementations/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/InstructorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/interfaces/InstructorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/InstructorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/implementations/InstructorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/interfaces/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedMapping/src/main/java/com/tss/AdvancedMapping/service/implementations/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MappingLogs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/MappingLogs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MappingLogs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/MappingLogs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MappingLogs/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/MappingLogs/warn.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +99,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,220 +145,230 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountMain.executor": "Run",
-    "Application.AccountTest.executor": "Run",
-    "Application.Addition.executor": "Coverage",
-    "Application.Application.executor": "Run",
-    "Application.BoxTest.executor": "Run",
-    "Application.BuilderTest.executor": "Run",
-    "Application.C.executor": "Run",
-    "Application.CachedThreadPoolExample.executor": "Run",
-    "Application.CallableDemo.executor": "Run",
-    "Application.CarService.executor": "Run",
-    "Application.CarTest.executor": "Run",
-    "Application.CompareReference.executor": "Run",
-    "Application.CompareTest.executor": "Run",
-    "Application.ConstructorAsArg.executor": "Run",
-    "Application.CurrentAccount.executor": "Run",
-    "Application.DIPTest.executor": "Run",
-    "Application.DeadlockDemo.executor": "Run",
-    "Application.DogDoorSimulator.executor": "Run",
-    "Application.DogDoorTestDrive.executor": "Run",
-    "Application.EncodeBruteForece.executor": "Run",
-    "Application.EncodeDecode.executor": "Run",
-    "Application.FileHandling.executor": "Run",
-    "Application.FindInstrumentTest.executor": "Run",
-    "Application.FindPeak.executor": "Run",
-    "Application.FixedThreadPoolExample.executor": "Run",
-    "Application.FunctionalInterface.executor": "Run",
-    "Application.HatMain.executor": "Run",
-    "Application.HotelReception.executor": "Run",
-    "Application.InsuranceTest.executor": "Run",
-    "Application.InterThreadCommunicationDemo.executor": "Run",
-    "Application.InvoiceTest.executor": "Run",
-    "Application.IspTest.executor": "Run",
-    "Application.LibraryTest.executor": "Run",
-    "Application.ListDemo.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.NonStaticMethodAsArg.executor": "Run",
-    "Application.OrderTest.executor": "Run",
-    "Application.PalindromeString.executor": "Run",
-    "Application.PaymentApp (1).executor": "Run",
-    "Application.PaymentApp.executor": "Run",
-    "Application.PaymentApplication.executor": "Run",
-    "Application.PaymentTest.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.ProtoTest.executor": "Run",
-    "Application.ScheduledExample.executor": "Run",
-    "Application.ShapesTest.executor": "Run",
-    "Application.ShoppingApp.executor": "Run",
-    "Application.SimpleMoviesApp.executor": "Run",
-    "Application.SingleThreadExample.executor": "Run",
-    "Application.SmartCity.executor": "Run",
-    "Application.StarvationDemo.executor": "Run",
-    "Application.StaticMethodAsArg.executor": "Run",
-    "Application.StringDemo.executor": "Run",
-    "Application.StudentTest (1).executor": "Run",
-    "Application.StudentTest.executor": "Run",
-    "Application.StudentsTest.executor": "Run",
-    "Application.SyncTest.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestSingleton.executor": "Run",
-    "Application.ThreadDemo.executor": "Run",
-    "Application.ThreadPriorityDemo.executor": "Run",
-    "Application.ThreadPriorityRunnable.executor": "Run",
-    "Application.Threads.executor": "Run",
-    "Application.ThreadsWait.executor": "Run",
-    "Application.TicTacToe.executor": "Run",
-    "Application.TicTacToeFacade.executor": "Run",
-    "Application.TicTacToeTest.executor": "Run",
-    "Application.VoterTest.executor": "Run",
-    "Application.com.tss.AccountManagement.v1.test.AccountMain.executor": "Run",
-    "Application.com.tss.AccountManagement.v2.test.AccountMain.executor": "Run",
-    "Application.com.tss.Behavioral.Strategy.test.Main.executor": "Run",
-    "Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor": "Run",
-    "Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor": "Run",
-    "Application.com.tss.Evaluation.Main.executor": "Run",
-    "Application.com.tss.FoodApp.test.Main.executor": "Run",
-    "Application.com.tss.FoodAppV2.test.Main (1).executor": "Run",
-    "Application.com.tss.FoodAppV2.test.Main.executor": "Run",
-    "Application.com.tss.FoodAppV3.test.Main.executor": "Run",
-    "Application.com.tss.FoodAppV4.test.Main (1).executor": "Run",
-    "Application.com.tss.FoodAppV4.test.Main.executor": "Run",
-    "Application.com.tss.Interfaces.Test.Main.executor": "Run",
-    "Application.com.tss.Structural.bridge.Main.executor": "Run",
-    "Application.com.tss.Structural.proxy.Main.executor": "Run",
-    "Application.com.tss.ocp.test.AccountTest.executor": "Run",
-    "Application.com.tss.v2.Main.executor": "Run",
-    "Application.org.example.Main.executor": "Run",
-    "Application.test.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AdditionTest.addTest.executor": "Run",
-    "JUnit.AdditionTest.checkBoolean.executor": "Run",
-    "JUnit.AdditionTest.executor": "Run",
-    "JUnit.AdditionTest.testAdditionWithNegativeNumbers.executor": "Run",
-    "JUnit.AdditionTest.testDivideByZero.executor": "Run",
-    "JUnit.AdditionTest.testInstance.executor": "Run",
-    "JUnit.AdditionTest.testMultiplication.executor": "Run",
-    "JUnit.AdditionTest.testStudent.executor": "Run",
-    "JUnit.AgentAuthServiceImplTest.testLogin_emptyPhone.executor": "Run",
-    "JUnit.AgentAuthServiceImplTest.testLogin_invalidCredentials.executor": "Run",
-    "JUnit.AgentAuthServiceImplTest.testLogin_success.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testGetCurrentAgent.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testLogin_emptyPassword.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testLogin_emptyPhone.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testLogin_invalidCredentials.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testLogin_success.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testLogout.executor": "Run",
-    "JUnit.AgentAuthServiceTest.testLogout_whenNotLoggedIn.executor": "Run",
-    "JUnit.AppConfigTest.testAnotherInstance.executor": "Run",
-    "JUnit.AppConfigTest.testDefaultDiscountStrategy.executor": "Run",
-    "JUnit.AppConfigTest.testGettersSetters.executor": "Run",
-    "JUnit.AuthServiceTest.testLogin_emailNotFound.executor": "Run",
-    "JUnit.AuthServiceTest.testLogin_success.executor": "Run",
-    "JUnit.AuthServiceTest.testLogin_wrongPassword.executor": "Run",
-    "JUnit.AuthServiceTest.testLogout.executor": "Run",
-    "JUnit.AuthServiceTest.testRegister_emailExists.executor": "Run",
-    "JUnit.AuthServiceTest.testRegister_success.executor": "Run",
-    "JUnit.BoardTest.executor": "Run",
-    "JUnit.BoardTest.testInitialize.executor": "Run",
-    "JUnit.BoardTest.testIsFull_True.executor": "Run",
-    "JUnit.BoardTest.testPlaceMark_CellFilled.executor": "Run",
-    "JUnit.DeliveryAgentRepositoryTest.testSaveAgent.executor": "Run",
-    "JUnit.DeliveryServiceTest.testAssignAgent_noAvailableAgents.executor": "Run",
-    "JUnit.DeliveryServiceTest.testAssignAgent_success.executor": "Run",
-    "JUnit.DeliveryServiceTest.testMarkDelivered_success.executor": "Run",
-    "JUnit.DiscountServiceTest.setPercentageDiscount.executor": "Run",
-    "JUnit.DiscountServiceTest.testNoDiscount.executor": "Run",
-    "JUnit.DiscountServiceTest.testSetFlatDiscount.executor": "Run",
-    "JUnit.DiscountServiceTest.testUpdateThresholdFlat.executor": "Run",
-    "JUnit.DiscountServiceTest.testUpdateThresholdNoDiscount.executor": "Run",
-    "JUnit.DiscountServiceTest.testUpdateThresholdPercentage.executor": "Run",
-    "JUnit.GameEngineTest.executor": "Run",
-    "JUnit.GameEngineTest.testCheckWin_RowWin.executor": "Run",
-    "JUnit.InvoiceServiceTest.testGenerateInvoice.executor": "Run",
-    "JUnit.InvoiceServiceTest.testGetInvoiceByOrderId.executor": "Run",
-    "JUnit.MenuServiceTest.testAddItem.executor": "Run",
-    "JUnit.MenuServiceTest.testAddItem_invalidRestaurantId.executor": "Run",
-    "JUnit.MenuServiceTest.testAddItem_restaurantNotFound.executor": "Run",
-    "JUnit.MenuServiceTest.testGetMenu.executor": "Run",
-    "JUnit.MenuServiceTest.testGetMenu_invalidId.executor": "Run",
-    "JUnit.MenuServiceTest.testGetMenu_success.executor": "Run",
-    "JUnit.MenuServiceTest.testRemoveItem.executor": "Run",
-    "JUnit.MenuServiceTest.testRemoveItem_invalidIds.executor": "Run",
-    "JUnit.MenuServiceTest.testRemoveItem_success.executor": "Run",
-    "JUnit.MenuServiceTest.testTagItem.executor": "Run",
-    "JUnit.MenuServiceTest.testUpdateItemPrice.executor": "Run",
-    "JUnit.MenuServiceTest.testUpdateItemPrice_itemNotFound.executor": "Run",
-    "JUnit.MenuServiceTest.testUpdateItemTags_success.executor": "Run",
-    "JUnit.OrderServiceTest.testAddItemToOrder.executor": "Run",
-    "JUnit.OrderServiceTest.testAdvanceOrderStatus_assignAgent.executor": "Run",
-    "JUnit.OrderServiceTest.testAdvanceOrderStatus_finalState.executor": "Run",
-    "JUnit.OrderServiceTest.testAdvanceOrderStatus_noAgentAvailable.executor": "Run",
-    "JUnit.OrderServiceTest.testAdvanceOrderStatus_success.executor": "Run",
-    "JUnit.OrderServiceTest.testCancelOrder.executor": "Run",
-    "JUnit.OrderServiceTest.testConfirmOrder.executor": "Run",
-    "JUnit.OrderServiceTest.testCreateOrder.executor": "Run",
-    "JUnit.OrderServiceTest.testGetAllOrders.executor": "Run",
-    "JUnit.OrderServiceTest.testGetOrderById.executor": "Run",
-    "JUnit.OrderServiceTest.testGetOrderById_success.executor": "Run",
-    "JUnit.OrderServiceTest.testGetOrdersByCustomer.executor": "Run",
-    "JUnit.OrderServiceTest.testMarkDelivered_invalidState.executor": "Run",
-    "JUnit.OrderServiceTest.testMarkDelivered_success.executor": "Run",
-    "JUnit.OrderServiceTest.testRestoreOrder.executor": "Run",
-    "JUnit.OrderServiceTest.testUpdateOrderStatus_backward.executor": "Run",
-    "JUnit.OrderServiceTest.testUpdateOrderStatus_success.executor": "Run",
-    "JUnit.RestaurantRepositoryTest.executor": "Run",
-    "JUnit.RestaurantRepositoryTest.testDeleteRestaurant.executor": "Run",
-    "JUnit.RestaurantRepositoryTest.testFindAll.executor": "Run",
-    "JUnit.RestaurantRepositoryTest.testFindById.executor": "Run",
-    "JUnit.RestaurantRepositoryTest.testSaveRestaurant.executor": "Run",
-    "JUnit.RestaurantRepositoryTest.testUpdateRestaurant.executor": "Run",
-    "JUnit.TicTacToeServiceTest.executor": "Run",
-    "JUnit.TicTacToeTest.executor": "Run",
-    "JUnit.TicTacToeTest.switchPlayer.executor": "Run",
-    "JUnit.TicTacToeTest.tesGridFullOrNot.executor": "Run",
-    "JUnit.TicTacToeTest.testAntiDiagonalWin.executor": "Run",
-    "JUnit.TicTacToeTest.testColWin.executor": "Run",
-    "JUnit.TicTacToeTest.testDiagonalWin.executor": "Run",
-    "JUnit.TicTacToeTest.testDraw.executor": "Run",
-    "JUnit.TicTacToeTest.testMakeMove_Valid.executor": "Run",
-    "JUnit.TicTacToeTest.testMakeMove_Win.executor": "Run",
-    "JUnit.TicTacToeTest.testPlaceMark.executor": "Run",
-    "JUnit.TicTacToeTest.testPlaceMark_ValidMove.executor": "Run",
-    "JUnit.TicTacToeTest.testRowWin.executor": "Run",
-    "JUnit.TicTacToeTest.testStart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AccountManagementApplication.executor": "Run",
-    "Spring Boot.AccountManagementSystemApplication (1).executor": "Run",
-    "Spring Boot.AccountManagementSystemApplication.executor": "Run",
-    "Spring Boot.Application.executor": "Run",
-    "Spring Boot.DynamicDiApplication.executor": "Run",
-    "Spring Boot.HibernateDemoApplication.executor": "Run",
-    "Spring Boot.SpringCoreAppApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/om.kariya/Documents/tss swabhav training/AdvancedMapping/src/main/java/com/tss/AdvancedMapping",
-    "onboarding.tips.debug.path": "C:/Users/om.kariya/Documents/tss swabhav training/JDBCApp/FoodApp-DB-Testing/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Addition.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CachedThreadPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorAsArg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrudProjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurrentAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DIPTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DogDoorSimulator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DogDoorTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeBruteForece.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindInstrumentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FixedThreadPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HatMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HotelReception.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsuranceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterThreadCommunicationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvoiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IspTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NonStaticMethodAsArg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentApp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProtoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScheduledExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleMoviesApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartCity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StarvationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticMethodAsArg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPriorityDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPriorityRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Threads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadsWait.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToeFacade.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VoterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.AccountManagement.v1.test.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.AccountManagement.v2.test.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Behavioral.Strategy.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Collections.LMS2.LibraryManagement.test.LibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Collections.LibraryManagement.v1.test.LibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Evaluation.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.FoodApp.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.FoodAppV2.test.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.FoodAppV2.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.FoodAppV3.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.FoodAppV4.test.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.FoodAppV4.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Interfaces.Test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Structural.bridge.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.Structural.proxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.ocp.test.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tss.v2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AdditionTest.addTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.checkBoolean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.testAdditionWithNegativeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.testDivideByZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.testInstance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.testMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionTest.testStudent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceImplTest.testLogin_emptyPhone.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceImplTest.testLogin_invalidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceImplTest.testLogin_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testGetCurrentAgent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testLogin_emptyPassword.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testLogin_emptyPhone.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testLogin_invalidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testLogin_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testLogout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgentAuthServiceTest.testLogout_whenNotLoggedIn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppConfigTest.testAnotherInstance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppConfigTest.testDefaultDiscountStrategy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppConfigTest.testGettersSetters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.testLogin_emailNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.testLogin_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.testLogin_wrongPassword.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.testLogout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.testRegister_emailExists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.testRegister_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardTest.testInitialize.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardTest.testIsFull_True.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardTest.testPlaceMark_CellFilled.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseControllerTest.testGetAllCourses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseRepositoryTest.findCountOfCourses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseRepositoryTest.findCoursesByInstructorId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseRepositoryTest.findCoursesByStudentId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseServiceImplTest.findAllCourseByInstructor_failure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseServiceImplTest.findAllCourseByInstructor_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseServiceImplTest.findCountOfCourses_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeliveryAgentRepositoryTest.testSaveAgent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeliveryServiceTest.testAssignAgent_noAvailableAgents.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeliveryServiceTest.testAssignAgent_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeliveryServiceTest.testMarkDelivered_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountServiceTest.setPercentageDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountServiceTest.testNoDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountServiceTest.testSetFlatDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountServiceTest.testUpdateThresholdFlat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountServiceTest.testUpdateThresholdNoDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscountServiceTest.testUpdateThresholdPercentage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameEngineTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GameEngineTest.testCheckWin_RowWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InstructorRepositoryTest.findByNameStartsWithCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceServiceTest.testGenerateInvoice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InvoiceServiceTest.testGetInvoiceByOrderId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testAddItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testAddItem_invalidRestaurantId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testAddItem_restaurantNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testGetMenu.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testGetMenu_invalidId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testGetMenu_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testRemoveItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testRemoveItem_invalidIds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testRemoveItem_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testTagItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testUpdateItemPrice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testUpdateItemPrice_itemNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuServiceTest.testUpdateItemTags_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testAddItemToOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testAdvanceOrderStatus_assignAgent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testAdvanceOrderStatus_finalState.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testAdvanceOrderStatus_noAgentAvailable.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testAdvanceOrderStatus_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testCancelOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testConfirmOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testCreateOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testGetAllOrders.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testGetOrderById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testGetOrderById_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testGetOrdersByCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testMarkDelivered_invalidState.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testMarkDelivered_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testRestoreOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testUpdateOrderStatus_backward.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.testUpdateOrderStatus_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestaurantRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestaurantRepositoryTest.testDeleteRestaurant.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestaurantRepositoryTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestaurantRepositoryTest.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestaurantRepositoryTest.testSaveRestaurant.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestaurantRepositoryTest.testUpdateRestaurant.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.switchPlayer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.tesGridFullOrNot.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testAntiDiagonalWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testColWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testDiagonalWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testDraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testMakeMove_Valid.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testMakeMove_Win.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testPlaceMark.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testPlaceMark_ValidMove.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testRowWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TicTacToeTest.testStart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AccountManagementSystemApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AccountManagementSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CrudProjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DynamicDiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HibernateDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringCoreAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/om.kariya/Documents/tss swabhav training/JDBCApp/FoodApp-DB-Testing/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tss.HomeAssignment.v2.model" />
@@ -301,9 +394,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tss.AdvancedMapping.controller" />
+      <recent name="com.tss.AdvancedMapping.service.implementations" />
+      <recent name="com.tss.AdvancedMapping.repository" />
       <recent name="com.tss.addition" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tss.CRUDProject.exception" />
       <recent name="com.tss.FoodAppV2.test" />
       <recent name="com.tss.FoodApp.test" />
       <recent name="com.tss.v2" />
@@ -324,66 +421,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceServiceTest.testGetInvoiceByOrderId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FoodApp-DB-Testing" />
+    <configuration name="CourseControllerTest.testGetAllCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedMapping" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="PATTERN" value="com.tss.AdvancedMapping.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.InvoiceServiceTest" />
-      <option name="METHOD_NAME" value="testGetInvoiceByOrderId" />
+      <option name="PACKAGE_NAME" value="com.tss.AdvancedMapping.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.AdvancedMapping.controller.CourseControllerTest" />
+      <option name="METHOD_NAME" value="testGetAllCourses" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuServiceTest.testGetMenu_invalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FoodApp-DB-Testing" />
+    <configuration name="CourseServiceImplTest.findAllCourseByInstructor_failure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedMapping" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="PATTERN" value="com.tss.AdvancedMapping.service.implementations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.MenuServiceTest" />
-      <option name="METHOD_NAME" value="testGetMenu_invalidId" />
+      <option name="PACKAGE_NAME" value="com.tss.AdvancedMapping.service.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.AdvancedMapping.service.implementations.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="findAllCourseByInstructor_failure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuServiceTest.testGetMenu_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FoodApp-DB-Testing" />
+    <configuration name="CourseServiceImplTest.findAllCourseByInstructor_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedMapping" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="PATTERN" value="com.tss.AdvancedMapping.service.implementations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.MenuServiceTest" />
-      <option name="METHOD_NAME" value="testGetMenu_success" />
+      <option name="PACKAGE_NAME" value="com.tss.AdvancedMapping.service.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.tss.AdvancedMapping.service.implementations.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="findAllCourseByInstructor_success" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuServiceTest.testUpdateItemTags_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FoodApp-DB-Testing" />
+    <configuration name="CrudProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="CRUDProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tss.CRUDProject.CrudProjectApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tss.FoodAppTest.service.*" />
+          <option name="PATTERN" value="com.tss.CRUDProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tss.FoodAppTest.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tss.FoodAppTest.service.MenuServiceTest" />
-      <option name="METHOD_NAME" value="testUpdateItemTags_success" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -391,10 +486,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.InvoiceServiceTest.testGetInvoiceByOrderId" />
-        <item itemvalue="JUnit.MenuServiceTest.testUpdateItemTags_success" />
-        <item itemvalue="JUnit.MenuServiceTest.testGetMenu_invalidId" />
-        <item itemvalue="JUnit.MenuServiceTest.testGetMenu_success" />
+        <item itemvalue="JUnit.CourseControllerTest.testGetAllCourses" />
+        <item itemvalue="Spring Boot.CrudProjectApplication" />
+        <item itemvalue="JUnit.CourseServiceImplTest.findAllCourseByInstructor_failure" />
+        <item itemvalue="JUnit.CourseServiceImplTest.findAllCourseByInstructor_success" />
       </list>
     </recent_temporary>
   </component>
@@ -680,17 +775,52 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
           <line>63</line>
-          <option name="timeStamp" value="83" />
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="84" />
+          <line>83</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FoodApp-DB-Testing/src/main/java/com/tss/FoodApp/ui/PlaceOrderPanel.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/oop_app/src/com/tss/test/StudentTest.java</url>
           <line>8</line>
-          <properties class="com.tss.test.StudentTest" method="main">
+          <properties class="com.tss.test.StudentTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -699,7 +829,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/TicTacToe/src/gameEngine/GameEngine.java</url>
           <line>18</line>
-          <properties class="gameEngine.GameEngine" method="checkWin">
+          <properties class="gameEngine.GameEngine">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -739,7 +869,7 @@
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="82" />
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

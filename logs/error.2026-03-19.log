@@ -1,0 +1,8 @@
+2026-03-19 09:23:49 [ERROR] ErrorResponse(status=500, message=No static resource addresses/rollNumber/3 for request '/addresses/rollNumber/3'., path=/addresses/rollNumber/3, timestamp=2026-03-19T03:53:49.356882300Z, error=null)
+2026-03-19 09:25:34 [ERROR] ErrorResponse(status=404, message=student not found not found null, path=/addresses/rollNumber/3, timestamp=2026-03-19T03:55:34.159546700Z, error={code=RESOURCE_NOT_FOUND})
+2026-03-19 09:26:00 [ERROR] ErrorResponse(status=404, message=student not found not found null, path=/addresses/rollNumber/5, timestamp=2026-03-19T03:56:00.680013900Z, error={code=RESOURCE_NOT_FOUND})
+2026-03-19 09:26:53 [ERROR] ErrorResponse(status=404, message=student not found not found null, path=/addresses/rollNumber/1, timestamp=2026-03-19T03:56:53.186582600Z, error={code=RESOURCE_NOT_FOUND})
+2026-03-19 09:26:56 [ERROR] ErrorResponse(status=404, message=student not found not found null, path=/addresses/rollNumber/1, timestamp=2026-03-19T03:56:56.262927Z, error={code=RESOURCE_NOT_FOUND})
+2026-03-19 09:28:32 [ERROR] ErrorResponse(status=404, message=student not found not found null, path=/addresses/rollNumber/1, timestamp=2026-03-19T03:58:32.166637800Z, error={code=RESOURCE_NOT_FOUND})
+2026-03-19 09:30:59 [ERROR] ErrorResponse(status=404, message=student not found not found null, path=/addresses/rollNumber/1, timestamp=2026-03-19T04:00:59.947168Z, error={code=RESOURCE_NOT_FOUND})
+2026-03-19 09:41:06 [ERROR] ErrorResponse(status=404, message=instructor already assigned, path=/courses/assign/instructor, timestamp=2026-03-19T04:11:06.617562100Z, error={code=BUSINESS_RULE_VIOLATION})

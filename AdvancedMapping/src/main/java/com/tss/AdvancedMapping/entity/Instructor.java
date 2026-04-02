@@ -22,7 +22,6 @@ public class Instructor {
     private String name;
     @Column
     private String qualification;
-    @Column
-    @OneToMany(mappedBy = "instructor",fetch = FetchType.EAGER,cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.REFRESH,CascadeType.PERSIST})
+    @OneToMany(mappedBy = "instructor",fetch = FetchType.LAZY,cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.REFRESH,CascadeType.PERSIST})
     private List<Course> courses;
 }

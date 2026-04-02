@@ -1,10 +1,11 @@
 package com.tss.AdvancedMapping.controller;
 
 
-import com.tss.AdvancedMapping.dto.CourseRequestDTO;
-import com.tss.AdvancedMapping.dto.CourseResponseDTO;
-import com.tss.AdvancedMapping.dto.InstructorResponseDTO;
-import com.tss.AdvancedMapping.service.CourseService;
+import com.tss.AdvancedMapping.dto.request.CourseRequestDTO;
+import com.tss.AdvancedMapping.dto.response.CourseResponseDTO;
+import com.tss.AdvancedMapping.dto.response.InstructorResponseDTO;
+import com.tss.AdvancedMapping.dto.response.StudentResponseDTO;
+import com.tss.AdvancedMapping.service.interfaces.CourseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -47,4 +48,32 @@ public class CourseController {
         return ResponseEntity.status(200).body(courseService.assignCourseToInstructor(instructorId,courseId));
     }
 
+    @GetMapping("/getAllCourses/{instructorId}")
+    public ResponseEntity<List<CourseResponseDTO>> getAllCourses(@PathVariable Long instructorId) {
+        return ResponseEntity.status(200).body(courseService.findAllCourseByInstructor(instructorId));
+    }
+
+    @GetMapping("/findInstructor/{courseId}")
+    public ResponseEntity<InstructorResponseDTO> findInstructorByCourse(@PathVariable Long courseId) {
+        return ResponseEntity.status(200).body(courseService.findInstructorByCourse(courseId));
+    }
+
+    @GetMapping("courseCount/{instructorId}")
+    public ResponseEntity<Integer> getCourseCount(@PathVariable Long instructorId) {
+        return ResponseEntity.status(200).body(courseService.findCountOfCourses(instructorId));
+    }
+
+    @GetMapping("getCourse/{studentId}")
+    public ResponseEntity<Page<CourseResponseDTO>> getCourseByStudent(@RequestParam(defaultValue = "0") Integer pageNumber,
+                                                                @RequestParam(defaultValue = "10") Integer pageSize,@PathVariable Long studentId) {
+        Pageable pageable = PageRequest.of(pageNumber, pageSize);
+        return ResponseEntity.status(200).body(courseService.findCourseOfStudent(studentId,pageable));
+    }
+
+    @GetMapping("getStudents/{courseId}")
+    public ResponseEntity<Page<StudentResponseDTO>> getStudentsOfCourse(@RequestParam(defaultValue = "0") Integer pageNumber,
+                                                                        @RequestParam(defaultValue = "10") Integer pageSize,@PathVariable Long courseId){
+        Pageable pageable = PageRequest.of(pageNumber, pageSize);
+        return ResponseEntity.status(200).body(courseService.findStudentOfCourse(courseId,pageable));
+    }
 }

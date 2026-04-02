@@ -1,0 +1,32 @@
+2026-03-23 05:53:10 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d16h4m40s512ms132µs).
+2026-03-23 08:57:06 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m24s218ms57µs700ns).
+2026-03-23 09:03:50 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:04:01 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:17:08 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:17:35 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:17:43 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:18:05 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:18:23 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:21:30 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:24:30 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:24:40 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:25:37 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstructorMapperImpl]
+2026-03-23 09:26:32 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstuctorMapperImpl]
+2026-03-23 09:29:36 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [com.tss.AdvancedMapping.mapper.InstuctorMapperImpl]
+2026-03-23 09:32:43 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-23 09:32:46 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-23 09:32:47 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-23 11:58:15 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-23 11:58:23 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-23 11:58:28 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-23 12:04:18 [WARN] Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type com.tss.AdvancedMapping.entity.Address not present
+2026-03-23 12:04:22 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-23 12:04:22 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-23 15:00:02 [WARN] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h14m8s301ms301µs300ns).
+2026-03-23 18:27:56 [WARN] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m19s826ms442µs600ns).

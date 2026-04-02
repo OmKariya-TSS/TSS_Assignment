@@ -1,9 +1,9 @@
 package com.tss.AdvancedMapping.controller;
 
-import com.tss.AdvancedMapping.dto.AddressResponseDTO;
-import com.tss.AdvancedMapping.dto.StudentRequestDTO;
-import com.tss.AdvancedMapping.dto.StudentResponseDTO;
-import com.tss.AdvancedMapping.service.StudentService;
+import com.tss.AdvancedMapping.dto.request.CourseRequestDTO;
+import com.tss.AdvancedMapping.dto.request.StudentRequestDTO;
+import com.tss.AdvancedMapping.dto.response.StudentResponseDTO;
+import com.tss.AdvancedMapping.service.interfaces.StudentService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -11,8 +11,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/students")
@@ -26,7 +24,7 @@ public class StudentController {
     }
 
     @GetMapping("/all")
-    public ResponseEntity<Page<StudentResponseDTO>> getAllStudents( @RequestParam(defaultValue = "0") Integer pageNumber,
+    public ResponseEntity<Page<StudentResponseDTO>> getAllStudents(@RequestParam(defaultValue = "0") Integer pageNumber,
                                                                     @RequestParam(defaultValue = "3") Integer pageSize) {
         Pageable pageable = PageRequest.of(pageNumber, pageSize);
         return ResponseEntity.status(200).body(studentService.findAllStudents(pageable));
@@ -55,4 +53,13 @@ public class StudentController {
         return ResponseEntity.status(200).body(studentService.findByRollNumber(rollNumber));
     }
 
+    @PutMapping("assignCourse")
+    public ResponseEntity<StudentResponseDTO> assignCourse(@RequestParam Long courseId,@RequestParam Long studentId) {
+        return ResponseEntity.status(200).body(studentService.assignCourseToStudent(studentId, courseId));
+    }
+
+    @PutMapping("updateCourse")
+    public ResponseEntity<StudentResponseDTO> updateCourse(@RequestParam Long studentId,@RequestParam Long oldCourseId,@RequestParam Long newCourseId) {
+        return ResponseEntity.status(200).body(studentService.updateCourse(oldCourseId,studentId,newCourseId));
+    }
 }

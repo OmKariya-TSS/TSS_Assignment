@@ -14,8 +14,6 @@ public interface IOrderRepository {
 
     List<Order> findByCustomerId(int customerId);
 
-    List<Order> findByRestaurantId(int restaurantId);
-
     List<Order> findAll();
 
     void update(Order order);

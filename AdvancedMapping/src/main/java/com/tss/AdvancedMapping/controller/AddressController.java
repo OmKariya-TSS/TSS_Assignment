@@ -1,9 +1,9 @@
 package com.tss.AdvancedMapping.controller;
 
 
-import com.tss.AdvancedMapping.dto.AddressRequestDTO;
-import com.tss.AdvancedMapping.dto.AddressResponseDTO;
-import com.tss.AdvancedMapping.service.AddressService;
+import com.tss.AdvancedMapping.dto.request.AddressRequestDTO;
+import com.tss.AdvancedMapping.dto.response.AddressResponseDTO;
+import com.tss.AdvancedMapping.service.interfaces.AddressService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -11,8 +11,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/addresses")
@@ -53,9 +51,9 @@ public class AddressController {
         return  ResponseEntity.status(200).body(addressService.findByCity(city,pageable));
     }
 
-//    @PutMapping("rollNumber/{rollNumber}")
-//    public ResponseEntity<AddressResponseDTO> updateByRollNumber(Integer rollNumber, @Valid @RequestBody AddressRequestDTO addressRequestDTO) {
-//        return ResponseEntity.status(200).body(addressService.updateByRollNumber(rollNumber, addressRequestDTO));
-//    }
+    @PutMapping("rollNumber/{rollNumber}")
+    public ResponseEntity<AddressResponseDTO> updateByRollNumber(@PathVariable Integer rollNumber, @Valid @RequestBody AddressRequestDTO addressRequestDTO) {
+        return ResponseEntity.status(200).body(addressService.updateByRollNumber(rollNumber, addressRequestDTO));
+    }
 
 }

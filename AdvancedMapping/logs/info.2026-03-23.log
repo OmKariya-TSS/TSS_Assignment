@@ -1,0 +1,30 @@
+2026-03-23 09:32:14 [INFO] Starting ApplicationTests using Java 18.0.2.1 with PID 1844 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-23 09:32:14 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:32:14 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:32:15 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-23 09:32:15 [INFO] Finished Spring Data repository scanning in 86 ms. Found 4 JPA repository interfaces.
+2026-03-23 09:32:16 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-23 09:32:16 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-23 09:32:17 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-23 09:32:17 [INFO] HikariPool-1 - Starting...
+2026-03-23 09:32:17 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4682882a
+2026-03-23 09:32:17 [INFO] HikariPool-1 - Start completed.
+2026-03-23 09:32:17 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-23 09:32:19 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-23 09:32:19 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 09:32:20 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-23 09:32:21 [INFO] Started ApplicationTests in 7.915 seconds (process running for 9.357)
+2026-03-23 09:32:22 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 09:32:22 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-23 09:32:22 [INFO] HikariPool-1 - Shutdown completed.

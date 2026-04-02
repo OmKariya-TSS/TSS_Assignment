@@ -1,20 +1,15 @@
 package com.tss.AdvancedMapping.controller;
 
 
-import com.tss.AdvancedMapping.dto.CourseRequestDTO;
-import com.tss.AdvancedMapping.dto.CourseResponseDTO;
-import com.tss.AdvancedMapping.dto.InstructorRequestDTO;
-import com.tss.AdvancedMapping.dto.InstructorResponseDTO;
-import com.tss.AdvancedMapping.entity.Instructor;
-import com.tss.AdvancedMapping.service.InstructorService;
+import com.tss.AdvancedMapping.dto.request.InstructorRequestDTO;
+import com.tss.AdvancedMapping.dto.response.InstructorResponseDTO;
+import com.tss.AdvancedMapping.service.interfaces.InstructorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/instructors")
@@ -36,5 +31,12 @@ public class InstructorController {
                                                                @RequestParam(defaultValue = "10") Integer pageSize ) {
         Pageable pageable = PageRequest.of(pageNumber, pageSize);
         return ResponseEntity.status(200).body(instructorService.findAll(pageable));
+    }
+
+    @GetMapping("/findByChar")
+    public ResponseEntity<Page<InstructorResponseDTO>> findByCharacter(@RequestParam(defaultValue = "0") Integer pageNumber,
+                                                                       @RequestParam(defaultValue = "10") Integer pageSize,@RequestParam Character character){
+        Pageable pageable = PageRequest.of(pageNumber, pageSize);
+        return ResponseEntity.status(200).body(instructorService.findByStartCharacter(character,pageable));
     }
 }

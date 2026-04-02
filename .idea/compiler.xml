@@ -7,13 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FoodApp-DB-Testing" />
-        <module name="JUnit" />
-        <module name="JDBC-Demo" />
         <module name="hibernate-demo" />
         <module name="Account-Management" />
+        <module name="FoodApp-DB-Testing" />
         <module name="SpringCore-App" />
-        <module name="AdvancedMapping" />
+        <module name="JUnit" />
+        <module name="JDBC-Demo" />
       </profile>
       <profile name="Annotation profile for DynamicDI" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -23,6 +22,27 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="DynamicDI" />
+      </profile>
+      <profile name="Annotation profile for springSecurity" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="springSecurity" />
+      </profile>
+      <profile name="Annotation profile for CRUDProject" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="CRUDProject" />
+        <module name="AdvancedMapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,9 +56,11 @@
       <module name="Account-Management" options="-parameters" />
       <module name="Account-Management-System" options="-parameters" />
       <module name="AdvancedMapping" options="-parameters" />
+      <module name="CRUDProject" options="-parameters" />
       <module name="DynamicDI" options="-parameters" />
       <module name="SpringCore-App" options="-parameters" />
       <module name="hibernate-demo" options="-parameters" />
+      <module name="springSecurity" options="-parameters" />
     </option>
   </component>
 </project>

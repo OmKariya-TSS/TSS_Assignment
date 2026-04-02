@@ -1,0 +1,199 @@
+2026-03-23 09:02:49 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-23 09:02:50 [INFO] Graceful shutdown complete
+2026-03-23 09:02:50 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 09:02:50 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-23 09:02:50 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-23 09:03:50 [INFO] Starting Application using Java 18.0.2.1 with PID 19088 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:03:50 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:03:50 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:03:50 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:03:50 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:04:01 [INFO] Starting Application using Java 18.0.2.1 with PID 20428 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:04:01 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:04:01 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:04:01 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:04:01 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:17:08 [INFO] Starting Application using Java 18.0.2.1 with PID 16268 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:17:08 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:17:08 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:17:08 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:17:08 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:17:34 [INFO] Starting Application using Java 18.0.2.1 with PID 15664 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:17:34 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:17:34 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:17:34 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:17:35 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:17:42 [INFO] Starting Application using Java 18.0.2.1 with PID 18952 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:17:42 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:17:42 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:17:42 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:17:43 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:18:04 [INFO] Starting Application using Java 18.0.2.1 with PID 21508 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:18:04 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:18:04 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:18:04 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:18:05 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:18:23 [INFO] Starting Application using Java 18.0.2.1 with PID 18372 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:18:23 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:18:23 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:18:23 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:18:23 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:21:30 [INFO] Starting Application using Java 18.0.2.1 with PID 3820 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:21:30 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:21:30 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:21:30 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:21:30 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:24:30 [INFO] Starting Application using Java 18.0.2.1 with PID 4992 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:24:30 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:24:30 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:24:30 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:24:30 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:24:40 [INFO] Starting Application using Java 18.0.2.1 with PID 19220 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:24:40 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:24:40 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:24:40 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:24:40 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:25:36 [INFO] Starting Application using Java 18.0.2.1 with PID 19328 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:25:36 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:25:37 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:25:37 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:25:37 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:26:32 [INFO] Starting Application using Java 18.0.2.1 with PID 2188 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:26:32 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:26:32 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:26:32 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:26:32 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:29:36 [INFO] Starting Application using Java 18.0.2.1 with PID 21388 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:29:36 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:29:36 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:29:36 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:29:37 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:32:40 [INFO] Starting Application using Java 18.0.2.1 with PID 9908 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 09:32:40 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 09:32:40 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 09:32:40 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 09:32:40 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 09:32:41 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-23 09:32:41 [INFO] Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2026-03-23 09:32:42 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-23 09:32:42 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-23 09:32:42 [INFO] Starting service [Tomcat]
+2026-03-23 09:32:42 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-23 09:32:42 [INFO] Root WebApplicationContext: initialization completed in 1660 ms
+2026-03-23 09:32:42 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-23 09:32:42 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-23 09:32:42 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-23 09:32:43 [INFO] HikariPool-1 - Starting...
+2026-03-23 09:32:43 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e4e3fb2
+2026-03-23 09:32:43 [INFO] HikariPool-1 - Start completed.
+2026-03-23 09:32:43 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-23 09:32:45 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-23 09:32:45 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 09:32:45 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-23 09:32:46 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-23 09:32:46 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-23 09:32:46 [INFO] Started Application in 7.255 seconds (process running for 8.063)
+2026-03-23 09:32:47 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-23 09:32:47 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-23 09:32:47 [INFO] Completed initialization in 2 ms
+2026-03-23 10:08:08 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-23 10:08:08 [INFO] Graceful shutdown complete
+2026-03-23 10:08:08 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 10:08:09 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-23 10:08:09 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-23 11:58:09 [INFO] Starting Application using Java 18.0.2.1 with PID 3396 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 11:58:09 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 11:58:09 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-23 11:58:09 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-23 11:58:09 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-23 11:58:10 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-23 11:58:11 [INFO] Finished Spring Data repository scanning in 148 ms. Found 4 JPA repository interfaces.
+2026-03-23 11:58:12 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-23 11:58:12 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-23 11:58:12 [INFO] Starting service [Tomcat]
+2026-03-23 11:58:12 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-23 11:58:12 [INFO] Root WebApplicationContext: initialization completed in 3373 ms
+2026-03-23 11:58:13 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-23 11:58:13 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-23 11:58:14 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-23 11:58:14 [INFO] HikariPool-1 - Starting...
+2026-03-23 11:58:15 [INFO] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@101f03b2
+2026-03-23 11:58:15 [INFO] HikariPool-1 - Start completed.
+2026-03-23 11:58:15 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-23 11:58:20 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-23 11:58:21 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 11:58:21 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-23 11:58:25 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-23 11:58:25 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-23 11:58:25 [INFO] Started Application in 17.641 seconds (process running for 19.523)
+2026-03-23 11:58:27 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-23 11:58:27 [INFO] Initializing Servlet 'dispatcherServlet'
+2026-03-23 11:58:27 [INFO] Completed initialization in 4 ms
+2026-03-23 12:04:16 [INFO] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-03-23 12:04:16 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-23 12:04:16 [INFO] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-23 12:04:17 [INFO] Graceful shutdown complete
+2026-03-23 12:04:17 [INFO] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-23 12:04:17 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 12:04:17 [INFO] HikariPool-1 - Shutdown initiated...
+2026-03-23 12:04:17 [INFO] HikariPool-1 - Shutdown completed.
+2026-03-23 12:04:17 [INFO] Starting Application using Java 18.0.2.1 with PID 3396 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 12:04:17 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 12:04:18 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-23 12:04:18 [INFO] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-23 12:04:21 [INFO] Starting Application using Java 18.0.2.1 with PID 3396 (C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping\target\classes started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training)
+2026-03-23 12:04:21 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-23 12:04:21 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-23 12:04:21 [INFO] Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2026-03-23 12:04:21 [INFO] Tomcat initialized with port 8080 (http)
+2026-03-23 12:04:21 [INFO] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-23 12:04:21 [INFO] Starting service [Tomcat]
+2026-03-23 12:04:21 [INFO] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-23 12:04:21 [INFO] Root WebApplicationContext: initialization completed in 687 ms
+2026-03-23 12:04:22 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-23 12:04:22 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-23 12:04:22 [INFO] HikariPool-2 - Starting...
+2026-03-23 12:04:22 [INFO] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@49784f6f
+2026-03-23 12:04:22 [INFO] HikariPool-2 - Start completed.
+2026-03-23 12:04:22 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/AdvancedMapping]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.3
+	Default catalog/schema: AdvancedMapping/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-23 12:04:22 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-23 12:04:22 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-23 12:04:23 [INFO] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-23 12:04:23 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2026-03-23 12:04:23 [INFO] Started Application in 1.943 seconds (process running for 377.052)
+2026-03-23 12:04:23 [INFO] Condition evaluation unchanged

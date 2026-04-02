@@ -23,5 +23,4 @@ public class Address {
     private Integer pinCode;
     @OneToOne(mappedBy = "address")
     private Student student;
-
 }

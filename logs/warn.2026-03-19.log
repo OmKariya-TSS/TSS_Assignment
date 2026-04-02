@@ -1,0 +1,44 @@
+2026-03-19 09:15:56 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 09:15:58 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 09:16:10 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-19 09:23:49 [WARN] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource addresses/rollNumber/3 for request '/addresses/rollNumber/3'.]
+2026-03-19 09:25:17 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 09:25:19 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 09:25:34 [WARN] Resolved [com.tss.AdvancedMapping.exception.ResourceNotFoundException: student not found not found null]
+2026-03-19 09:25:44 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-19 09:26:00 [WARN] Resolved [com.tss.AdvancedMapping.exception.ResourceNotFoundException: student not found not found null]
+2026-03-19 09:26:53 [WARN] Resolved [com.tss.AdvancedMapping.exception.ResourceNotFoundException: student not found not found null]
+2026-03-19 09:26:56 [WARN] Resolved [com.tss.AdvancedMapping.exception.ResourceNotFoundException: student not found not found null]
+2026-03-19 09:28:32 [WARN] Resolved [com.tss.AdvancedMapping.exception.ResourceNotFoundException: student not found not found null]
+2026-03-19 09:30:51 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 09:30:54 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 09:31:00 [WARN] Resolved [com.tss.AdvancedMapping.exception.ResourceNotFoundException: student not found not found null]
+2026-03-19 09:32:02 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 09:32:05 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 09:34:23 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-19 09:40:13 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 09:40:17 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 09:41:06 [WARN] Resolved [com.tss.AdvancedMapping.exception.BusinessRuleException: instructor already assigned]
+2026-03-19 09:42:28 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-19 09:44:30 [WARN] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 09:44:34 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 09:44:59 [WARN] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-03-19 12:16:27 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m24s413ms654µs).
+2026-03-19 12:24:20 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m53s169ms842µs100ns).
+2026-03-19 17:24:00 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m35s209ms967µs300ns).
+2026-03-19 19:21:51 [WARN] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h57m51s563ms572µs800ns).

@@ -4,6 +4,9 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+import java.util.List;
 
 
 @Entity
@@ -25,4 +28,7 @@ public class Course {
     @ManyToOne(cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH},fetch = FetchType.EAGER)
     @JoinColumn(name = "instructor_id")
     private Instructor instructor;
+
+    @ManyToMany(mappedBy ="courses")
+    private List<Student> students;
 }

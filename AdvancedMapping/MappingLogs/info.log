@@ -1,0 +1,419 @@
+2026-03-25 11:10:45 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 22272 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:10:45 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:10:46 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:10:47 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:10:47 [INFO] Finished Spring Data repository scanning in 330 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:10:47 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:10:48 [INFO] Starting embedded database: url='jdbc:h2:mem:4dd68393-eb53-4721-a523-9a4f83d08fa7;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:10:49 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:10:50 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:10:52 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:10:52 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:4dd68393-eb53-4721-a523-9a4f83d08fa7]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 4DD68393-EB53-4721-A523-9A4F83D08FA7/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:10:55 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:10:55 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:10:56 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:11:00 [INFO] Started InstructorRepositoryTest in 17.479 seconds (process running for 24.19)
+2026-03-25 11:11:02 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:12:18 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 17524 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:12:18 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:12:20 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:12:20 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:12:21 [INFO] Finished Spring Data repository scanning in 356 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:12:21 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:12:22 [INFO] Starting embedded database: url='jdbc:h2:mem:b1cf067e-4258-45e7-9c38-eb28776ab80e;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:12:23 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:12:23 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:12:25 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:12:25 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:b1cf067e-4258-45e7-9c38-eb28776ab80e]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: B1CF067E-4258-45E7-9C38-EB28776AB80E/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:12:29 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:12:29 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:12:30 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:12:33 [INFO] Started InstructorRepositoryTest in 16.795 seconds (process running for 22.722)
+2026-03-25 11:12:36 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:15:32 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 22260 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:15:32 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:15:33 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:15:33 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:15:34 [INFO] Finished Spring Data repository scanning in 309 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:15:34 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:15:35 [INFO] Starting embedded database: url='jdbc:h2:mem:871a80bc-1f14-45cf-96d1-dee27b77edf1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:15:36 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:15:36 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:15:38 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:15:38 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:871a80bc-1f14-45cf-96d1-dee27b77edf1]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 871A80BC-1F14-45CF-96D1-DEE27B77EDF1/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:15:41 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:15:41 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:15:42 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:15:44 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:15:57 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 16900 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:15:57 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:15:58 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:15:58 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:15:59 [INFO] Finished Spring Data repository scanning in 351 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:15:59 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:15:59 [INFO] Starting embedded database: url='jdbc:h2:mem:c0a4ede4-75eb-4f03-97cf-d97caa6f4080;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:16:01 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:16:01 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:16:05 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:16:06 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:c0a4ede4-75eb-4f03-97cf-d97caa6f4080]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: C0A4EDE4-75EB-4F03-97CF-D97CAA6F4080/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:16:11 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:16:12 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:16:13 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:16:19 [INFO] Started InstructorRepositoryTest in 23.371 seconds (process running for 28.678)
+2026-03-25 11:16:24 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:20:55 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 10488 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:20:55 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:20:56 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:20:56 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:20:57 [INFO] Finished Spring Data repository scanning in 267 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:20:57 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:20:57 [INFO] Starting embedded database: url='jdbc:h2:mem:7b36b4f9-fbe0-4ec5-9fd6-4753bc73b8ce;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:20:58 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:20:58 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:21:00 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:21:00 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:7b36b4f9-fbe0-4ec5-9fd6-4753bc73b8ce]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 7B36B4F9-FBE0-4EC5-9FD6-4753BC73B8CE/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:21:03 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:21:03 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:21:04 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:21:06 [INFO] Started InstructorRepositoryTest in 12.478 seconds (process running for 16.915)
+2026-03-25 11:21:08 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:22:16 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 11712 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:22:16 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:22:17 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:22:18 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:22:18 [INFO] Finished Spring Data repository scanning in 202 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:22:18 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:22:19 [INFO] Starting embedded database: url='jdbc:h2:mem:36794a37-e959-4ff6-b90d-8ed49ace3e2b;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:22:19 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:22:20 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:22:22 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:22:22 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:36794a37-e959-4ff6-b90d-8ed49ace3e2b]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 36794A37-E959-4FF6-B90D-8ED49ACE3E2B/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:22:25 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:22:25 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:22:26 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:22:30 [INFO] Started InstructorRepositoryTest in 15.788 seconds (process running for 20.84)
+2026-03-25 11:22:33 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:23:02 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 6276 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:23:02 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:23:02 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:23:03 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:23:03 [INFO] Finished Spring Data repository scanning in 175 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:23:03 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:23:03 [INFO] Starting embedded database: url='jdbc:h2:mem:f0df4a0d-7ea9-4e3f-86e6-46e1e3c538f1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:23:04 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:23:04 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:23:06 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:23:06 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:f0df4a0d-7ea9-4e3f-86e6-46e1e3c538f1]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: F0DF4A0D-7EA9-4E3F-86E6-46E1E3C538F1/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:23:08 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:23:08 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:23:08 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:23:10 [INFO] Started InstructorRepositoryTest in 9.913 seconds (process running for 13.726)
+2026-03-25 11:23:12 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:23:49 [INFO] Starting InstructorRepositoryTest using Java 18.0.2.1 with PID 12412 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:23:49 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:23:50 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:23:50 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:23:51 [INFO] Finished Spring Data repository scanning in 228 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:23:51 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:23:51 [INFO] Starting embedded database: url='jdbc:h2:mem:025878f3-6304-4e46-80f4-72b3ce798286;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:23:52 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:23:52 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:23:54 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:23:55 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:025878f3-6304-4e46-80f4-72b3ce798286]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 025878F3-6304-4E46-80F4-72B3CE798286/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:23:58 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:23:58 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:23:59 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:24:02 [INFO] Started InstructorRepositoryTest in 14.936 seconds (process running for 19.451)
+2026-03-25 11:24:04 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:31:39 [INFO] Starting CourseRepositoryTest using Java 18.0.2.1 with PID 12116 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:31:39 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:31:40 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:31:41 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:31:42 [INFO] Finished Spring Data repository scanning in 361 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:31:42 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:31:42 [INFO] Starting embedded database: url='jdbc:h2:mem:599ebd58-a33e-4c0b-8c0a-bf12ebee62cf;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:31:43 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:31:43 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:31:45 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:31:46 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:599ebd58-a33e-4c0b-8c0a-bf12ebee62cf]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 599EBD58-A33E-4C0B-8C0A-BF12EBEE62CF/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:31:48 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:31:49 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:31:49 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:31:52 [INFO] Started CourseRepositoryTest in 14.416 seconds (process running for 19.664)
+2026-03-25 11:31:53 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:32:22 [INFO] Starting CourseRepositoryTest using Java 18.0.2.1 with PID 26088 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:32:22 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:32:23 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:32:23 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:32:23 [INFO] Finished Spring Data repository scanning in 225 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:32:24 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:32:24 [INFO] Starting embedded database: url='jdbc:h2:mem:f719bca9-9882-4f03-affc-cb9434e8b4a5;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:32:25 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:32:25 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:32:27 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:32:27 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:f719bca9-9882-4f03-affc-cb9434e8b4a5]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: F719BCA9-9882-4F03-AFFC-CB9434E8B4A5/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:32:30 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:32:30 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:32:31 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:32:34 [INFO] Started CourseRepositoryTest in 14.613 seconds (process running for 19.309)
+2026-03-25 11:32:36 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:36:10 [INFO] Starting CourseRepositoryTest using Java 18.0.2.1 with PID 24560 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:36:10 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:36:11 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:36:11 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:36:12 [INFO] Finished Spring Data repository scanning in 197 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:36:12 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:36:12 [INFO] Starting embedded database: url='jdbc:h2:mem:6489719f-404e-4c89-bfcb-7b73d270b2c1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:36:13 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:36:13 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:36:15 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:36:15 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:6489719f-404e-4c89-bfcb-7b73d270b2c1]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: 6489719F-404E-4C89-BFCB-7B73D270B2C1/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:36:17 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:36:18 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:36:18 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:36:20 [INFO] Started CourseRepositoryTest in 11.643 seconds (process running for 15.948)
+2026-03-25 11:36:22 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:37:58 [INFO] Starting CourseRepositoryTest using Java 18.0.2.1 with PID 2800 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:37:58 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:37:59 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:37:59 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:37:59 [INFO] Finished Spring Data repository scanning in 243 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:38:00 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:38:00 [INFO] Starting embedded database: url='jdbc:h2:mem:efbf7c30-5b80-45b9-ae80-e678ab424f78;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:38:01 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:38:01 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:38:03 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:38:04 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:efbf7c30-5b80-45b9-ae80-e678ab424f78]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: EFBF7C30-5B80-45B9-AE80-E678AB424F78/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:38:06 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:38:06 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:38:06 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:38:08 [INFO] Started CourseRepositoryTest in 12.133 seconds (process running for 16.565)
+2026-03-25 11:38:10 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:48:11 [INFO] Starting CourseRepositoryTest using Java 18.0.2.1 with PID 13524 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:48:11 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:48:14 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:48:15 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:48:15 [INFO] Finished Spring Data repository scanning in 259 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:48:16 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:48:16 [INFO] Starting embedded database: url='jdbc:h2:mem:b59f4fdc-b4b4-4dcb-b379-2a8a44786580;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:48:17 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:48:18 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:48:20 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:48:20 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:b59f4fdc-b4b4-4dcb-b379-2a8a44786580]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: B59F4FDC-B4B4-4DCB-B379-2A8A44786580/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:48:24 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:48:24 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:48:25 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:48:28 [INFO] Started CourseRepositoryTest in 21.32 seconds (process running for 28.238)
+2026-03-25 11:48:30 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:49:49 [INFO] Starting CourseRepositoryTest using Java 18.0.2.1 with PID 17660 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-25 11:49:49 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-25 11:49:50 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-25 11:49:50 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25 11:49:51 [INFO] Finished Spring Data repository scanning in 253 ms. Found 4 JPA repository interfaces.
+2026-03-25 11:49:51 [INFO] Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25 11:49:51 [INFO] Starting embedded database: url='jdbc:h2:mem:d7009743-7fd6-4bd4-9043-4ce8938d2a1e;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25 11:49:52 [INFO] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25 11:49:52 [INFO] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25 11:49:54 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25 11:49:55 [INFO] HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:d7009743-7fd6-4bd4-9043-4ce8938d2a1e]
+	Database driver: H2 JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 2.3.232
+	Default catalog/schema: D7009743-7FD6-4BD4-9043-4CE8938D2A1E/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25 11:49:58 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25 11:49:58 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25 11:49:59 [INFO] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25 11:50:01 [INFO] Started CourseRepositoryTest in 13.885 seconds (process running for 22.287)
+2026-03-25 11:50:03 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-27 09:30:55 [INFO] Starting CourseControllerTest using Java 18.0.2.1 with PID 18560 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-27 09:30:55 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:30:56 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-27 09:31:01 [INFO] Initializing Spring TestDispatcherServlet ''
+2026-03-27 09:31:01 [INFO] Initializing Servlet ''
+2026-03-27 09:31:01 [INFO] Completed initialization in 3 ms
+2026-03-27 09:31:01 [INFO] Started CourseControllerTest in 7.449 seconds (process running for 11.276)
+2026-03-27 09:31:42 [INFO] Starting CourseControllerTest using Java 18.0.2.1 with PID 25372 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-27 09:31:42 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:31:43 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-27 09:31:47 [INFO] Initializing Spring TestDispatcherServlet ''
+2026-03-27 09:31:47 [INFO] Initializing Servlet ''
+2026-03-27 09:31:47 [INFO] Completed initialization in 4 ms
+2026-03-27 09:31:47 [INFO] Started CourseControllerTest in 6.966 seconds (process running for 10.811)
+2026-03-27 09:33:15 [INFO] Starting CourseControllerTest using Java 18.0.2.1 with PID 21156 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-27 09:33:15 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:33:16 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-27 09:33:20 [INFO] Initializing Spring TestDispatcherServlet ''
+2026-03-27 09:33:20 [INFO] Initializing Servlet ''
+2026-03-27 09:33:20 [INFO] Completed initialization in 3 ms
+2026-03-27 09:33:20 [INFO] Started CourseControllerTest in 6.137 seconds (process running for 9.991)
+2026-03-27 09:33:54 [INFO] Starting CourseControllerTest using Java 18.0.2.1 with PID 15680 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-27 09:33:54 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:33:55 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-27 09:33:59 [INFO] Initializing Spring TestDispatcherServlet ''
+2026-03-27 09:33:59 [INFO] Initializing Servlet ''
+2026-03-27 09:33:59 [INFO] Completed initialization in 3 ms
+2026-03-27 09:33:59 [INFO] Started CourseControllerTest in 5.831 seconds (process running for 8.51)
+2026-03-27 09:35:10 [INFO] Starting CourseControllerTest using Java 18.0.2.1 with PID 25276 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-27 09:35:10 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:35:12 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-27 09:35:16 [INFO] Initializing Spring TestDispatcherServlet ''
+2026-03-27 09:35:16 [INFO] Initializing Servlet ''
+2026-03-27 09:35:16 [INFO] Completed initialization in 3 ms
+2026-03-27 09:35:16 [INFO] Started CourseControllerTest in 6.431 seconds (process running for 9.518)
+2026-03-27 09:37:08 [INFO] Starting CourseControllerTest using Java 18.0.2.1 with PID 11936 (started by Om.Kariya in C:\Users\om.kariya\Documents\tss swabhav training\AdvancedMapping)
+2026-03-27 09:37:08 [INFO] No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:37:09 [INFO] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-27 09:37:14 [INFO] Initializing Spring TestDispatcherServlet ''
+2026-03-27 09:37:14 [INFO] Initializing Servlet ''
+2026-03-27 09:37:14 [INFO] Completed initialization in 2 ms
+2026-03-27 09:37:14 [INFO] Started CourseControllerTest in 6.975 seconds (process running for 10.055)
